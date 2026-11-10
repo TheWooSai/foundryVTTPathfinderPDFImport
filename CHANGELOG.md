@@ -1,6 +1,6 @@
 # Changelog
 
-## 6.0.0
+## 1.0.0
 
 Rebuilt from pdftofoundry 5.0.0 as readable source for Foundry v14.
 

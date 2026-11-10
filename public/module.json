@@ -2,7 +2,7 @@
   "id": "foundry-pathfinder-pdf-import",
   "title": "Pathfinder PDF Importer",
   "description": "Imports Pathfinder 2e adventures from PDFs you own. Rebuilt for Foundry v14 from the MIT-licensed pdftofoundry 5.0.0 by Kevin Hjelden.",
-  "version": "6.0.0",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "TheWooSai"

@@ -2,6 +2,13 @@ import { LOG_PREFIX, MODULE_ID } from "../constants.js";
 import { ModuleData } from "../core/module-data.js";
 import { joinPath, sleep } from "../platform/path.js";
 import { getAllAdventureModules } from "../adventures/index.js";
+import {
+  attachSpells,
+  convertStatBlock,
+  creatureNameCandidates,
+  rewriteLegacyLinks,
+  statBlockKey,
+} from "./statblock-actor.js";
 
 const WATERMARK_ERROR = "Couldn't detect watermark :(. Please no pirate.";
 const JOURNAL_PAGE_FIELDS = ["name", "type", "flags", "text", "src", "sort"];
@@ -13,6 +20,10 @@ const pickPageFields = (entry) =>
       entry[k],
     ]),
   );
+
+/** PF2e's adjustment name for a definition or token placement flagged elite or weak. */
+export const adjustmentOf = ({ elite, weak }) =>
+  elite ? "elite" : weak ? "weak" : null;
 
 /** Runs one adventure's import. All side effects go through `env`. */
 export class AdventureImporter {
@@ -146,6 +157,7 @@ export class AdventureImporter {
         actor: this.npcActors[token.id],
         x: token.x,
         y: token.y,
+        adjustment: adjustmentOf(token),
       }));
     if (placements.length > 0) await world.createTokens(scene, placements);
     await world.refreshThumbnail(scene);
@@ -166,8 +178,16 @@ export class AdventureImporter {
       actor.name = details.name;
       actor.prototypeToken.name = details.name;
     }
-    if (details.elite) actor.system.traits.value.push("elite");
-    if (details.weak) actor.system.traits.value.push("weak");
+    const adjustment = adjustmentOf(details);
+    if (adjustment) {
+      const fields = await world.computeAdjustment(actor, adjustment);
+      if (fields) {
+        actor.system.attributes.adjustment = fields.adjustment;
+        actor.system.attributes.hp.value = fields.hpValue;
+      } else {
+        this.additionalMessages += `<br>${details.name ?? details.id} cannot be made ${adjustment}`;
+      }
+    }
     actor.flags[MODULE_ID] = { module: this.adventure.prefix, id: details.id };
 
     if (!this.setting("alwaysUseImportedIcons")) {
@@ -273,6 +293,8 @@ export class AdventureImporter {
       for (const id of npc.forIds ?? []) actorIds.set(id, actor.id);
     }
 
+    await this.createStatBlockActors(moduleData, actorIds, actorFolder);
+
     for (const entry of moduleData.journalEntries)
       this.fixupJournal(entry, actorIds);
     await this.createJournals(pdf, moduleData, journalFolder);
@@ -341,6 +363,68 @@ export class AdventureImporter {
         page.journalId = created.id;
         page.journalPageId = created.pages.contents[index].id;
       });
+    }
+  }
+
+  /**
+   * Build world actors for printed stat blocks whose creature is not in any PF2e compendium.
+   * Stat blocks with identical numbers share one actor.
+   */
+  async createStatBlockActors(moduleData, actorIds, actorFolder) {
+    if (this.adventure.noImport) return;
+    const { world } = this.env;
+    const context = {
+      adventurePrefix: this.adventure.prefix,
+      adventureTitle: this.adventure.fullName,
+      randomId: world.randomId,
+      vocabulary: world.vocabulary(),
+      rewriteLinks: (text) =>
+        rewriteLegacyLinks(text, (pack, name) =>
+          world.resolveLegacyLink(pack, name),
+        ),
+    };
+    const resolved = new Map();
+    const unmatchedSpells = new Set();
+    let created = 0;
+
+    for (const parsed of moduleData.actors) {
+      if (parsed.id === undefined || actorIds.has(parsed.id)) continue;
+      const key = statBlockKey(parsed);
+      if (resolved.has(key)) {
+        if (resolved.get(key)) actorIds.set(parsed.id, resolved.get(key));
+        continue;
+      }
+      if (world.hasCompendiumCreature(creatureNameCandidates(parsed.name))) {
+        resolved.set(key, null);
+        continue;
+      }
+      const { source, spellRequests } = convertStatBlock(parsed, context);
+      const spells = new Map();
+      for (const { name } of spellRequests) {
+        if (!spells.has(name))
+          spells.set(name, await world.findSpellData(name));
+      }
+      attachSpells(
+        source,
+        spellRequests,
+        (name) => spells.get(name),
+        world.randomId,
+      ).forEach((name) => unmatchedSpells.add(name));
+      source.folder = (await actorFolder()).id;
+      const actor = await world.createActorFromSource(source);
+      resolved.set(key, actor.id);
+      actorIds.set(parsed.id, actor.id);
+      created += 1;
+    }
+
+    this.missingCreatures = this.missingCreatures.filter(
+      (npc) => !(npc.forIds ?? []).some((id) => actorIds.has(id)),
+    );
+    if (created > 0) {
+      this.additionalMessages += `<br>Built ${created} creature(s) from the PDF's stat blocks.`;
+    }
+    if (unmatchedSpells.size > 0) {
+      this.additionalMessages += `<br>${unmatchedSpells.size} spell(s) were not found and are listed in those creatures' private notes.`;
     }
   }
 

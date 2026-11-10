@@ -40,16 +40,12 @@ function journalPlacement(note) {
 }
 
 function tokenPlacement(token) {
-  const traits = token.actor?.system?.traits?.value;
+  const adjustment = token.actor?.system?.attributes?.adjustment;
   return {
     id: token.actor?.flags?.[Object.keys(token.actor.flags)[0]]?.id,
     x: token.x,
     y: token.y,
-    ...(traits?.includes("elite")
-      ? { elite: true }
-      : traits?.includes("weak")
-        ? { weak: true }
-        : {}),
+    ...(adjustment ? { [adjustment]: true } : {}),
   };
 }
 

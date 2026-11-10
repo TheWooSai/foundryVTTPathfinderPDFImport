@@ -12,4 +12,8 @@
 
 pdftofoundry changed to CC BY-ND 4.0 in December 2024, after 5.0.0. **Do not copy from pdftofoundry 5.1.0 or later, or from forks or pull requests based on it.** CC BY-ND does not permit sharing adaptations.
 
-`data/compendium-remap.json` records compendium ids taken from the PF2e system's own pack data.
+`data/compendium-remap.json` and `data/legacy-names.json` record compendium ids and names taken from the PF2e system's own pack data.
+
+## This project's license
+
+This project is AGPL-3.0-only (`LICENSE`). Code derived from pdftofoundry 5.0.0 was received under MIT, whose notice must stay with every copy (`LICENSES/MIT-pdftofoundry.txt`). Release 1.0.0 was published under MIT.

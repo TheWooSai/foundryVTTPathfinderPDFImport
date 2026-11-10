@@ -51,4 +51,23 @@ export function readSceneArt(scene) {
   };
 }
 
+/** Apply elite/weak fields to one unlinked token, leaving its base actor unchanged. */
+export function withAdjustedDelta(tokenData, { adjustment, hpValue }) {
+  const delta = tokenData.delta ?? {};
+  return {
+    ...tokenData,
+    delta: {
+      ...delta,
+      system: {
+        ...delta.system,
+        attributes: {
+          ...delta.system?.attributes,
+          adjustment,
+          hp: { value: hpValue },
+        },
+      },
+    },
+  };
+}
+
 export const importFlags = (id) => ({ [MODULE_ID]: { id } });

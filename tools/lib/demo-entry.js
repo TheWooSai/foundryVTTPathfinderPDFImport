@@ -7,7 +7,11 @@ import {
   addImportButton,
   openImportDialog,
 } from "../../src/foundry/import-dialog.js";
-import { buildSceneData, readSceneArt } from "../../src/foundry/scene-data.js";
+import {
+  buildSceneData,
+  readSceneArt,
+  withAdjustedDelta,
+} from "../../src/foundry/scene-data.js";
 import { foundryWorld } from "../../src/foundry/world.js";
 import { runImport } from "../../src/importer/run-import.js";
 
@@ -72,12 +76,44 @@ function checkCompendiumLinks() {
   return { checked, missing: [...new Set(missing)] };
 }
 
-async function checkImport() {
+function compareBuilt(source, actor) {
+  const s = source.system;
+  const isNpc = source.type === "npc";
+  const pairs = isNpc
+    ? {
+        level: [s.details.level.value, actor.system.details.level.value],
+        ac: [s.attributes.ac.value, actor.system.attributes.ac.value],
+        hp: [s.attributes.hp.max, actor.system.attributes.hp.max],
+        perception: [
+          s.perception.mod,
+          actor.system.perception?.mod ?? actor.perception?.mod,
+        ],
+        fort: [s.saves.fortitude.value, actor.saves?.fortitude?.mod],
+        ref: [s.saves.reflex.value, actor.saves?.reflex?.mod],
+        will: [s.saves.will.value, actor.saves?.will?.mod],
+      }
+    : { level: [s.details.level.value, actor.system.details.level.value] };
+  return {
+    name: source.name,
+    type: source.type,
+    items: actor.items.size,
+    strikes: isNpc ? (actor.system.actions?.length ?? 0) : 0,
+    spells: actor.items.filter((i) => i.type === "spell").length,
+    wrong: Object.fromEntries(
+      Object.entries(pairs).filter(([, [a, b]]) => a !== b),
+    ),
+    notes: isNpc ? s.details.privateNotes : "",
+  };
+}
+
+async function checkImport({ forceBuild = false } = {}) {
   const created = {
     folders: 0,
     journals: 0,
     pages: 0,
     actors: 0,
+    built: [],
+    lookups: [],
     scenes: [],
     tokens: 0,
     chat: [],
@@ -112,6 +148,31 @@ async function checkImport() {
         };
       }),
     actorDataFromUuid: foundryWorld.actorDataFromUuid,
+    computeAdjustment: foundryWorld.computeAdjustment,
+    hasCompendiumCreature: (names) => {
+      const found = !forceBuild && foundryWorld.hasCompendiumCreature(names);
+      created.lookups.push([names[0], found]);
+      return found;
+    },
+    findSpellData: foundryWorld.findSpellData,
+    resolveLegacyLink: foundryWorld.resolveLegacyLink,
+    vocabulary: foundryWorld.vocabulary,
+    randomId: foundryWorld.randomId,
+    createActorFromSource: async (source) => {
+      try {
+        const actor = new CONFIG.Actor.documentClass(
+          { ...source, _id: id(), folder: null },
+          strict,
+        );
+        created.built.push(compareBuilt(source, actor));
+        return actor;
+      } catch (error) {
+        errors.push(
+          `built actor ${source.name}: ${error.message.slice(0, 300)}`,
+        );
+        return { id: id() };
+      }
+    },
     compendiumArt: foundryWorld.compendiumArt,
     mergeObject: foundryWorld.mergeObject,
     createActor: async (d) =>
@@ -195,24 +256,27 @@ async function checkImport() {
       },
     },
   );
-  // 3-17 places no tokens, so exercise that path directly with an imported actor.
-  const tokenScene = sceneFrom({
-    name: "t",
-    width: 1000,
-    height: 1000,
-    image: { src: "a.webp" },
-  });
-  const placed = await created.lastActor.getTokenDocument(
-    { x: 100, y: 200, hidden: true },
-    { parent: tokenScene },
-  );
-  new TokenDocument(placed.toObject(), { parent: tokenScene, ...strict });
-  const tokenProbe = {
-    level: placed._source.level,
-    x: placed.x,
-    y: placed.y,
-    hidden: placed.hidden,
-  };
+  // Definitions rarely place tokens, so exercise that path directly when an actor exists.
+  let tokenProbe;
+  if (created.lastActor) {
+    const tokenScene = sceneFrom({
+      name: "t",
+      width: 1000,
+      height: 1000,
+      image: { src: "a.webp" },
+    });
+    const placed = await created.lastActor.getTokenDocument(
+      { x: 100, y: 200, hidden: true },
+      { parent: tokenScene },
+    );
+    new TokenDocument(placed.toObject(), { parent: tokenScene, ...strict });
+    tokenProbe = {
+      level: placed._source.level,
+      x: placed.x,
+      y: placed.y,
+      hidden: placed.hidden,
+    };
+  }
   delete created.lastActor;
   return {
     created,
@@ -260,8 +324,75 @@ async function checkInterface() {
   return result;
 }
 
+/** Elite and weak results from the running PF2e system, using a world NPC so tokens resolve. */
+async function checkAdjustments() {
+  const level = (a) => a.system.details.level.value;
+  const uuid = "Compendium.pf2e.pathfinder-monster-core.Actor.qRUqoezeEnQ2KdyT";
+  const data = await foundryWorld.actorDataFromUuid(uuid);
+  const base = new CONFIG.Actor.documentClass(
+    { ...data, _id: id(), folder: null },
+    strict,
+  );
+  const out = {
+    baseLevel: level(base),
+    baseHp: base._source.system.attributes.hp.value,
+  };
+  for (const adjustment of ["elite", "weak"]) {
+    const fields = await foundryWorld.computeAdjustment(data, adjustment);
+    const copy = foundry.utils.deepClone(data);
+    copy.system.attributes.adjustment = fields.adjustment;
+    copy.system.attributes.hp.value = fields.hpValue;
+    const actor = new CONFIG.Actor.documentClass(
+      { ...copy, _id: id(), folder: null },
+      strict,
+    );
+    out[adjustment] = {
+      level: level(actor),
+      hpValue: actor._source.system.attributes.hp.value,
+      hpMax: actor.system.attributes.hp.max,
+      isElite: actor.isElite,
+      isWeak: actor.isWeak,
+      traitsClean: !actor.system.traits.value.includes(adjustment),
+    };
+  }
+  const worldNpc = game.actors.find(
+    (a) => a.type === "npc" && !a.prototypeToken.actorLink,
+  );
+  out.token = { worldNpcAvailable: Boolean(worldNpc) };
+  if (worldNpc) {
+    const scene = sceneFrom({
+      name: "t",
+      width: 1000,
+      height: 1000,
+      image: { src: "a.webp" },
+    });
+    const placed = await worldNpc.getTokenDocument(
+      { x: 100, y: 200, hidden: true },
+      { parent: scene },
+    );
+    const fields = await foundryWorld.computeAdjustment(
+      worldNpc.toObject(),
+      "elite",
+    );
+    const tokenDoc = new TokenDocument(
+      withAdjustedDelta(placed.toObject(), fields),
+      { parent: scene, ...strict },
+    );
+    out.token = {
+      worldNpcAvailable: true,
+      baseIsElite: worldNpc.isElite,
+      baseLevel: level(worldNpc),
+      tokenIsElite: tokenDoc.actor?.isElite,
+      tokenLevel: tokenDoc.actor ? level(tokenDoc.actor) : null,
+      deltaAdjustment: tokenDoc.delta?.system?.attributes?.adjustment,
+    };
+  }
+  return out;
+}
+
 window.importCheck = {
   blockWrites,
+  checkAdjustments,
   checkMaps,
   checkCompendiumLinks,
   checkImport,

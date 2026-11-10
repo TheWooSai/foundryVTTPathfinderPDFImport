@@ -31,6 +31,10 @@ node tools/remap-compendium-uuids.mjs <old-pf2e> <new-pf2e>
 - `public/` is copied into `dist/`, including `<adventure>/maps/*.json` with walls, lights and drawings.
 - `main.js` stays small; the adventures load through dynamic import when an import starts.
 
+## Stat-block actors
+
+`src/importer/statblock-actor.js` converts parsed stat blocks to PF2e 8.x source. It only runs for creatures with no compendium match by name (`world.hasCompendiumCreature`). `tools/build-legacy-names.mjs` generates `data/legacy-names.json` from a pre-remaster and a current PF2e checkout. `FORCE_BUILD=1 IMPORT_ONLY=1 npm run demo:check -- file.pdf` converts every stat block against live PF2e and compares its calculated statistics.
+
 ## Adding an adventure
 
 1. `npm run pdf:inspect -- file.pdf`, then read `test-output/text.json` and `images.json`.

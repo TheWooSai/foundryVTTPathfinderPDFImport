@@ -11,6 +11,7 @@ await cp(
 );
 await cp("node_modules/pdfjs-dist/LICENSE", `${out}/vendor/pdfjs-LICENSE`);
 await cp("LICENSE", `${out}/LICENSE`);
+await cp("LICENSES", `${out}/LICENSES`, { recursive: true });
 await build({
   entryPoints: ["src/main.js"],
   outdir: out,

@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Changed the license to AGPL-3.0-only. The original MIT notice is kept in `LICENSES/`.
+- Elite and weak creatures and tokens now use PF2e's adjustment rules.
+- Printed stat blocks for creatures in no PF2e compendium are built as world actors, with attacks, actions, skills, defenses and compendium spells.
+
 ## 1.0.0
 
 Rebuilt from pdftofoundry 5.0.0 as readable source for Foundry v14.

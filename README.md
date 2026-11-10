@@ -2,7 +2,7 @@
 
 Imports Pathfinder 2e adventures from PDFs you own into Foundry: journals, scenes with maps, walls and lights, actors with token art. You need the unmodified, watermarked PDF. Nothing is uploaded anywhere except your own Foundry Data folder.
 
-Rebuilt from the MIT-licensed [pdftofoundry](https://github.com/fryguy1013/pdftofoundry) **5.0.0** by Kevin Hjelden. See [THIRD_PARTY.md](THIRD_PARTY.md).
+Rebuilt from the MIT-licensed [pdftofoundry](https://github.com/fryguy1013/pdftofoundry) **5.0.0** by Kevin Hjelden. Licensed under [AGPL-3.0-only](LICENSE). The original MIT notice is in [LICENSES/](LICENSES/MIT-pdftofoundry.txt), and other components are listed in [THIRD_PARTY.md](THIRD_PARTY.md).
 
 **Requires** Foundry VTT 14 and the PF2e system 8.3.0 or newer.
 
@@ -18,7 +18,8 @@ This repository is private, so Foundry cannot fetch the manifest URL by itself.
 ## Limits
 
 - 187 adventure definitions are included, listed in the import dialog. Other PDFs are refused.
-- Creatures PF2e removed in its remaster, with no same-named replacement, are skipped and named in the chat message when the import finishes. See `data/compendium-remap.json`.
+- Creatures named in an adventure definition but gone from PF2e are rebuilt from their printed stat block when the PDF has one, and otherwise named in the chat message when the import finishes. See `data/compendium-remap.json`.
+- Printed stat blocks for creatures in no PF2e compendium become world actors. Spells PF2e no longer has are listed in the actor's private notes.
 - PFS 3-17 has its map, journals and game aids, but no walls, lights or token placement.
 
 ## Development

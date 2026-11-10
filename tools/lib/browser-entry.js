@@ -60,6 +60,23 @@ async function dryRun() {
       system: { traits: { value: [] } },
       prototypeToken: { texture: {} },
     }),
+    computeAdjustment: async (_d, adjustment) => ({ adjustment, hpValue: 1 }),
+    hasCompendiumCreature: () => false,
+    findSpellData: async (name) => ({ name, type: "spell", system: {} }),
+    resolveLegacyLink: () => null,
+    vocabulary: () => ({
+      immunities: new Set(),
+      weaknesses: new Set(),
+      resistances: new Set(),
+      senses: new Set(),
+      languages: new Set(),
+      creatureTraits: new Set(),
+    }),
+    randomId: id,
+    createActorFromSource: async (d) => (
+      written.actors.push(d),
+      { ...d, id: id() }
+    ),
     compendiumArt: () => undefined,
     mergeObject: Object.assign,
     createActor: async (d) => (written.actors.push(d), { ...d, id: id() }),

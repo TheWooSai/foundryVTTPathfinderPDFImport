@@ -114,15 +114,18 @@ await page.waitForFunction(() => window.importCheck !== undefined);
 
 const files = await mapFiles();
 const report = await page.evaluate(
-  async ({ files, hasPdf }) => {
+  async ({ files, hasPdf, forceBuild, importOnly }) => {
     const check = window.importCheck;
     const unblock = check.blockWrites();
     const out = { server: check.info() };
     try {
-      out.interface = await check.checkInterface();
-      out.maps = await check.checkMaps(files);
-      out.links = check.checkCompendiumLinks();
-      if (hasPdf) out.import = await check.checkImport();
+      if (!importOnly) {
+        out.interface = await check.checkInterface();
+        out.maps = await check.checkMaps(files);
+        out.links = check.checkCompendiumLinks();
+        out.adjustments = await check.checkAdjustments();
+      }
+      if (hasPdf) out.import = await check.checkImport({ forceBuild });
     } catch (error) {
       out.fatal = `${error.message}\n${error.stack}`.slice(0, 1500);
     } finally {
@@ -130,7 +133,12 @@ const report = await page.evaluate(
     }
     return out;
   },
-  { files, hasPdf: Boolean(pdfPath) },
+  {
+    files,
+    hasPdf: Boolean(pdfPath),
+    forceBuild: process.env.FORCE_BUILD === "1",
+    importOnly: process.env.IMPORT_ONLY === "1",
+  },
 );
 
 await mkdir("test-output", { recursive: true });
@@ -150,5 +158,6 @@ for (const f of report.maps?.failures.slice(0, 10) ?? []) console.log(`  ${f}`);
 console.log(
   `Compendium links: ${report.links?.checked} checked, ${report.links?.missing.length} distinct missing`,
 );
+console.log("Adjustments:", JSON.stringify(report.adjustments));
 if (report.import) console.log("Import:", JSON.stringify(report.import));
 if (report.fatal) console.log("FATAL:", report.fatal);

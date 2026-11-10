@@ -723,6 +723,8 @@ export class AdventureBase {
   }
   parseMonster(p, moduleData, id, name, level, tags, qty) {
     const npc = new NPCActor();
+    npc.id = id;
+    npc.qty = qty;
     npc.name = name;
     npc.data.details.level.value = level;
     for (let trait of tags) {
@@ -1255,6 +1257,7 @@ export class AdventureBase {
   }
   parseHazard(p, moduleData, id, name, level, tags, qty) {
     const hazard = new HazardActor();
+    hazard.id = id;
     hazard.name = name;
     hazard.data.details.level = level;
     for (let trait of tags) {

@@ -28,6 +28,7 @@ export class Journal {
 
 export class Actor {
   id;
+  qty;
   name = "";
   img = "systems/pf2e/icons/default-icons/npc.svg";
   type;

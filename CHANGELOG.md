@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.3.0
+
+- PFS 2-01, 2-02 and 2-13 read their text with the automatic layout, which captured more text, while keeping their own maps, walls and notes.
+- Fixed the title of PFS 1-23, The Star-Crossed Court.
+- Each release's manifest now downloads that release's own zip.
+- Map grids: every plausible spacing is scored, and the one giving a typical map size (22-42 squares on the long side) wins. All 29 comparable test maps now measure correctly, up from 25 of 27.
+- The import names only the maps whose grid is faint or ambiguous, instead of a general warning.
+- The automatic fallback now also covers Season 2 and 3 scenarios without a definition.
+- Added `npm run pdf:regress`, which compares definitions and the fallback across every PDF in `docs/`. Scenes record their source PDF page.
+
 ## 1.2.0
 
 - PFS scenarios from Season 4 on without a definition now import automatically: layout, maps with measured grids, game aids and creatures. The import warns that grids should be checked.

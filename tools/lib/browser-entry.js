@@ -24,7 +24,7 @@ window.pipeline = {
 };
 
 /** Runs a complete import against an in-memory world and returns everything it would have written. */
-async function dryRun({ forceFallback = false } = {}) {
+async function dryRun({ forceFallback = false, firstSeason } = {}) {
   const { runImport } = await import("../../src/importer/run-import.js");
   const { buildSceneData } = await import("../../src/foundry/scene-data.js");
   const log = [];
@@ -131,6 +131,7 @@ async function dryRun({ forceFallback = false } = {}) {
     chooseAdventure: forceFallback
       ? (pdf) => {
           const fallback = new PFSAutoScenario();
+          if (firstSeason !== undefined) fallback.firstSeason = firstSeason;
           return fallback.detect(pdf) ? fallback : undefined;
         }
       : undefined,

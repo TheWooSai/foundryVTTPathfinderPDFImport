@@ -37,7 +37,7 @@ node tools/remap-compendium-uuids.mjs <old-pf2e> <new-pf2e>
 
 ## Automatic fallback
 
-`src/adventures/pfs/auto-scenario.js` (`PFSAutoScenario`) catches any "Scenario #N-NN" cover from season 4 on that no definition claims. It must stay last in `getAllAdventureModules`. It and `tools/draft-pfs-scenario.mjs` share `scenario-analysis.js`, so improving map or grid detection improves both. `FALLBACK=1` on `pdf:test` or `demo:check` forces the fallback even when a definition exists, for comparing the two.
+`src/adventures/pfs/auto-scenario.js` (`PFSAutoScenario`) catches any "Scenario #N-NN" cover from season 2 on that no definition claims. It must stay last in `getAllAdventureModules`. It and `tools/draft-pfs-scenario.mjs` share `scenario-analysis.js`, so improving map or grid detection improves both. `FALLBACK=1` on `pdf:test` or `demo:check` forces the fallback even when a definition exists. `npm run pdf:regress` runs every PDF in `docs/` both ways and scores fallback grids against the definitions' maps on the same page; run it before and after changing `scenario-analysis.js`, and do not let `correct` drop.
 
 ## Adding an adventure
 

@@ -20,6 +20,7 @@ const draft = await page.evaluate(async () => {
       period: map.grid.period,
       score: Math.min(map.grid.x.score, map.grid.y.score),
       label: map.label?.text.trim(),
+      reasons: map.grid.reasons,
     })),
     aids: analysis
       .findGameAids(pdf)
@@ -35,7 +36,10 @@ const className = `PFS${season}_${number}`;
 const indent = (text, spaces) => text.replace(/\n/g, `\n${" ".repeat(spaces)}`);
 
 const sceneCode = draft.scenes
-  .map(({ settings }) => {
+  .map(({ settings: { gridUncertain, ...settings }, reasons }) => {
+    const verify = gridUncertain
+      ? `// VERIFY grid: ${reasons.join("; ")}\n`
+      : "";
     const body = Object.entries(settings)
       .map(
         ([key, value]) =>
@@ -45,7 +49,7 @@ const sceneCode = draft.scenes
     const nameFn = settings.nameInfo
       ? "\nnameFn: (name) => this.sentenceCase(name),"
       : "";
-    return `    new ModuleScene({\n      ${indent(body + nameFn, 6)}\n    }),`;
+    return `    new ModuleScene({\n      ${indent(verify + body + nameFn, 6)}\n    }),`;
   })
   .join("\n");
 

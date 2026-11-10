@@ -1,3 +1,4 @@
+import { applyAutoLayout } from "../auto-layout-base.js";
 import { PFSSeason2Base } from "./base.js";
 import { CaptionImage } from "../../../core/images.js";
 import { ModuleScene } from "../../../core/module-scene.js";
@@ -104,6 +105,10 @@ export class PFS2_02 extends PFSSeason2Base {
       height: 949,
     }),
   ];
+  /** Text layout read from the PDF: tools/regress.mjs measured more text captured this way. */
+  preprocess(text) {
+    applyAutoLayout(this, text);
+  }
   detect(pdf) {
     return pdf.textDetails.some(
       (t) =>

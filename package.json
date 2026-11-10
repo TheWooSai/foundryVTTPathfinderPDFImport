@@ -1,6 +1,6 @@
 {
   "name": "foundry-pathfinder-pdf-import",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Foundry VTT v14 module that imports Pathfinder 2e content from PDFs you own.",
   "main": "src/main.js",
   "scripts": {
@@ -9,7 +9,8 @@
     "format": "prettier --write \"src/**/*.js\" \"tools/**/*.mjs\" \"test/**/*.mjs\"",
     "pdf:inspect": "node tools/inspect-pdf.mjs",
     "pdf:test": "node tools/pdf-pipeline-test.mjs",
-    "demo:check": "node tools/demo-check.mjs"
+    "demo:check": "node tools/demo-check.mjs",
+    "pdf:regress": "node tools/regress.mjs"
   },
   "repository": {
     "type": "git",

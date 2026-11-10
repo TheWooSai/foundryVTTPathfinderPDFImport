@@ -33,6 +33,7 @@ export class ModuleScene {
   paddingPercent;
   nameFn;
   detailsFile;
+  gridUncertain;
   constructor(init) {
     Object.assign(this, init);
     if (this.gridType === undefined) {
@@ -93,15 +94,14 @@ export class ModuleScene {
       darkness: this.darkness ?? (this.globalLight ? 0 : 0.5),
       navigation: false,
       notes: this.generateJournals(moduleData),
-      ...(this.detailsFile
-        ? {
-            flags: {
-              [MODULE_ID]: {
-                detailsFile: this.detailsFile,
-              },
-            },
-          }
-        : {}),
+      // The source page lets a GM, and the regression tool, trace a scene to its PDF map.
+      flags: {
+        [MODULE_ID]: {
+          page: this.page,
+          ...(this.gridUncertain ? { gridUncertain: true } : {}),
+          ...(this.detailsFile ? { detailsFile: this.detailsFile } : {}),
+        },
+      },
       ...details,
     };
   }

@@ -4,7 +4,7 @@ import { ModuleScene } from "../../../core/module-scene.js";
 
 export class PFS1_23 extends PFSSeason1Base {
   prefix = "pfs-1-23";
-  fullName = "PFS #1-23 - Doom of Cassomir";
+  fullName = "PFS #1-23 - The Star-Crossed Court";
   pages = [
     this.TwoColumnWithRightCutout(3, 363),
     this.TwoColumn(4),

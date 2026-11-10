@@ -91,7 +91,7 @@ test("season 4-7 scenarios are detected from their cover text", () => {
   }
 });
 
-test("unknown season 4+ scenarios fall back to automatic layout; older seasons do not", () => {
+test("unknown season 2+ scenarios fall back to automatic layout; season 1 does not", () => {
   const cover = (text, extra = []) => ({
     textDetails: [
       { text, fontId: "GoodOT-Bold:16", page: 1, x: 30, y: 120, fontSize: 16 },
@@ -117,7 +117,8 @@ test("unknown season 4+ scenarios fall back to automatic layout; older seasons d
     getAdventureModule(cover("Scenario #4-04 "))?.isAutomatic,
     undefined,
   );
-  assert.equal(getAdventureModule(cover("Scenario #3-16 ")), undefined);
+  assert.equal(getAdventureModule(cover("Scenario #3-16 "))?.isAutomatic, true);
+  assert.equal(getAdventureModule(cover("Scenario #1-30 ")), undefined);
 });
 
 test("the season 4-5 'Year of' banner is not taken as the title", async () => {

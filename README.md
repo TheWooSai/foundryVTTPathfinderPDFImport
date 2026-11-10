@@ -10,20 +10,25 @@ If this module saves you time, you can support it on [Ko-fi](https://ko-fi.com/w
 
 ## Install
 
-This repository is private, so Foundry cannot fetch the manifest URL by itself.
+1. In Foundry, go to **Setup → Add-on Modules → Install Module**.
+2. Paste this into **Manifest URL** and click **Install**:
 
-1. Run `npm ci && npm run build`, or download `module.zip` from a GitHub release.
-2. Copy `dist/` (or the unzipped release) to `Data/modules/foundry-pathfinder-pdf-import/`.
+   ```
+   https://github.com/TheWooSai/foundryVTTPathfinderPDFImport/releases/latest/download/module.json
+   ```
+
 3. Enable **Pathfinder PDF Importer** in your world.
 4. As GM, open the Settings sidebar and click **Import PDF**.
 
+To install by hand instead, unzip `module.zip` from a [release](https://github.com/TheWooSai/foundryVTTPathfinderPDFImport/releases) into `Data/modules/foundry-pathfinder-pdf-import/`.
+
 ## Limits
 
-- 197 adventure definitions are included, listed in the import dialog: PFS Seasons 1–3 plus ten Season 4–7 scenarios, adventure paths, bounties, one-shots, standalone adventures and bestiaries. Other PDFs are refused, except PFS scenarios from Season 4 on (see below).
+- 197 adventure definitions are included, listed in the import dialog: PFS Seasons 1–3 plus ten Season 4–7 scenarios, adventure paths, bounties, one-shots, standalone adventures and bestiaries. Other PDFs are refused, except PFS scenarios from Season 2 on (see below).
 - Creatures named in an adventure definition but gone from PF2e are rebuilt from their printed stat block when the PDF has one, and otherwise named in the chat message when the import finishes. See `data/compendium-remap.json`.
 - Printed stat blocks for creatures in no PF2e compendium become world actors. Spells PF2e no longer has are listed in the actor's private notes.
 - PFS 3-17 and the Season 4–7 scenarios have maps, journals, game aids and creatures, but no walls, lights or token placement.
-- Any other PFS scenario from Season 4 on imports through an automatic fallback that reads the layout, maps and grids from the PDF. Tested on ten scenarios, it measured 21 of 23 map grids correctly, so check each map's grid; the chat message reminds you.
+- Any other PFS scenario from Season 2 on imports through an automatic fallback that reads the layout, maps and grids from the PDF. On the 14 test PDFs it measured all 29 comparable map grids correctly. When a grid is faint or ambiguous, the chat message names that map so you can check it.
 
 ## Development
 
@@ -33,9 +38,10 @@ Needs Node 24. See [CLAUDE.md](CLAUDE.md) for the architecture and how to add an
 npm ci
 npm test                              # unit and data checks
 npm run build                         # writes dist/
-npx playwright install chromium       # once, for the two commands below
+npx playwright install chromium       # once, for the commands below
 npm run pdf:test -- /path/to/file.pdf # full import into an in-memory world
 npm run demo:check -- /path/to/file.pdf  # strict validation on the public v14 demo, read-only
+npm run pdf:regress                   # every PDF in docs/: definitions vs the automatic fallback
 ```
 
 PDFs and everything derived from them stay out of git. `*.pdf` and `test-output/` are ignored.

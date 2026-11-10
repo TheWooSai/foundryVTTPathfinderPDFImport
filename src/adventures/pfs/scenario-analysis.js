@@ -80,78 +80,145 @@ export function identifyScenario(pdf) {
   return { season: Number(match[1]), number: match[2].padStart(2, "0"), title };
 }
 
-/** Fit evenly spaced grid lines to the image; spacing and phase are in image pixels. */
+/** Long-side size, in squares, of every correctly measured battle map in the test PDFs: 24-40. */
+export const PLAUSIBLE_SQUARES = { min: 22, max: 42 };
+const MIN_PERIOD = 20;
+const STEP = 0.05;
+/** A second plausible spacing this close to the winner's score makes the result uncertain. */
+const RUNNER_UP_RATIO = 0.85;
+/** Scores below this are weak enough to report, though still above MIN_GRID_SCORE. */
+const WEAK_SCORE = 10;
+
+/** Second difference of brightness along one axis: grid lines are thin ridges. */
+function ridgeProfile(data, width, height, alongX) {
+  const px = (x, y) => {
+    const k = (y * width + x) * 4;
+    return data[k] + data[k + 1] + data[k + 2];
+  };
+  const n = alongX ? width : height;
+  const m = alongX ? height : width;
+  const out = new Float64Array(n);
+  for (let i = 1; i < n - 1; i++) {
+    let s = 0;
+    for (let j = 0; j < m; j += 2) {
+      s += alongX
+        ? 2 * px(i, j) - px(i - 1, j) - px(i + 1, j)
+        : 2 * px(j, i) - px(j, i - 1) - px(j, i + 1);
+    }
+    out[i] = s / m;
+  }
+  return out;
+}
+
+/** Mean ridge strength along evenly spaced lines, for every spacing and its best phase. */
+function scanSpacings(profile, maxPeriod) {
+  const mean = profile.reduce((p, c) => p + c, 0) / profile.length;
+  const count = Math.floor((maxPeriod - MIN_PERIOD) / STEP) + 1;
+  const score = new Float64Array(count);
+  const phase = new Float64Array(count);
+  for (let i = 0; i < count; i++) {
+    const period = MIN_PERIOD + i * STEP;
+    let best = -Infinity;
+    for (let ph = 0; ph < period; ph += 0.5) {
+      let s = 0;
+      let c = 0;
+      for (let k = ph; k < profile.length - 1; k += period) {
+        s += profile[Math.round(k)] - mean;
+        c++;
+      }
+      s /= c;
+      if (s > best) {
+        best = s;
+        phase[i] = ph;
+      }
+    }
+    score[i] = best;
+  }
+  return { score, phase, periodAt: (i) => MIN_PERIOD + i * STEP };
+}
+
+/**
+ * Fit square grid lines to a map image. Every spacing is scored on both axes. Among strong
+ * local peaks, the one that gives a typical map size wins: a multiple of the true spacing
+ * makes too few squares, a fraction too many. Results that fail that check, or that have a
+ * close plausible rival, are marked uncertain so the GM knows which maps to check.
+ */
 export async function measureGrid(image) {
   const canvas = await image.getImageCanvas();
   const { data, width, height } = canvas
     .getContext("2d")
     .getImageData(0, 0, canvas.width, canvas.height);
-  const px = (x, y) => {
-    const k = (y * width + x) * 4;
-    return data[k] + data[k + 1] + data[k + 2];
-  };
-  // Second difference of brightness along each axis: grid lines are thin ridges.
-  const profile = (alongX) => {
-    const n = alongX ? width : height;
-    const m = alongX ? height : width;
-    const out = new Float64Array(n);
-    for (let i = 1; i < n - 1; i++) {
-      let s = 0;
-      for (let j = 0; j < m; j += 2) {
-        s += alongX
-          ? 2 * px(i, j) - px(i - 1, j) - px(i + 1, j)
-          : 2 * px(j, i) - px(j, i - 1) - px(j, i + 1);
-      }
-      out[i] = s / m;
+  const longSide = Math.max(width, height);
+  const maxPeriod = Math.max(MIN_PERIOD + 1, Math.min(150, longSide / 12));
+  const x = scanSpacings(ridgeProfile(data, width, height, true), maxPeriod);
+  const y = scanSpacings(ridgeProfile(data, width, height, false), maxPeriod);
+  const maxX = Math.max(...x.score);
+  const maxY = Math.max(...y.score);
+  const joint = x.score.map((s, i) => s / maxX + y.score[i] / maxY);
+  const best = Math.max(...joint);
+
+  const peaks = [];
+  const window = Math.round(0.5 / STEP);
+  for (let i = 0; i < joint.length; i++) {
+    if (joint[i] < 0.4 * best) continue;
+    let isPeak = true;
+    for (
+      let j = Math.max(0, i - window);
+      j <= Math.min(joint.length - 1, i + window);
+      j++
+    ) {
+      if (joint[j] > joint[i]) isPeak = false;
     }
-    return out;
-  };
-  const fit = (a, fixed) => {
-    const mean = a.reduce((p, c) => p + c, 0) / a.length;
-    let top = { period: 0, phase: 0, score: -Infinity };
-    for (let period = fixed ?? 20; period <= (fixed ?? 120); period += 0.05) {
-      for (let phase = 0; phase < period; phase += 0.5) {
-        let s = 0;
-        let c = 0;
-        for (let k = phase; k < a.length - 1; k += period) {
-          s += a[Math.round(k)] - mean;
-          c++;
-        }
-        s /= c;
-        if (s > top.score) top = { period, phase, score: s };
-      }
-    }
-    return top;
-  };
-  // Lines recur at every multiple of the true spacing, so a multiple scores as well as the
-  // spacing itself. Prefer the smallest fraction of the winner that still fits. Measured on
-  // the PDFs used to build this: the true spacing keeps 0.63-0.98 of the score, a wrong
-  // fraction 0.17-0.57. Larger fractions are tried first.
-  const smallestFit = (a) => {
-    const top = fit(a);
-    for (let k = 6; k >= 2; k--) {
-      const period = top.period / k;
-      if (period < 20) continue;
-      const candidate = fit(a, period);
-      if (candidate.score >= 0.6 * top.score) return candidate;
-    }
-    return top;
-  };
-  const along = profile(true);
-  const down = profile(false);
-  let x = smallestFit(along);
-  let y = smallestFit(down);
-  // Squares: if the axes disagree and one spacing is a multiple of the other, the smaller is
-  // the grid. Otherwise trust the stronger axis. Either way, refit the other axis's phase.
-  if (Math.abs(x.period - y.period) >= 0.6) {
-    const [small, large] = x.period < y.period ? [x, y] : [y, x];
-    const ratio = large.period / small.period;
-    const isMultiple = Math.abs(ratio - Math.round(ratio)) < 0.03;
-    const keep = isMultiple ? small : x.score >= y.score ? x : y;
-    if (keep === x) y = fit(down, x.period);
-    else x = fit(along, y.period);
+    if (isPeak) peaks.push(i);
   }
-  return { x, y, period: (x.period + y.period) / 2 };
+  const squares = (i) => longSide / x.periodAt(i);
+  const plausible = peaks
+    .filter(
+      (i) =>
+        squares(i) >= PLAUSIBLE_SQUARES.min &&
+        squares(i) <= PLAUSIBLE_SQUARES.max,
+    )
+    .sort((a, b) => joint[b] - joint[a]);
+
+  const reasons = [];
+  let chosen;
+  if (plausible.length > 0) {
+    chosen = plausible[0];
+    const rival = plausible.find(
+      (i) =>
+        Math.abs(x.periodAt(i) / x.periodAt(chosen) - 1) > 0.02 &&
+        joint[i] >= RUNNER_UP_RATIO * joint[chosen],
+    );
+    if (rival !== undefined)
+      reasons.push(
+        `a ${x.periodAt(rival).toFixed(1)} px grid fits almost as well`,
+      );
+  } else {
+    chosen = peaks.sort((a, b) => joint[b] - joint[a])[0];
+    reasons.push(
+      `no spacing gives a typical map size (${squares(chosen).toFixed(0)} squares)`,
+    );
+  }
+  const result = {
+    period: x.periodAt(chosen),
+    x: { phase: x.phase[chosen], score: x.score[chosen] },
+    y: { phase: y.phase[chosen], score: y.score[chosen] },
+  };
+  if (Math.min(result.x.score, result.y.score) < WEAK_SCORE)
+    reasons.push("faint grid lines");
+  return {
+    ...result,
+    // Strongest line pattern at any spacing: decides whether the image has a grid at all.
+    strength: Math.min(maxX, maxY),
+    reasons,
+    uncertain: reasons.length > 0,
+    phaseAt: (period) => phaseAt(x, y, period),
+  };
+}
+
+function phaseAt(x, y, period) {
+  const i = Math.round((period - MIN_PERIOD) / STEP);
+  return { x: x.phase[i], y: y.phase[i] };
 }
 
 /** Grid-bearing full-page images, with the printed map name if one is found. */
@@ -178,7 +245,7 @@ export async function findBattleMaps(pdf) {
       .sort((a, b) => b.width * b.height - a.width * a.height)[0];
     if (!image) continue;
     const grid = await measureGrid(image);
-    if (Math.min(grid.x.score, grid.y.score) < MIN_GRID_SCORE) continue;
+    if (grid.strength < MIN_GRID_SCORE) continue;
     const label = text
       .filter(
         (x) =>
@@ -191,7 +258,43 @@ export async function findBattleMaps(pdf) {
       .sort((a, b) => b.fontSize - a.fontSize)[0];
     maps.push({ page, width: image.width, height: image.height, grid, label });
   }
+  agreeWithSiblings(maps);
   return maps;
+}
+
+/**
+ * Maps of identical size in one PDF are usually cut from the same flip-mat. An uncertain map
+ * adopts the spacing of a confident sibling; a confident disagreement makes both uncertain.
+ */
+function agreeWithSiblings(maps) {
+  for (const map of maps) {
+    const siblings = maps.filter(
+      (m) => m !== map && m.width === map.width && m.height === map.height,
+    );
+    const confident = siblings.find((m) => !m.grid.uncertain);
+    if (
+      !confident ||
+      Math.abs(confident.grid.period / map.grid.period - 1) <= 0.02
+    )
+      continue;
+    if (map.grid.uncertain) {
+      const period = confident.grid.period;
+      const phase = map.grid.phaseAt(period);
+      map.grid = {
+        ...map.grid,
+        period,
+        x: { ...map.grid.x, phase: phase.x },
+        y: { ...map.grid.y, phase: phase.y },
+        reasons: [`matched a same-size map on page ${confident.page}`],
+        uncertain: false,
+      };
+    } else {
+      map.grid.reasons.push(
+        `differs from a same-size map on page ${confident.page}`,
+      );
+      map.grid.uncertain = true;
+    }
+  }
 }
 
 /** ModuleScene settings for a measured map: the grid sets the image's columns and rows. */
@@ -215,6 +318,7 @@ export function sceneSettings(map, index) {
     offsetX: 0,
     offsetY: 0,
     globalLight: true,
+    ...(map.grid.uncertain ? { gridUncertain: true } : {}),
     ...(map.label ? { nameInfo: { x: map.label.x, y: map.label.y } } : {}),
   };
 }

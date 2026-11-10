@@ -8,7 +8,9 @@ if (!tag) throw new Error("Usage: prepare-release <tag> [manifest]");
 
 const manifest = JSON.parse(await readFile(manifestPath, "utf8"));
 if (tag !== `v${manifest.version}`) {
-  console.error(`Tag ${tag} does not match module version ${manifest.version}.`);
+  console.error(
+    `Tag ${tag} does not match module version ${manifest.version}.`,
+  );
   process.exit(1);
 }
 

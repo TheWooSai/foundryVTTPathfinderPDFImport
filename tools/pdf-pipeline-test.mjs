@@ -7,7 +7,11 @@ import { startHarness } from "./lib/harness.mjs";
 const pdfPath = process.argv[2];
 if (!pdfPath) throw new Error("Usage: pdf-pipeline-test <file.pdf>");
 const { page, close } = await startHarness(pdfPath);
-const result = await page.evaluate(() => window.pipeline.dryRun());
+const forceFallback = process.env.FALLBACK === "1";
+const result = await page.evaluate(
+  (options) => window.pipeline.dryRun(options),
+  { forceFallback },
+);
 await close();
 await mkdir("test-output", { recursive: true });
 await writeFile("test-output/pipeline.json", JSON.stringify(result, null, 1));

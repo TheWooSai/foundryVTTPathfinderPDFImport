@@ -4,6 +4,8 @@ import {
   getAllAdventureModules,
 } from "../../src/adventures/index.js";
 import { parsePdf } from "../../src/pdf/parse-pdf.js";
+import * as analysis from "../../src/adventures/pfs/scenario-analysis.js";
+import { PFSAutoScenario } from "../../src/adventures/pfs/auto-scenario.js";
 
 pdfjs.GlobalWorkerOptions.workerSrc = "/pdf.worker.min.mjs";
 
@@ -18,10 +20,11 @@ window.pipeline = {
   parsePdf,
   getAdventureModule,
   getAllAdventureModules,
+  analysis,
 };
 
 /** Runs a complete import against an in-memory world and returns everything it would have written. */
-async function dryRun() {
+async function dryRun({ forceFallback = false } = {}) {
   const { runImport } = await import("../../src/importer/run-import.js");
   const { buildSceneData } = await import("../../src/foundry/scene-data.js");
   const log = [];
@@ -125,6 +128,12 @@ async function dryRun() {
     artDb,
     moduleRoot: "/",
     pdfjs,
+    chooseAdventure: forceFallback
+      ? (pdf) => {
+          const fallback = new PFSAutoScenario();
+          return fallback.detect(pdf) ? fallback : undefined;
+        }
+      : undefined,
     progress: (m) => progress.push(m),
     notify: async (m) => written.chat.push(m),
   });

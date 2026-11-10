@@ -90,3 +90,61 @@ test("season 4-7 scenarios are detected from their cover text", () => {
     assert.equal(getAdventureModule(pdf)?.prefix, `pfs-${id}`, printed);
   }
 });
+
+test("unknown season 4+ scenarios fall back to automatic layout; older seasons do not", () => {
+  const cover = (text, extra = []) => ({
+    textDetails: [
+      { text, fontId: "GoodOT-Bold:16", page: 1, x: 30, y: 120, fontSize: 16 },
+      ...extra,
+    ],
+  });
+  const season8 = getAdventureModule(
+    cover("Scenario #8-04 ", [
+      {
+        text: "Clockwork Wonders",
+        fontId: "Display:30",
+        page: 1,
+        x: 40,
+        y: 600,
+        fontSize: 30,
+      },
+    ]),
+  );
+  assert.equal(season8?.isAutomatic, true);
+  assert.equal(season8.prefix, "pfs-8-04");
+  assert.equal(season8.fullName, "PFS #8-04 - Clockwork Wonders");
+  assert.equal(
+    getAdventureModule(cover("Scenario #4-04 "))?.isAutomatic,
+    undefined,
+  );
+  assert.equal(getAdventureModule(cover("Scenario #3-16 ")), undefined);
+});
+
+test("the season 4-5 'Year of' banner is not taken as the title", async () => {
+  const { identifyScenario } = await import(
+    "../src/adventures/pfs/scenario-analysis.js"
+  );
+  const run = (text, fontSize, y) => ({
+    text,
+    fontSize,
+    y,
+    x: 40,
+    page: 1,
+    fontId: `F:${fontSize}`,
+  });
+  const pdf = {
+    textDetails: [
+      run("Year of", 28, 700),
+      run("Boundless", 48, 680),
+      run("Wonder", 48, 640),
+      run("A Most", 34, 500),
+      run("Wondrous Exchange!", 34, 460),
+      run("Scenario #4-07", 15, 120),
+    ],
+  };
+  assert.deepEqual(identifyScenario(pdf), {
+    season: 4,
+    number: "07",
+    title: "A Most Wondrous Exchange!",
+  });
+});

@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.0
+
+- PFS scenarios from Season 4 on without a definition now import automatically: layout, maps with measured grids, game aids and creatures. The import warns that grids should be checked.
+- Added a Ko-fi link to the README.
+
 ## 1.1.0
 
 - Added PFS 4-04, 4-07, 4-16, 5-02, 5-14, 5-19, 5-20, 6-15, 7-03 and 7-05, with journals, maps on measured grids, game aids and creatures. No walls or lights.

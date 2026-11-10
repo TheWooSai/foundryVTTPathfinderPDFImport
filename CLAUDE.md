@@ -35,6 +35,10 @@ node tools/remap-compendium-uuids.mjs <old-pf2e> <new-pf2e>
 
 `src/importer/statblock-actor.js` converts parsed stat blocks to PF2e 8.x source. It only runs for creatures with no compendium match by name (`world.hasCompendiumCreature`). `tools/build-legacy-names.mjs` generates `data/legacy-names.json` from a pre-remaster and a current PF2e checkout. `FORCE_BUILD=1 IMPORT_ONLY=1 npm run demo:check -- file.pdf` converts every stat block against live PF2e and compares its calculated statistics.
 
+## Automatic fallback
+
+`src/adventures/pfs/auto-scenario.js` (`PFSAutoScenario`) catches any "Scenario #N-NN" cover from season 4 on that no definition claims. It must stay last in `getAllAdventureModules`. It and `tools/draft-pfs-scenario.mjs` share `scenario-analysis.js`, so improving map or grid detection improves both. `FALLBACK=1` on `pdf:test` or `demo:check` forces the fallback even when a definition exists, for comparing the two.
+
 ## Adding an adventure
 
 For PFS Season 4 and later, `node tools/draft-pfs-scenario.mjs file.pdf --write` drafts the definition: detection, name, maps on measured grids and game aids. `PFSAutoLayoutBase` reads columns, page top, heading fonts and story pages from the PDF at import time, and creatures come from the stat blocks. Check each map grid visually before committing: the detector can still lock onto a multiple of the printed spacing on faint grids.

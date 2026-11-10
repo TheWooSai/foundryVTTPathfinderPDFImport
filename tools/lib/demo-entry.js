@@ -14,6 +14,7 @@ import {
 } from "../../src/foundry/scene-data.js";
 import { foundryWorld } from "../../src/foundry/world.js";
 import { runImport } from "../../src/importer/run-import.js";
+import { PFSAutoScenario } from "../../src/adventures/pfs/auto-scenario.js";
 
 const strict = { strict: true };
 const id = () => foundry.utils.randomID();
@@ -106,7 +107,7 @@ function compareBuilt(source, actor) {
   };
 }
 
-async function checkImport({ forceBuild = false } = {}) {
+async function checkImport({ forceBuild = false, forceFallback = false } = {}) {
   const created = {
     folders: 0,
     journals: 0,
@@ -248,6 +249,12 @@ async function checkImport({ forceBuild = false } = {}) {
       artDb,
       moduleRoot: `/modules/${MODULE_ID}`,
       pdfjs,
+      chooseAdventure: forceFallback
+        ? (pdf) => {
+            const fallback = new PFSAutoScenario();
+            return fallback.detect(pdf) ? fallback : undefined;
+          }
+        : undefined,
       progress: () => {},
       notify: async (content) => {
         new ChatMessage(

@@ -15,6 +15,7 @@ import { PFS4 } from "./pfs/season4/index.js";
 import { PFS5 } from "./pfs/season5/index.js";
 import { PFS6 } from "./pfs/season6/index.js";
 import { PFS7 } from "./pfs/season7/index.js";
+import { PFSAutoScenario } from "./pfs/auto-scenario.js";
 import { QFF } from "./quest-for-the-frozen-flame/index.js";
 import { Rulebooks } from "./rulebooks/index.js";
 import { Standalone } from "./standalone/index.js";
@@ -43,6 +44,7 @@ export function getAllAdventureModules() {
     .concat(Object.values(PFSIntro))
     .concat(Object.values(Bounty))
     .concat(Object.values(LostOmens))
+    .concat([PFSAutoScenario]) // fallback: must stay last
     .map((c) => new c());
 }
 

@@ -30,7 +30,9 @@ export async function runImport(file, env) {
     );
   }
 
-  const adventure = getAdventureModule(pdf);
+  const adventure = env.chooseAdventure
+    ? env.chooseAdventure(pdf)
+    : getAdventureModule(pdf);
   if (adventure === undefined) {
     progress("failed to detect pdf. cannot proceed.", 1);
     await notify(UNSUPPORTED);

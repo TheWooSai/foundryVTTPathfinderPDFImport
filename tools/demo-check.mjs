@@ -114,7 +114,7 @@ await page.waitForFunction(() => window.importCheck !== undefined);
 
 const files = await mapFiles();
 const report = await page.evaluate(
-  async ({ files, hasPdf, forceBuild, importOnly }) => {
+  async ({ files, hasPdf, forceBuild, forceFallback, importOnly }) => {
     const check = window.importCheck;
     const unblock = check.blockWrites();
     const out = { server: check.info() };
@@ -125,7 +125,8 @@ const report = await page.evaluate(
         out.links = check.checkCompendiumLinks();
         out.adjustments = await check.checkAdjustments();
       }
-      if (hasPdf) out.import = await check.checkImport({ forceBuild });
+      if (hasPdf)
+        out.import = await check.checkImport({ forceBuild, forceFallback });
     } catch (error) {
       out.fatal = `${error.message}\n${error.stack}`.slice(0, 1500);
     } finally {
@@ -137,6 +138,7 @@ const report = await page.evaluate(
     files,
     hasPdf: Boolean(pdfPath),
     forceBuild: process.env.FORCE_BUILD === "1",
+    forceFallback: process.env.FALLBACK === "1",
     importOnly: process.env.IMPORT_ONLY === "1",
   },
 );

@@ -1,6 +1,6 @@
 {
   "name": "foundry-pathfinder-pdf-import",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Foundry VTT v14 module that imports Pathfinder 2e content from PDFs you own.",
   "main": "src/main.js",
   "scripts": {

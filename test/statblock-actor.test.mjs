@@ -298,3 +298,55 @@ test("legacy links upgrade or fall back to their label", () => {
     "@UUID[Compendium.pf2e.conditionitems.Item.abc]{Prone} and Gone",
   );
 });
+
+test("compendium matches require the printed level and prefer the matching tier", async () => {
+  const { chooseCompendiumMatch } = await import(
+    "../src/importer/statblock-actor.js"
+  );
+  const entry = (pack, level, hp, ac, uuid) => ({
+    type: "npc",
+    pack,
+    level,
+    hp,
+    ac,
+    uuid,
+    compact: "cinderwolf",
+  });
+  const entries = [
+    entry("pfs-season-1-bestiary", 1, 24, 15, "tier34"),
+    entry("pfs-season-1-bestiary", 1, 20, 15, "tier12"),
+    entry("pathfinder-monster-core", 3, 45, 18, "core"),
+  ];
+  const printed = { type: "npc", level: 1, hp: 20, ac: 15, adjustment: null };
+  assert.deepEqual(chooseCompendiumMatch(entries, printed), {
+    uuid: "tier12",
+    adjustment: null,
+  });
+  assert.equal(chooseCompendiumMatch(entries, { ...printed, level: 7 }), null);
+  assert.equal(
+    chooseCompendiumMatch(entries, { ...printed, type: "hazard" }),
+    null,
+  );
+  assert.deepEqual(
+    chooseCompendiumMatch(entries, {
+      ...printed,
+      level: 4,
+      adjustment: "elite",
+    }),
+    {
+      uuid: "core",
+      adjustment: "elite",
+    },
+  );
+  assert.deepEqual(
+    chooseCompendiumMatch([entry("x", 0, 1, 1, "z")], {
+      ...printed,
+      level: 2,
+      adjustment: "elite",
+    }),
+    {
+      uuid: "z",
+      adjustment: "elite",
+    },
+  );
+});

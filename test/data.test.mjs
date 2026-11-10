@@ -71,3 +71,22 @@ test("the remap record keeps every creature that has no remastered equivalent", 
   );
   assert.ok(unresolved.every((r) => r.name));
 });
+
+test("season 4-7 scenarios are detected from their cover text", () => {
+  const cases = {
+    "4-04": "4-04",
+    "4-16": "4-16",
+    "5-19": "5-19",
+    "6-15": "6-15",
+    "7–03": "7-03",
+    "7-05": "7-05",
+  };
+  for (const [printed, id] of Object.entries(cases)) {
+    const pdf = {
+      textDetails: [
+        { text: `Scenario #${printed} `, fontId: "GoodOT-Bold:16", page: 1 },
+      ],
+    };
+    assert.equal(getAdventureModule(pdf)?.prefix, `pfs-${id}`, printed);
+  }
+});

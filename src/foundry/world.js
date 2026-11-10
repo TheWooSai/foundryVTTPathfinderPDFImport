@@ -1,6 +1,9 @@
 import { DEFAULT_LEVEL_ID } from "../constants.js";
 import legacyNames from "../../data/legacy-names.json";
-import { compactName } from "../importer/statblock-actor.js";
+import {
+  chooseCompendiumMatch,
+  compactName,
+} from "../importer/statblock-actor.js";
 import {
   buildSceneData,
   readSceneArt,
@@ -33,14 +36,31 @@ const spellIndex = lazy(
         .index.map((e) => [compactName(e.name), e]),
     ),
 );
-const actorNameIndex = lazy(() =>
-  [...game.packs]
-    .filter(
-      (pack) =>
-        pack.metadata.packageName === "pf2e" && pack.documentName === "Actor",
-    )
-    .flatMap((pack) => pack.index.map((e) => compactName(e.name))),
-);
+const INDEX_FIELDS = [
+  "system.details.level.value",
+  "system.attributes.hp.max",
+  "system.attributes.ac.value",
+];
+const actorIndex = lazy(async () => {
+  const packs = [...game.packs].filter(
+    (pack) =>
+      pack.metadata.packageName === "pf2e" && pack.documentName === "Actor",
+  );
+  const lists = await Promise.all(
+    packs.map(async (pack) =>
+      (await pack.getIndex({ fields: INDEX_FIELDS })).map((entry) => ({
+        uuid: entry.uuid ?? `Compendium.${pack.collection}.Actor.${entry._id}`,
+        compact: compactName(entry.name),
+        type: entry.type,
+        level: entry.system?.details?.level?.value,
+        hp: entry.system?.attributes?.hp?.max ?? null,
+        ac: entry.system?.attributes?.ac?.value ?? null,
+        pack: pack.metadata.name,
+      })),
+    ),
+  );
+  return lists.flat();
+});
 
 /** Every Document write the importer performs. Tests substitute this object. */
 export const foundryWorld = {
@@ -78,10 +98,13 @@ export const foundryWorld = {
     return { adjustment, hpValue: copy._source.system.attributes.hp.value };
   },
 
-  /** True if any PF2e actor compendium has a creature with one of these names. */
-  hasCompendiumCreature(names) {
+  /** The PF2e compendium creature for a printed stat block, or null. */
+  async findCompendiumCreature(names, printed) {
     const wanted = new Set(names.map(compactName));
-    return actorNameIndex().some((name) => wanted.has(name));
+    const entries = (await actorIndex()).filter((entry) =>
+      wanted.has(entry.compact),
+    );
+    return chooseCompendiumMatch(entries, printed);
   },
 
   /** Compendium spell as source data for embedding, or null. Handles remaster renames. */

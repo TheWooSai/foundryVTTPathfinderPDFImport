@@ -67,6 +67,54 @@ export function creatureNameCandidates(name) {
   return [...new Set([name.trim(), base, singularize(base)])];
 }
 
+/** Level, HP, AC and any elite/weak prefix printed in a stat block. */
+export function printedStats(parsed) {
+  const { attributes, details } = parsed.data;
+  return {
+    type: parsed.type,
+    level: details.level?.value ?? details.level,
+    hp: attributes.hp?.max ?? null,
+    ac: attributes.ac?.value ?? null,
+    adjustment: /^elite\s/i.test(parsed.name)
+      ? "elite"
+      : /^weak\s/i.test(parsed.name)
+        ? "weak"
+        : null,
+  };
+}
+
+const adjustedLevel = (level, adjustment) => {
+  if (adjustment === "elite") return level < 1 ? level + 2 : level + 1;
+  if (adjustment === "weak") return level === 1 ? -1 : level - 1;
+  return level;
+};
+
+/**
+ * Pick the compendium entry for a printed stat block. Its level must match, applying the
+ * printed elite/weak prefix if there is one, so a different tier is never substituted.
+ * HP and AC break ties between tiers, then PFS packs, then the core bestiaries.
+ * @param {Array<{uuid, compact, type, level, hp, ac, pack}>} entries same-named entries
+ * @returns {{uuid: string, adjustment: string|null}|null}
+ */
+export function chooseCompendiumMatch(entries, printed) {
+  let best = null;
+  for (const entry of entries) {
+    if (entry.type !== printed.type) continue;
+    for (const adjustment of [...new Set([null, printed.adjustment])]) {
+      if (adjustedLevel(entry.level, adjustment) !== printed.level) continue;
+      const score =
+        (adjustment ? 0 : 1) +
+        (!adjustment && entry.hp === printed.hp ? 4 : 0) +
+        (!adjustment && entry.ac === printed.ac ? 2 : 0) +
+        (entry.pack.startsWith("pfs-") ? 0.5 : 0) +
+        (entry.pack.startsWith("pathfinder-") ? 0.25 : 0);
+      if (!best || score > best.score)
+        best = { uuid: entry.uuid, adjustment, score };
+    }
+  }
+  return best && { uuid: best.uuid, adjustment: best.adjustment };
+}
+
 /** Two printed stat blocks with the same numbers are one creature. */
 export function statBlockKey(parsed) {
   const attributes = parsed.data.attributes;
@@ -412,7 +460,7 @@ function convertNpc(parsed, context) {
           ...defenses,
         },
         details: {
-          blurb: "",
+          blurb: data.details.source?.value ?? "",
           languages: splitLanguages(
             data.traits.languages?.value,
             data.traits.languages?.custom,
@@ -420,7 +468,7 @@ function convertNpc(parsed, context) {
           ),
           level: { value: data.details.level.value },
           privateNotes: notes.join(" "),
-          publicNotes: "",
+          publicNotes: data.details.notes ? `<p>${data.details.notes}</p>` : "",
           publication: publicationFor(context.adventureTitle),
         },
         initiative: { statistic: "perception" },
@@ -491,7 +539,11 @@ function convertHazard(parsed, context) {
         },
         creatureType: "",
         details: {
-          description: [text(data.details.description), notes.join(" ")]
+          description: [
+            text(data.details.description),
+            data.source?.value ? `<p><em>${data.source.value}</em></p>` : "",
+            notes.join(" "),
+          ]
             .filter(Boolean)
             .join("<p></p>"),
           disable: text(data.details.disable),

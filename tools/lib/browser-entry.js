@@ -61,7 +61,7 @@ async function dryRun() {
       prototypeToken: { texture: {} },
     }),
     computeAdjustment: async (_d, adjustment) => ({ adjustment, hpValue: 1 }),
-    hasCompendiumCreature: () => false,
+    findCompendiumCreature: async () => null,
     findSpellData: async (name) => ({ name, type: "spell", system: {} }),
     resolveLegacyLink: () => null,
     vocabulary: () => ({

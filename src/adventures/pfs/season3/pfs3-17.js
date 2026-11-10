@@ -69,6 +69,7 @@ export class PFS3_17 extends PFSSeason3Base {
     this.TwoColumn(26, "appendix2"),
     this.TwoColumnWithRightCutout(27, 530, "appendix2"),
     this.TwoColumn(28, "appendix2"),
+    ...[32, 33, 34].map((page) => this.Handouts(page)),
   ];
   scenes = [
     new ModuleScene({
@@ -137,6 +138,20 @@ export class PFS3_17 extends PFSSeason3Base {
       "MTc6MzEyOjg3",
     ]),
   ];
+  /** Appendix handout pages: one wide text column. */
+  Handouts(pageNum) {
+    return (pdf, emit) =>
+      this.getAllTextInBoundingBox(
+        pdf,
+        pageNum,
+        70,
+        560,
+        700,
+        40,
+        emit,
+        "handouts",
+      );
+  }
   detect(pdf) {
     return pdf.textDetails.some(
       (t) =>

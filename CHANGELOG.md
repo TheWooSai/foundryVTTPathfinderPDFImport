@@ -1,14 +1,18 @@
 # Changelog
 
-## Unreleased
+## 1.1.0
 
-- Changed the license to AGPL-3.0-only. The original MIT notice is kept in `LICENSES/`.
+- Added PFS 4-04, 4-07, 4-16, 5-02, 5-14, 5-19, 5-20, 6-15, 7-03 and 7-05, with journals, maps on measured grids, game aids and creatures. No walls or lights.
+- Stat blocks the adventure definition does not list now import their PF2e compendium creature, matched by name and level, so Seasons 1 and 2 get actors.
+- Fixed lost text: lines in unrecognized fonts, wrapped stat-block sentences and citations are kept, and a bullet in a map label no longer stops the parser mid-section.
+- Added the PFS 3-17 handouts.
+- Changed the license to AGPL-3.0-only. MIT-licensed code keeps its required notice in `LICENSES/`.
 - Elite and weak creatures and tokens now use PF2e's adjustment rules.
 - Printed stat blocks for creatures in no PF2e compendium are built as world actors, with attacks, actions, skills, defenses and compendium spells.
 
 ## 1.0.0
 
-Rebuilt from pdftofoundry 5.0.0 as readable source for Foundry v14.
+First release for Foundry v14.
 
 - Scenes use v14 Levels, and darkness moved to the scene environment. Without this, maps were silently lost.
 - Replaced the settings hooks, import dialog, file picker and chat message code with v14 APIs.

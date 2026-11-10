@@ -6,6 +6,7 @@ import {
   attachSpells,
   convertStatBlock,
   creatureNameCandidates,
+  printedStats,
   rewriteLegacyLinks,
   statBlockKey,
 } from "./statblock-actor.js";
@@ -366,9 +367,34 @@ export class AdventureImporter {
     }
   }
 
+  /** Create a world copy of a compendium creature found for a printed stat block. */
+  async importCompendiumCreature(match, parsed, actorFolder) {
+    const { world } = this.env;
+    const actor = await world.actorDataFromUuid(match.uuid);
+    actor.folder = (await actorFolder()).id;
+    actor.flags[MODULE_ID] = { module: this.adventure.prefix, id: parsed.id };
+    const art = world.compendiumArt(match.uuid);
+    if (art !== undefined && !this.setting("alwaysUseImportedIcons")) {
+      actor.img = art.actor;
+      world.mergeObject(actor.prototypeToken, art.token, {
+        inplace: true,
+        recursive: true,
+      });
+    }
+    if (match.adjustment) {
+      const fields = await world.computeAdjustment(actor, match.adjustment);
+      if (fields) {
+        actor.system.attributes.adjustment = fields.adjustment;
+        actor.system.attributes.hp.value = fields.hpValue;
+      }
+    }
+    return world.createActor(actor);
+  }
+
   /**
-   * Build world actors for printed stat blocks whose creature is not in any PF2e compendium.
-   * Stat blocks with identical numbers share one actor.
+   * Give every printed stat block an actor the definition did not already supply: the PF2e
+   * compendium creature when one matches by name and level, otherwise one built from the
+   * printed statistics. Stat blocks with identical numbers share one actor.
    */
   async createStatBlockActors(moduleData, actorIds, actorFolder) {
     if (this.adventure.noImport) return;
@@ -384,6 +410,7 @@ export class AdventureImporter {
         ),
     };
     const resolved = new Map();
+    const imported = new Map();
     const unmatchedSpells = new Set();
     let created = 0;
 
@@ -394,8 +421,21 @@ export class AdventureImporter {
         if (resolved.get(key)) actorIds.set(parsed.id, resolved.get(key));
         continue;
       }
-      if (world.hasCompendiumCreature(creatureNameCandidates(parsed.name))) {
-        resolved.set(key, null);
+      const match = await world.findCompendiumCreature(
+        creatureNameCandidates(parsed.name),
+        printedStats(parsed),
+      );
+      if (match) {
+        const reuseKey = `${match.uuid}|${match.adjustment}`;
+        let actorId = imported.get(reuseKey);
+        if (!actorId) {
+          actorId = (
+            await this.importCompendiumCreature(match, parsed, actorFolder)
+          ).id;
+          imported.set(reuseKey, actorId);
+        }
+        resolved.set(key, actorId);
+        actorIds.set(parsed.id, actorId);
         continue;
       }
       const { source, spellRequests } = convertStatBlock(parsed, context);
@@ -420,6 +460,9 @@ export class AdventureImporter {
     this.missingCreatures = this.missingCreatures.filter(
       (npc) => !(npc.forIds ?? []).some((id) => actorIds.has(id)),
     );
+    if (imported.size > 0) {
+      this.additionalMessages += `<br>Imported ${imported.size} creature(s) from PF2e compendiums for stat blocks the adventure definition did not list.`;
+    }
     if (created > 0) {
       this.additionalMessages += `<br>Built ${created} creature(s) from the PDF's stat blocks.`;
     }

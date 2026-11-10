@@ -149,9 +149,16 @@ async function checkImport({ forceBuild = false } = {}) {
       }),
     actorDataFromUuid: foundryWorld.actorDataFromUuid,
     computeAdjustment: foundryWorld.computeAdjustment,
-    hasCompendiumCreature: (names) => {
-      const found = !forceBuild && foundryWorld.hasCompendiumCreature(names);
-      created.lookups.push([names[0], found]);
+    findCompendiumCreature: async (names, printed) => {
+      const found = forceBuild
+        ? null
+        : await foundryWorld.findCompendiumCreature(names, printed);
+      created.lookups.push([
+        names[0],
+        printed.level,
+        found?.uuid ?? null,
+        found?.adjustment ?? null,
+      ]);
       return found;
     },
     findSpellData: foundryWorld.findSpellData,

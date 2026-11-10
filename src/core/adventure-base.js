@@ -21,6 +21,46 @@ import {
   SpellcastingItem,
 } from "../model/actor-data.js";
 
+/** Stat-block citation lines, such as "Pathfinder Bestiary 176" or "Variant nightmare (...)". */
+const CITATION = /^(<i>)?(Pathfinder|Variant |Page \d+\b)|^\(?<i>Pathfinder/;
+
+/**
+ * Keep a stat-block line the parser could not classify. Citations become the creature's
+ * source; anything else continues the previous ability, which is where wrapped text belongs.
+ */
+function keepUnparsedLine(actor, line) {
+  const text = line.trim();
+  if (!text) return;
+  if (CITATION.test(text)) {
+    const source = actor.data.details?.source ?? actor.data.source;
+    source.value = [source.value, text.replace(/<\/?i>/g, "")]
+      .filter(Boolean)
+      .join("; ");
+    return;
+  }
+  const last = actor.items.at(-1);
+  if (last?.data?.description) {
+    last.data.description.value =
+      `${last.data.description.value} ${fancify(text)}`.trim();
+  } else if (actor.type === "hazard") {
+    actor.data.details.description =
+      `${actor.data.details.description} ${fancify(text)}`.trim();
+  } else {
+    actor.data.details.notes =
+      `${actor.data.details.notes ?? ""} ${fancify(text)}`.trim();
+  }
+}
+
+/** Consume consecutive text in one unrecognized font as a paragraph. */
+function takeUnrecognizedRun(p) {
+  const fontId = p.peek().fontId;
+  const parts = [];
+  while (p.anyRemaining() && p.peek().fontId === fontId)
+    parts.push(p.consume().text);
+  const text = parts.join(" ").replace(/\s+/g, " ").trim();
+  return text ? `<p>${text}</p>` : "";
+}
+
 export class AdventureBase {
   prefix;
   fullName;
@@ -384,10 +424,11 @@ export class AdventureBase {
   }
   parseList(p) {
     let current = "";
+    const start = p.i;
     for (
       p.peek().text.trim() === "\u2022" && p.consume(),
         p.anyRemaining() &&
-          p.peek().text.startsWith("\u2022") &&
+          p.peek().text.trimStart().startsWith("\u2022") &&
           (p.peek().text = p.peek().text.replace("\u2022", ""));
       p.anyRemaining();
 
@@ -411,6 +452,10 @@ export class AdventureBase {
         break;
       }
     }
+    // A bullet in a font the list does not know, such as a map label, must still be consumed,
+    // or the caller sees the same text again and the parser gives up on the section.
+    if (p.i === start && p.anyRemaining())
+      current += p.consume().text.replace("\u2022", "").trim();
     return `<li>${current}</li>`;
   }
   parseAside(p, moduleData) {
@@ -1161,9 +1206,7 @@ export class AdventureBase {
         );
         npc.items.push(passive);
       } else {
-        console.log(
-          `PF2e PDF Import | unknown npc line (${name}/${next.page}): ${line}`,
-        );
+        keepUnparsedLine(npc, line);
       }
     }
     moduleData.actors.push(npc);
@@ -1398,9 +1441,7 @@ export class AdventureBase {
         }
         hazard.items.push(passive);
       } else {
-        console.log(
-          `PF2e PDF Import | unknown hazard line (${name}/p${next.page}): ${line}`,
-        );
+        keepUnparsedLine(hazard, line);
       }
     }
     if (name !== "Hazard Name") {
@@ -1618,7 +1659,12 @@ export class AdventureBase {
       } else if (this.dropCapFontIds.includes(cur.fontId)) {
         current = p.consume().text + current;
       } else {
-        break;
+        if (
+          this.headingFontIds.includes(cur.fontId) ||
+          cur.fontId === "GoodOT-Bold:11"
+        )
+          break;
+        current += takeUnrecognizedRun(p);
       }
     }
     yield new Journal(name, current, undefined, id);
@@ -1640,9 +1686,20 @@ export class AdventureBase {
           yield journal;
         }
       } else {
-        const item = p.consume();
-        console.log(
-          `PF2e PDF Import | unknown content [${sectionKey}] ${item.fontId} ${item.color} :: ${item.page} (${item.x}, ${item.y}) :: ${item.text}`,
+        const first = p.peek();
+        let content = "";
+        while (
+          p.anyRemaining() &&
+          !this.headingFontIds.includes(p.peek().fontId) &&
+          p.peek().fontId !== "GoodOT-Bold:11"
+        ) {
+          content += takeUnrecognizedRun(p);
+        }
+        yield new Journal(
+          `Page ${first.page} (continued)`,
+          content,
+          undefined,
+          first.id,
         );
       }
     }

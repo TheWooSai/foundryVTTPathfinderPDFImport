@@ -37,6 +37,10 @@ node tools/remap-compendium-uuids.mjs <old-pf2e> <new-pf2e>
 
 ## Adding an adventure
 
+For PFS Season 4 and later, `node tools/draft-pfs-scenario.mjs file.pdf --write` drafts the definition: detection, name, maps on measured grids and game aids. `PFSAutoLayoutBase` reads columns, page top, heading fonts and story pages from the PDF at import time, and creatures come from the stat blocks. Check each map grid visually before committing: the detector can still lock onto a multiple of the printed spacing on faint grids.
+
+For older layouts:
+
 1. `npm run pdf:inspect -- file.pdf`, then read `test-output/text.json` and `images.json`.
 2. Copy the closest definition in `src/adventures/`. `pfs/season3/pfs3-17.js` is a compact example.
 3. Set `detect`, `pages`, `scenes`, `journals` and `npcs`. `forIds` values are the ids of stat-block heading text. Map grids come from `imageCols`/`imageRows`.

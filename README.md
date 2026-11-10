@@ -34,6 +34,4 @@ npm run pdf:test -- /path/to/file.pdf # full import into an in-memory world
 npm run demo:check -- /path/to/file.pdf  # strict validation on the public v14 demo, read-only
 ```
 
-GitHub Actions workflows are in `ci/workflows/` and are not active yet. To enable them, run `gh auth refresh -s workflow`, then `git mv ci/workflows .github/workflows`, and commit and push.
-
 PDFs and everything derived from them stay out of git. `*.pdf` and `test-output/` are ignored.

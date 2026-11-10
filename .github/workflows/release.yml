@@ -16,6 +16,8 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+      - name: Point the manifest at this release
+        run: node tools/prepare-release.mjs "$GITHUB_REF_NAME"
       - name: Package
         run: cd dist && zip -qr ../module.zip . -x '*.map'
       - name: Publish

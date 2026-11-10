@@ -1,0 +1,33 @@
+{
+  "name": "foundry-pathfinder-pdf-import",
+  "version": "6.0.0",
+  "description": "Foundry VTT v14 module that imports Pathfinder 2e content from PDFs you own.",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test test/*.test.mjs",
+    "format": "prettier --write \"src/**/*.js\" \"tools/**/*.mjs\" \"test/**/*.mjs\"",
+    "pdf:inspect": "node tools/inspect-pdf.mjs",
+    "pdf:test": "node tools/pdf-pipeline-test.mjs",
+    "demo:check": "node tools/demo-check.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheWooSai/foundryVTTPathfinderPDFImport.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/TheWooSai/foundryVTTPathfinderPDFImport/issues"
+  },
+  "homepage": "https://github.com/TheWooSai/foundryVTTPathfinderPDFImport#readme",
+  "devDependencies": {
+    "esbuild": "0.25.11",
+    "playwright": "1.65.0",
+    "prettier": "3.6.2"
+  },
+  "dependencies": {
+    "pdfjs-dist": "4.5.136"
+  },
+  "private": true
+}

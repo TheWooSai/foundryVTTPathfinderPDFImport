@@ -1,0 +1,4082 @@
+{
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.y9D2wh63pBzIyI7i": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "e0Jxg2AHeQSDGNnV",
+    "via": "same-name",
+    "name": "Giant Maggot"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.SFpMOxBwiS529dJk": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "SjTv1ayVrguLsnTX",
+    "via": "same-name",
+    "name": "Brownie"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.xY2WjwebqTNXAP0q": {
+    "pack": "pathfinder-npc-core",
+    "id": "APn9B54hhRtr0oCQ",
+    "via": "same-name",
+    "name": "Commoner"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.XrmHgbKgcHDi4OnK": {
+    "pack": "pathfinder-monster-core",
+    "id": "VotlWUsFKdOrHWF6",
+    "via": "same-name",
+    "name": "Shadow"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.DX1xNtucLTenn3P3": {
+    "pack": "pathfinder-monster-core",
+    "id": "nMC9d7ORMz3cdaHa",
+    "via": "same-name",
+    "name": "River Drake"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.wCsfRovcZMZxSdGm": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "IE0EM4KDUbI5ZJz0",
+    "via": "same-name",
+    "name": "Zebub"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.OuimMwM3yFRy5tRK": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "66MUUmu8950MEXFf",
+    "via": "same-name",
+    "name": "Evangelist"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.Z2v611Np3J1MBkpv": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "4SfnQzORMdmBsp49",
+    "via": "same-name",
+    "name": "Dream Spider"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.oSQ3Q9tzTohksAtf": {
+    "pack": "pathfinder-monster-core",
+    "id": "KH1GkazaI59zftst",
+    "via": "same-name",
+    "name": "Crawling Hand"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.3DSqfobadad3pA6O": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "DEBxtP23o93Qq1n6",
+    "via": "same-name",
+    "name": "Giant Fly"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.zJZqpx6pPW7dxEUV": {
+    "pack": "pathfinder-monster-core",
+    "id": "BWm17BRQYGMLqtNe",
+    "via": "same-name",
+    "name": "Giant Scorpion"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.K9Hw43co8fhwmKkM": {
+    "pack": "pathfinder-monster-core",
+    "id": "VCYF0NAfPKwTHkK1",
+    "via": "same-name",
+    "name": "Grothlut"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.Oilfs8Atv2LjAsUS": {
+    "pack": "pathfinder-monster-core",
+    "id": "BN5Lb6IsQ9Wyu3rL",
+    "via": "same-name",
+    "name": "Wolf"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.vXXEdDy8ciGJxt3i": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "vYpuSMLX0yQSDyFn",
+    "via": "same-name",
+    "name": "Mist Stalker"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.E0LCMHVp4sxAbQYa": {
+    "pack": "pathfinder-monster-core",
+    "id": "kkAllKGsVCZVGFpf",
+    "via": "same-name",
+    "name": "Mitflit"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.k3Lt3bWBadXvlIbG": {
+    "pack": "pathfinder-monster-core",
+    "id": "zpd6b6UPP72ZELCj",
+    "via": "same-name",
+    "name": "Poltergeist"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.5MVBU86ZRw2ANMQn": {
+    "pack": "pathfinder-monster-core",
+    "id": "sEgjgitJmwYYa4mV",
+    "via": "same-name",
+    "name": "Skeletal Giant"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.5H8ZX7y5IkUBhvhF": {
+    "pack": "pathfinder-monster-core",
+    "id": "trchDxbDR2TiPMxT",
+    "via": "same-name",
+    "name": "Skeleton Guard"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.eHLDsL1LG3jQ1H6Y": {
+    "pack": "pathfinder-monster-core",
+    "id": "tashopA1s2fAbSXA",
+    "via": "same-name",
+    "name": "Slurk"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.wRQ7TZdd0n5UIIao": {
+    "pack": "pathfinder-monster-core",
+    "id": "KgJq51AeYrENo3Db",
+    "via": "same-name",
+    "name": "Will-o'-Wisp"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.0plBflWwrCWQO2RO": {
+    "pack": "pathfinder-monster-core",
+    "id": "Xo4IGzw28hivgMmM",
+    "via": "same-name",
+    "name": "Zombie Shambler"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.lo4fR4jDVzLdwwkH": {
+    "pack": "pathfinder-monster-core",
+    "id": "V4rVnbjJbcOIdC4Z",
+    "via": "same-name",
+    "name": "Skeletal Hulk"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.I4CpyMUsWfFYdpL5": {
+    "pack": "pathfinder-monster-core",
+    "id": "yPYQC2bfOYmqcfIB",
+    "via": "same-name",
+    "name": "Imp"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.GoGNtiHuYycppLPk": {
+    "pack": "pathfinder-npc-core",
+    "id": "dNATu2RQLFYY3hYn",
+    "via": "same-name",
+    "name": "Bounty Hunter"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.zq18QX6CBJNeUIgG": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "QLyDRZPvMsYGZEeN",
+    "via": "same-name",
+    "name": "Gug"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.rPHxXClTnoPYHYuZ": {
+    "pack": "pathfinder-monster-core",
+    "id": "mX47c0W9rizbmMBM",
+    "via": "same-name",
+    "name": "Basilisk"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.M4mDroIJlrBYfHkM": {
+    "pack": "pathfinder-monster-core",
+    "id": "TlDmc2ZKeIAJuD5v",
+    "via": "same-name",
+    "name": "Giant Crawling Hand"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.RiKjpztTt7tZbOeo": {
+    "pack": "pathfinder-monster-core",
+    "id": "Bkr0soTDhQq1qjWx",
+    "via": "same-name",
+    "name": "Hydra"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.xYlOudjXyTakF1m8": {
+    "pack": "pathfinder-monster-core",
+    "id": "4Ejgj6p1LAu1RAN3",
+    "via": "same-name",
+    "name": "Living Landslide"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.Br1AtKUHe3nbzjnY": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "Br1AtKUHe3nbzjnY",
+    "via": "moved-pack"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.NVWaLagWOu5tCCZu": {
+    "pack": "pathfinder-monster-core",
+    "id": "VQPzDz3xnCQGFOGL",
+    "via": "same-name",
+    "name": "Sod Hound"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.b6qiHvyx6ymROTBL": {
+    "via": "no-equivalent",
+    "name": "Deep Gnome Warrior"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.e5yE4RkwLQojRYHm": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Pmgt9aAtUiLEagD6",
+    "via": "same-name",
+    "name": "Urdefhan Warrior"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.kkFVngQUGTACeggf": {
+    "pack": "pathfinder-monster-core",
+    "id": "QCPpQya5TEUuIxQn",
+    "via": "same-name",
+    "name": "Medusa"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.0hnnwyqLfYVIenzd": {
+    "via": "no-equivalent",
+    "name": "Deep Gnome Rockwarden"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.4p07SH4zdmVZ405I": {
+    "pack": "pathfinder-monster-core",
+    "id": "MCgSMT680ic6kr5k",
+    "via": "same-name",
+    "name": "Graveknight"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.QRjjE4TJNfaDhhQC": {
+    "pack": "pathfinder-monster-core",
+    "id": "FFnsYr2aIfDGnUVS",
+    "via": "same-name",
+    "name": "Giant Frilled Lizard"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.gWxpeqOQ54Jd4HTG": {
+    "via": "no-equivalent",
+    "name": "Caligni Stalker"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.FHfrIJCdKTzy2rrR": {
+    "pack": "pathfinder-monster-core",
+    "id": "1a5faH5CCtFfbQHO",
+    "via": "same-name",
+    "name": "Cauthooj"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.ZGEf08j9q4fIPDFd": {
+    "via": "no-equivalent",
+    "name": "Dread Wraith"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.IXen98RbUlbxDWBD": {
+    "pack": "pathfinder-monster-core",
+    "id": "Iwk2qT4lVyrvoz3B",
+    "via": "same-name",
+    "name": "Gogiteth"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.T5CUuPsMPb17d6Qy": {
+    "pack": "pathfinder-monster-core",
+    "id": "eP4a0FAbus3tNTbc",
+    "via": "same-name",
+    "name": "Goliath Spider"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.E4ctF7Fvi3cdkgQq": {
+    "pack": "pathfinder-monster-core",
+    "id": "A4VgQIHsqJKssQOM",
+    "via": "same-name",
+    "name": "Hunting Spider"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.10JbkieWjqKA5Hzc": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "FuvlS0DHfooobGiN",
+    "via": "same-name",
+    "name": "Irlgaunt"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.WNqPRMjKW0oCHZ8X": {
+    "pack": "pathfinder-monster-core",
+    "id": "f15mNNhOT3aq66VQ",
+    "via": "same-name",
+    "name": "Krooth"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.Z3J7uGaLmlFRfwPk": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "tlz1pWkPehmFj6YS",
+    "via": "same-name",
+    "name": "Magma Scorpion"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.PfcS6WzhMGzds5Wf": {
+    "pack": "pathfinder-monster-core",
+    "id": "D2Pe38jYbeBxUaxU",
+    "via": "same-name",
+    "name": "Nilith"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.jP8CO6z7bNIhOuqQ": {
+    "pack": "pathfinder-monster-core",
+    "id": "2jtRdYo9ey7osDUH",
+    "via": "same-name",
+    "name": "Ofalth"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.JkJRKxuIGJ3DOD9L": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "V6CX3rQPq8iqQccW",
+    "via": "same-name",
+    "name": "Owb"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.fxYMucI5b2IUoBpw": {
+    "pack": "pathfinder-monster-core",
+    "id": "xz2NZqSG5YVl17dc",
+    "via": "same-name",
+    "name": "Shuln"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.FJr7Rc9MQEwxjAcz": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Jxp6YG8S7st2MZ3p",
+    "via": "same-name",
+    "name": "Urdefhan Tormentor"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.4htFfofrXLkbWMRg": {
+    "via": "no-equivalent",
+    "name": "Bugbear Thug"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.jVZRROs0GzDjVrgi": {
+    "pack": "pathfinder-monster-core",
+    "id": "fLLKuOXwPq1Iq0U4",
+    "via": "same-name",
+    "name": "Goblin Warrior"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.JkBJ8B07ElXrfDaG": {
+    "pack": "pathfinder-monster-core",
+    "id": "EH84J9FedbK3ax50",
+    "via": "same-name",
+    "name": "Boggard Warrior"
+  },
+  "Compendium.pf2e.lost-omens-mwangi-expanse-bestiary.Actor.aXXvrcggR8EQJOdm": {
+    "pack": "lost-omens-bestiary",
+    "id": "aXXvrcggR8EQJOdm",
+    "via": "moved-pack"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.CJP3GGBXuGgkaj6C": {
+    "pack": "pathfinder-monster-core",
+    "id": "6K4RWus85o8iqy0t",
+    "via": "same-name",
+    "name": "Grizzly Bear"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.C9s5tBxVValC2HTE": {
+    "pack": "pathfinder-monster-core",
+    "id": "xnpuGO8jEMba9wy5",
+    "via": "same-name",
+    "name": "Giant Bat"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.AYwdybUfm4meGUTJ": {
+    "pack": "pathfinder-monster-core",
+    "id": "iIJPJcDT8wlJ8z5M",
+    "via": "same-name",
+    "name": "Giant Rat"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.0rfropeocJWXC6pg": {
+    "pack": "pathfinder-monster-core",
+    "id": "yclRuradTmZbdKFQ",
+    "via": "same-name",
+    "name": "Goblin Dog"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.wifELOkkRO2634bc": {
+    "pack": "pathfinder-monster-core",
+    "id": "s2TkernjfKVEhlJY",
+    "via": "same-name",
+    "name": "Boggard Scout"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.RMSx2C27yty0MTva": {
+    "pack": "pathfinder-monster-core",
+    "id": "FH58AcRBZIfrHKvv",
+    "via": "same-name",
+    "name": "Skeletal Champion"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.KpxhSWRIhG7ns5NA": {
+    "pack": "pathfinder-monster-core",
+    "id": "NcYbJS5PWBGdNDqh",
+    "via": "same-name",
+    "name": "Spider Swarm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.Sft7n3LMmnTxhhYn": {
+    "pack": "pathfinder-monster-core",
+    "id": "x7Aa4Tvr9eBaHryF",
+    "via": "same-name",
+    "name": "Warg"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.ZPjQkKVMi3xoPcU0": {
+    "pack": "pathfinder-monster-core",
+    "id": "DBTbqI9QQRtlJwWh",
+    "via": "same-name",
+    "name": "Wight"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.l3Pe8FsFbLvft1Fq": {
+    "pack": "pathfinder-monster-core",
+    "id": "6KF6TQvLHHpE0uAM",
+    "via": "same-name",
+    "name": "Lion"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.rPaHIh0ICnTLnRO6": {
+    "pack": "pathfinder-monster-core",
+    "id": "PcHQDmPTztw32PhL",
+    "via": "same-name",
+    "name": "Kobold Scout"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.zUvgAbgeQH5t6DWs": {
+    "pack": "pathfinder-monster-core",
+    "id": "9SNpsnwlzZjH4DQf",
+    "via": "same-name",
+    "name": "Choral"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.pG3UPgbAxNCXAyQE": {
+    "pack": "pathfinder-monster-core",
+    "id": "F2Xhn4rqPAj55w3O",
+    "via": "same-name",
+    "name": "Boggard Swampseer"
+  },
+  "Compendium.pf2e.lost-omens-mwangi-expanse-bestiary.Actor.As0M3PvmrR2055pk": {
+    "pack": "lost-omens-bestiary",
+    "id": "As0M3PvmrR2055pk",
+    "via": "moved-pack"
+  },
+  "Compendium.pf2e.lost-omens-mwangi-expanse-bestiary.Actor.rayMMWNm61ivtxuU": {
+    "pack": "lost-omens-bestiary",
+    "id": "rayMMWNm61ivtxuU",
+    "via": "moved-pack"
+  },
+  "Compendium.pf2e.lost-omens-mwangi-expanse-bestiary.Actor.rrJqsVeBKizuyqRY": {
+    "pack": "lost-omens-bestiary",
+    "id": "rrJqsVeBKizuyqRY",
+    "via": "moved-pack"
+  },
+  "Compendium.pf2e.lost-omens-mwangi-expanse-bestiary.Actor.TfEGDGqUk3LpokZZ": {
+    "pack": "lost-omens-bestiary",
+    "id": "TfEGDGqUk3LpokZZ",
+    "via": "moved-pack"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.92nVPdtlJR5uHzIl": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Fyzj8WVOlsuTWTTU",
+    "via": "same-name",
+    "name": "Sabosan"
+  },
+  "Compendium.pf2e.lost-omens-mwangi-expanse-bestiary.Actor.QUyqY6JiZNkEyTnd": {
+    "pack": "lost-omens-bestiary",
+    "id": "QUyqY6JiZNkEyTnd",
+    "via": "moved-pack"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.ScNPruIwcIJNuSHb": {
+    "via": "no-equivalent",
+    "name": "Chimera (Red)"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.HpY0addhUqtHMgUN": {
+    "pack": "pathfinder-monster-core",
+    "id": "1x0BdpVQLX7o3rrA",
+    "via": "same-name",
+    "name": "Elephant"
+  },
+  "Compendium.pf2e.lost-omens-mwangi-expanse-bestiary.Actor.rVnJUXPgAPCeW1tS": {
+    "pack": "lost-omens-bestiary",
+    "id": "rVnJUXPgAPCeW1tS",
+    "via": "moved-pack"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.B7b0alybm5U34nFV": {
+    "via": "no-equivalent",
+    "name": "Nessian Warhound"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.vEFENJJixCdmBNl5": {
+    "pack": "pathfinder-monster-core",
+    "id": "aYDbWuOj66nve8r4",
+    "via": "same-name",
+    "name": "Jungle Drake"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.pL4sS2HZtGAryKnN": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "JumkQRD1Cn4TF5XS",
+    "via": "same-name",
+    "name": "Naunet"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.8JvzSTwQWtOsxRfL": {
+    "pack": "pathfinder-monster-core",
+    "id": "a4LgD3NrgkiINvru",
+    "via": "same-name",
+    "name": "Quetzalcoatlus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.ScOT6QOlXIsevhNq": {
+    "pack": "pathfinder-monster-core",
+    "id": "xC6v5Ef8mDt05QFK",
+    "via": "same-name",
+    "name": "Deinosuchus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.8meqlz36gPHTTvNz": {
+    "pack": "pathfinder-monster-core",
+    "id": "ciLdEf6sld8h2a2j",
+    "via": "same-name",
+    "name": "Voidworm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.SpnJQIHLeiJOjEWR": {
+    "pack": "pathfinder-monster-core",
+    "id": "JSKZryHwf0Ggq8KR",
+    "via": "same-name",
+    "name": "Shadow Giant"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.U2hAALepVC90CNhQ": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "tHXV7mD747K60656",
+    "via": "same-name",
+    "name": "Rusalka"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.BTQ2ARKulg5Egueg": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "hfA1xQSk1dPVwt00",
+    "via": "same-name",
+    "name": "Augur"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.Et2784TVZOXIbtM1": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "2qAd4TmEu5wexX7U",
+    "via": "same-name",
+    "name": "Interlocutor"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.waPgKbjhijeZ00Zm": {
+    "pack": "pathfinder-monster-core",
+    "id": "qRUqoezeEnQ2KdyT",
+    "via": "same-name",
+    "name": "Nightmare"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.WiOY3YbiKEJKIQQz": {
+    "pack": "pathfinder-monster-core",
+    "id": "zT3fSxNatEbrkCzN",
+    "via": "same-name",
+    "name": "Stone Giant"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.O5YbsTSlX5VhciP4": {
+    "pack": "pathfinder-monster-core",
+    "id": "qlxVPpwVFw5qIVQM",
+    "via": "same-name",
+    "name": "Flame Drake"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.IUzKFRX0uHl1yxkn": {
+    "pack": "pathfinder-monster-core",
+    "id": "5meW7DytYnF7Iq2V",
+    "via": "same-name",
+    "name": "Greater Shadow"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.CFHLgMj8zHLqcagc": {
+    "pack": "pathfinder-monster-core",
+    "id": "PUPnGG406PanzIvL",
+    "via": "same-name",
+    "name": "Sea Serpent"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.NbGLrlt7RYdFFBQ5": {
+    "pack": "pathfinder-monster-core",
+    "id": "yYicb7uJH4EaBO4v",
+    "via": "same-name",
+    "name": "Elemental Inferno"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.JKBO2qqNrRezSb7d": {
+    "pack": "lost-omens-bestiary",
+    "id": "7QxDDSEmJaohqaXh",
+    "via": "same-name",
+    "name": "Magma Dragon (Ancient)"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.FnLuqlzLl4zCE9pJ": {
+    "pack": "lost-omens-bestiary",
+    "id": "wc3uAlMMFQhlmTT9",
+    "via": "same-name",
+    "name": "Magma Dragon (Adult)"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.9llfviiJg5bJlBth": {
+    "pack": "pathfinder-monster-core",
+    "id": "IGzoFGlVbkit8hnH",
+    "via": "same-name",
+    "name": "Mukradi"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.4h9jhODg2NwiYsPg": {
+    "via": "no-equivalent",
+    "name": "Purple Worm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.ToSwRvspZ0IB7SHQ": {
+    "pack": "pathfinder-monster-core",
+    "id": "LN7MXD38Zs2bDoW6",
+    "via": "same-name",
+    "name": "Ghost Mage"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.UPm2rwIevsX9Odbm": {
+    "pack": "pathfinder-monster-core",
+    "id": "702acAJ1OPRBjcni",
+    "via": "same-name",
+    "name": "Grikkitog"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.NpcS7iocNNsno6lE": {
+    "pack": "pathfinder-monster-core",
+    "id": "llSpQyOTaylpqgnW",
+    "via": "same-name",
+    "name": "Warsworn"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.49y0g521xHESClzk": {
+    "pack": "lost-omens-bestiary",
+    "id": "R0IEWkfzEuGAJXJ8",
+    "via": "same-name",
+    "name": "Magma Dragon (Young)"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.EvLBhZSMrzVDk4mM": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "FP2JGgFA3NmnXf1o",
+    "via": "same-name",
+    "name": "Calikang"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.CvO6MAoxDFO0J5qm": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "AEa3tvzinib5eaIo",
+    "via": "same-name",
+    "name": "Witchwyrd"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.fkBcMpr3Yxxfvz9v": {
+    "pack": "pathfinder-monster-core",
+    "id": "hSSe2FxlXKvjKsEw",
+    "via": "same-name",
+    "name": "Astradaemon"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.gioxLqV8N4p9iIAh": {
+    "pack": "pathfinder-monster-core",
+    "id": "mQJL411e9Iz8dJoh",
+    "via": "same-name",
+    "name": "Phoenix"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.QT2gA8WMaT2cuXr7": {
+    "via": "no-equivalent",
+    "name": "Pit Fiend"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.lqDwO2xkBNNEZ57B": {
+    "pack": "lost-omens-bestiary",
+    "id": "xcnM6RMbA2ROniM7",
+    "via": "same-name",
+    "name": "Elder Wyrmwraith"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.ShcTh3dSwjxbtoGG": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Ws6554On4eh2Blq7",
+    "via": "same-name",
+    "name": "Tzitzimitl"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.NldgVUIHB3asozHm": {
+    "pack": "lost-omens-bestiary",
+    "id": "mkhoMY6pFClaARVg",
+    "via": "same-name",
+    "name": "Wyrmwraith"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.rsATu823vatRe7QJ": {
+    "pack": "pathfinder-npc-core",
+    "id": "Aktz95gNNzfAiTzk",
+    "via": "same-name",
+    "name": "Guard"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.hiGwRWdxAsoCII4f": {
+    "pack": "pathfinder-monster-core",
+    "id": "xN5J9S485LxFZMkL",
+    "via": "same-name",
+    "name": "Cinder Rat"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.PiAGhPEzJMC2egQk": {
+    "pack": "pathfinder-monster-core",
+    "id": "yQ2mosomuAPiLMkU",
+    "via": "same-name",
+    "name": "Animated Statue"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.ril4ohkYrf5mGwHO": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "mtRofD6H5BEDHHSm",
+    "via": "same-name",
+    "name": "Attic Whisperer"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.fgsDAeZHVbHRhSE8": {
+    "pack": "pathfinder-monster-core",
+    "id": "MrzlaE7k1PEsd3iQ",
+    "via": "same-name",
+    "name": "Cockatrice"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.KsWAIXTTh3mfNWOY": {
+    "pack": "pathfinder-monster-core",
+    "id": "AJ5LuNMVPLCydryP",
+    "via": "same-name",
+    "name": "Giant Viper"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.r9w1n85mp9Ip4QiS": {
+    "pack": "pathfinder-monster-core",
+    "id": "BIZfjoz8DZt75EDn",
+    "via": "same-name",
+    "name": "Kobold Warrior"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.i6Rd1BE30hhyKxwo": {
+    "pack": "pathfinder-monster-core",
+    "id": "E2XL2egIA3QaSDBM",
+    "via": "same-name",
+    "name": "Flash Beetle"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.KPUDfkVpemug2gKj": {
+    "pack": "pathfinder-npc-core",
+    "id": "FBq4bqtKUBpJUCMU",
+    "via": "same-name",
+    "name": "Bandit"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.BAD7npndaooB3Pz1": {
+    "pack": "pathfinder-monster-core",
+    "id": "fWAjkhQ0y50Eh2BT",
+    "via": "same-name",
+    "name": "Redcap"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.wMomrpcaC8QvIdlj": {
+    "pack": "pathfinder-monster-core",
+    "id": "V1Kr5aiPaTM0mDFu",
+    "via": "same-name",
+    "name": "Ankhrav"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.Zv6eaumsdz4HdxRV": {
+    "pack": "pathfinder-monster-core",
+    "id": "tUWchW8dXavTFeBy",
+    "via": "same-name",
+    "name": "Hyena"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.nFMZjWQL6pd9XdqR": {
+    "via": "no-equivalent",
+    "name": "Caligni Creeper"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.vkLhqX5oR1t89puZ": {
+    "pack": "pathfinder-npc-core",
+    "id": "AdZ4EklEmpHViycl",
+    "via": "same-name",
+    "name": "Gang Leader"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.TgeUj2IiyoTeZHIO": {
+    "pack": "pathfinder-npc-core",
+    "id": "thDJ5N0wUvI1JOa6",
+    "via": "same-name",
+    "name": "Watch Officer"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.2H2AEwQnfKJC0nrd": {
+    "pack": "pathfinder-monster-core",
+    "id": "N98ug9jQHqeFoK1N",
+    "via": "same-name",
+    "name": "Ghost Commoner"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.8a9N2iPA5HLpkWaF": {
+    "pack": "pathfinder-monster-core",
+    "id": "drcSWbCIWc7P4lKO",
+    "via": "same-name",
+    "name": "Army Ant Swarm"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.B09JfuBZHjcRXztU": {
+    "pack": "pathfinder-npc-core",
+    "id": "sSa18Ra6zGc4Mp71",
+    "via": "same-name",
+    "name": "Burglar"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.57pzXwM9qFiRTwq9": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "AybkJlxPivzb1cJb",
+    "via": "same-name",
+    "name": "Dig-Widget"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.DFurZlcpcNrUmmER": {
+    "pack": "pathfinder-npc-core",
+    "id": "MNb1Hjd2gKimnfvV",
+    "via": "same-name",
+    "name": "Ruffian"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.oiXbo1VSfDrHpIQm": {
+    "pack": "pathfinder-monster-core",
+    "id": "BoXCGLACP9vuIZkZ",
+    "via": "same-name",
+    "name": "Fungus Leshy"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.SYaC46yrqcyp16Dq": {
+    "pack": "pathfinder-monster-core",
+    "id": "yS0bUM8R6hb4fIx2",
+    "via": "same-name",
+    "name": "Weretiger"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.tm3Tixb7IDoLdJ5k": {
+    "via": "no-equivalent",
+    "name": "Tiefling Adept"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.1U1URD7IyddoD5zE": {
+    "pack": "pathfinder-npc-core",
+    "id": "HBcKkBXyGaWXZxSs",
+    "via": "same-name",
+    "name": "Fence"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.5Azg87M6OnQ7Q4ZS": {
+    "pack": "pathfinder-monster-core",
+    "id": "ECe2DkOgSSqXHBqv",
+    "via": "same-name",
+    "name": "Riding Dog"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.7JvA7kTqCUwcJoNe": {
+    "pack": "pathfinder-monster-core",
+    "id": "httXfBPGseF9csXa",
+    "via": "same-name",
+    "name": "Bugbear Tormentor"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.qcZvFCAnslI9XNTR": {
+    "pack": "pathfinder-monster-core",
+    "id": "h7je8nkscJQ2Ac8j",
+    "via": "same-name",
+    "name": "Wasp Swarm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.csRH8Fx0r6iMWlFc": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "TFRt64nosuS3PzmH",
+    "via": "same-name",
+    "name": "Ether Spider"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.zQfufnnLCTzQ165S": {
+    "pack": "pathfinder-npc-core",
+    "id": "3qDYEHtyAobpCg5r",
+    "via": "same-name",
+    "name": "Monster Hunter"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.vmN9SCUJxN1MIXwp": {
+    "pack": "pathfinder-monster-core",
+    "id": "R427CMT90S7fv7MY",
+    "via": "same-name",
+    "name": "Elemental Tsunami"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.ytsHNgRwLzabsrZt": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "faZ3sXbvs51DFvrM",
+    "via": "same-name",
+    "name": "Meladaemon"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.EibxkD9y30YmPaLH": {
+    "pack": "pathfinder-monster-core",
+    "id": "smItqlbr0iuDJ8nL",
+    "via": "same-name",
+    "name": "Lich"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.kFQorgvvyozQVSKi": {
+    "pack": "pathfinder-monster-core",
+    "id": "Q1wybC7rSc4MIF9g",
+    "via": "same-name",
+    "name": "Balisse"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.M6RknN77XTo23v45": {
+    "pack": "pathfinder-monster-core",
+    "id": "XKOQ3ll9TGNso0uB",
+    "via": "same-name",
+    "name": "Banshee"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.jdqCEhsHDs4ABh2X": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "u45PPktoMp5L2vf3",
+    "via": "same-name",
+    "name": "Jorogumo"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.DxV2vH17H789bJ6y": {
+    "via": "no-equivalent",
+    "name": "Ankou"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.pkNWilK2pHZ5TDsd": {
+    "pack": "pathfinder-monster-core",
+    "id": "WoICHri7raCYv1wU",
+    "via": "same-name",
+    "name": "Lesser Death"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.N62zM3aTelygWIt2": {
+    "pack": "pathfinder-monster-core",
+    "id": "bb5Z4z4EHb5LbCLK",
+    "via": "same-name",
+    "name": "Leukodaemon"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.bAjHCeyNcPRqOmLv": {
+    "pack": "pathfinder-monster-core",
+    "id": "RqX0vfUjlycKjGyp",
+    "via": "same-name",
+    "name": "Changeling Exile"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.sPClc6y3dT3XZupv": {
+    "pack": "pathfinder-monster-core",
+    "id": "6wPW2dvpt86Ou6bL",
+    "via": "same-name",
+    "name": "Rat Swarm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.t4JYGYJqT1CaqKvh": {
+    "pack": "pathfinder-monster-core",
+    "id": "ePJcp2ADOjJYYQ5Q",
+    "via": "same-name",
+    "name": "Shining Child"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.XbClt5wkqECrQToJ": {
+    "pack": "pathfinder-monster-core",
+    "id": "C1gYuDSwTkTIkAcC",
+    "via": "same-name",
+    "name": "Ratfolk Grenadier"
+  },
+  "Compendium.pf2e.hazards.Actor.4jJxLlimyQaIVXlt": {
+    "pack": "pathfinder-dark-archive",
+    "id": "6gSbmVKbdUSIluMR",
+    "via": "same-name",
+    "name": "Darkside Mirror"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.45Eo7MFWG3ShikvD": {
+    "pack": "pathfinder-monster-core",
+    "id": "bgKwwvO0uDGD7XsG",
+    "via": "same-name",
+    "name": "Kraken"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.cZsaAKlEYWZUO1CV": {
+    "pack": "pathfinder-monster-core",
+    "id": "3IPLvfez8DzwwNqm",
+    "via": "same-name",
+    "name": "Terotricus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.5pk6bfodgnllSIOy": {
+    "pack": "pathfinder-monster-core",
+    "id": "ka7bXO7HIfBxk8Gy",
+    "via": "same-name",
+    "name": "Giant Flytrap"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.f3c1CS2W8Tft3hW7": {
+    "pack": "pathfinder-monster-core",
+    "id": "EYiIQh526d0HLiDu",
+    "via": "same-name",
+    "name": "Sea Hag"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.Q3EaaLLx5kDXb5vQ": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "p4GHJGguGRp5ucHV",
+    "via": "same-name",
+    "name": "Shoggoth"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.e8rmI5xt6IANatfX": {
+    "pack": "pathfinder-monster-core",
+    "id": "3vkQLclK0z4LhAh7",
+    "via": "same-name",
+    "name": "Shemhazian"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.E0PIGtVfc5PFVT2C": {
+    "pack": "pathfinder-monster-core",
+    "id": "9Bl1ua3uLqodv47s",
+    "via": "same-name",
+    "name": "Cacodaemon"
+  },
+  "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.MfW7O5Ba8r2GR9ZQ": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "4yd4WNkSclwnNvJL",
+    "via": "same-name",
+    "name": "Sordesdaemon"
+  },
+  "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.QQkbvOCif8Bm1wws": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "TbkQnciNLvcWCrxo",
+    "via": "same-name",
+    "name": "Izfiitar"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.Nk3Inn5jel1VQMLt": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "qF9hjssrMjHuVFYK",
+    "via": "same-name",
+    "name": "Radiant Warden"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.hmnNDCNV425MisdA": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "zYVxMOCM8Yqnjn6T",
+    "via": "same-name",
+    "name": "Eremite"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.LVhVb7abhv4onzZZ": {
+    "pack": "pathfinder-monster-core",
+    "id": "oaxKg1yQDmK2PWXG",
+    "via": "same-name",
+    "name": "Arbiter"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.9qjXP1Lho1UmAihJ": {
+    "pack": "pathfinder-monster-core",
+    "id": "7v1gykqjBO1YHDfu",
+    "via": "same-name",
+    "name": "Axiomite"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.bjJUZKcA47Qp0ZwL": {
+    "pack": "pathfinder-monster-core",
+    "id": "HLM55InRGOAUkqoH",
+    "via": "same-name",
+    "name": "Pleroma"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.qr46S4VDnaUK0GcM": {
+    "via": "no-equivalent",
+    "name": "Faceless Stalker"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.9AlfVoEMLwDODjxl": {
+    "via": "no-equivalent",
+    "name": "Veiled Master"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.ZzMJ7Y4qxapAVvlF": {
+    "pack": "pathfinder-monster-core",
+    "id": "9qERA2jk7Yv74Hqq",
+    "via": "same-name",
+    "name": "Cassisian"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.45neevf5aLl0YPyk": {
+    "via": "no-equivalent",
+    "name": "Astral Deva"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.ETwmjdnmSkqGdD5r": {
+    "pack": "pathfinder-monster-core",
+    "id": "ybkelAOtSIA06fnj",
+    "via": "same-name",
+    "name": "Animated Broom"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.wKVZdVVcXtvLxgsY": {
+    "pack": "pathfinder-monster-core",
+    "id": "I00S3LWnDJfCn4zv",
+    "via": "same-name",
+    "name": "Giant Animated Statue"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.pTkz08ak9YlKRsOY": {
+    "via": "no-equivalent",
+    "name": "Hive Mother"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.GssFAdolUA3ghg2e": {
+    "pack": "pathfinder-monster-core",
+    "id": "pyTr1VOPrPYH8UNg",
+    "via": "same-name",
+    "name": "Megaprimatus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.aNWiP985fISjClGo": {
+    "pack": "pathfinder-monster-core",
+    "id": "0rm0UDbXvwg4sSxQ",
+    "via": "same-name",
+    "name": "Arboreal Warden"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.c6AE2Mh8BRtBgbtz": {
+    "pack": "pathfinder-monster-core",
+    "id": "z2l8K7woKYPkm0qz",
+    "via": "same-name",
+    "name": "Arboreal Regent"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.XUTUBrQixSs7VLov": {
+    "pack": "pathfinder-monster-core",
+    "id": "iNwaxIYuD0OTDNjJ",
+    "via": "same-name",
+    "name": "Lyrakien"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.0SAlss24nUMdX9r8": {
+    "pack": "pathfinder-monster-core",
+    "id": "hGYIynV60GGfg8Du",
+    "via": "same-name",
+    "name": "Gancanagh"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.d9W89Yv6zyvfxZuG": {
+    "via": "no-equivalent",
+    "name": "Lillend"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.JiThbhDfjUoPaTP1": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Hk2cd4HlPbhBJKfx",
+    "via": "same-name",
+    "name": "Baomal"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.VAWmwDA08ZLQd8lW": {
+    "pack": "pathfinder-monster-core",
+    "id": "2mg30nJR6P3HJDSd",
+    "via": "same-name",
+    "name": "Vampire Bat Swarm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.b8NQkby4QV4uOqFT": {
+    "pack": "pathfinder-monster-core",
+    "id": "AZIG0COCaDBronJa",
+    "via": "same-name",
+    "name": "Cave Bear"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.bIw7czN0E3rENrVd": {
+    "pack": "pathfinder-monster-core",
+    "id": "MkupNnMKqDBElhhp",
+    "via": "same-name",
+    "name": "Giant Stag Beetle"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.4MwjCsa5O9aAjxSm": {
+    "pack": "pathfinder-monster-core",
+    "id": "IyhbcdTVmkV4pSju",
+    "via": "same-name",
+    "name": "Boar"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.Fa1S0A8fAx3SkO9h": {
+    "via": "no-equivalent",
+    "name": "Brain Collector"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.eQdLBzkluS1fvVC8": {
+    "pack": "pathfinder-monster-core",
+    "id": "SZCf0IZkf36plwVd",
+    "via": "same-name",
+    "name": "Caligni Dancer"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.SP72xojHR0UGAWcs": {
+    "pack": "pathfinder-monster-core",
+    "id": "6EgJNAJss45TQqpa",
+    "via": "same-name",
+    "name": "Smilodon"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.saKs2Qaor8QktboH": {
+    "pack": "pathfinder-monster-core",
+    "id": "PvYl5kItb7xoE8Is",
+    "via": "same-name",
+    "name": "Catfolk Pouncer"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.iD3YlM0QzI2SrjD6": {
+    "via": "no-equivalent",
+    "name": "Azure Worm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.8U8K0YEghIErml35": {
+    "via": "no-equivalent",
+    "name": "Crimson Worm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.BKPRkJgq7ehsW7uX": {
+    "pack": "pathfinder-monster-core",
+    "id": "NRBgcu0LkXXp8mtp",
+    "via": "same-name",
+    "name": "Giant Centipede"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.vJwnApm0HkadGR7w": {
+    "pack": "pathfinder-monster-core",
+    "id": "2rMLYkUR47ZCQMUg",
+    "via": "same-name",
+    "name": "Crocodile"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.Dwgl1DzJAYE3ienu": {
+    "pack": "pathfinder-monster-core",
+    "id": "oZVeE7D70bHOrs1d",
+    "via": "same-name",
+    "name": "Cyclops"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.Zn0p5YjELMjEwkqx": {
+    "pack": "pathfinder-monster-core",
+    "id": "6mdq7UV9gFXAEOpJ",
+    "via": "same-name",
+    "name": "Great Cyclops"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.9FZMzpAu4XhCI0IB": {
+    "via": "no-equivalent",
+    "name": "Deep Gnome Scout"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.AiPXegCJ1leUslTm": {
+    "pack": "pathfinder-monster-core",
+    "id": "md1fhwGMwDv4NNwO",
+    "via": "same-name",
+    "name": "Succubus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.bxAJWWKrEMjgNkUp": {
+    "pack": "pathfinder-monster-core",
+    "id": "BxOlYmZiwLRpxGWp",
+    "via": "same-name",
+    "name": "Dero Stalker"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.ePa0KmNPpR4zUPfX": {
+    "pack": "pathfinder-monster-core",
+    "id": "qyCcr32PVcnNm4Wr",
+    "via": "same-name",
+    "name": "Dero Magister"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.zJro50sLFmOcDLdO": {
+    "via": "no-equivalent",
+    "name": "Lemure"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.ETNlci6VnSthx5V6": {
+    "pack": "lost-omens-bestiary",
+    "id": "KrxJlsL2iG1cuaYq",
+    "via": "same-name",
+    "name": "Erinys"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.B8QjalVNcWjuqgG7": {
+    "pack": "pathfinder-monster-core",
+    "id": "3QyqHIuAXE3YVLUh",
+    "via": "same-name",
+    "name": "Phistophilus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.U1L3MFKHe0sNvLoU": {
+    "pack": "pathfinder-monster-core",
+    "id": "jR4E2I2tmQ6sd5DR",
+    "via": "same-name",
+    "name": "Dezullon"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.jMiiQDIDxW9ZMvCV": {
+    "pack": "pathfinder-monster-core",
+    "id": "bveW59P2mTiiFVIt",
+    "via": "same-name",
+    "name": "Dhampir Wizard"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.S5z0mtoEhbz7BvE9": {
+    "pack": "pathfinder-monster-core",
+    "id": "ZW8ARUrNdc3zewLM",
+    "via": "same-name",
+    "name": "Velociraptor"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.6CQEelygt968CB7m": {
+    "pack": "pathfinder-monster-core",
+    "id": "CYt04IKRQeiC9Ly9",
+    "via": "same-name",
+    "name": "Ankylosaurus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.eP96NzLFSjua4NS5": {
+    "pack": "pathfinder-monster-core",
+    "id": "qtJ36jlcRQw5sBnr",
+    "via": "same-name",
+    "name": "Stegosaurus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.WAgQt9pkzgPOlcJI": {
+    "pack": "pathfinder-monster-core",
+    "id": "zAxKR8XWtQm2rqh4",
+    "via": "same-name",
+    "name": "Triceratops"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.05E3kkjoLZVjFOeO": {
+    "pack": "pathfinder-monster-core",
+    "id": "wy8Ve0m3wbHMo1U1",
+    "via": "same-name",
+    "name": "Brontosaurus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.LDQpLwN40OGefZD0": {
+    "pack": "pathfinder-monster-core",
+    "id": "tpNP1UooPPHMyZye",
+    "via": "same-name",
+    "name": "Tyrannosaurus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.gX66KyBxUOvMv5Sf": {
+    "pack": "pathfinder-monster-core",
+    "id": "kLhBdqKOMHDGjdFz",
+    "via": "same-name",
+    "name": "Dragon Turtle"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.wuaSG22lLjQ6yali": {
+    "pack": "pathfinder-monster-core",
+    "id": "5iqkL9Me5164H7NY",
+    "via": "same-name",
+    "name": "Wyvern"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.pyFvLyQsyYjOz0xI": {
+    "pack": "pathfinder-monster-core",
+    "id": "2SixuEUfKpEyfOEY",
+    "via": "same-name",
+    "name": "Frost Drake"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.Y3T7XfC2BeiNBmuS": {
+    "pack": "pathfinder-monster-core",
+    "id": "irl1wnfk4b83JWkY",
+    "via": "same-name",
+    "name": "Desert Drake"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.qfuoFK2GXBJusQ33": {
+    "via": "no-equivalent",
+    "name": "Duergar Bombardier"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.dEecX0AEfl32KUVN": {
+    "via": "no-equivalent",
+    "name": "Duergar Taskmaster"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.0SJqmk4ItwL31Rg9": {
+    "pack": "pathfinder-monster-core",
+    "id": "GNwLVbfFx8EPz7xO",
+    "via": "same-name",
+    "name": "Dullahan"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.tKaOsbg8cmIUSjSE": {
+    "pack": "pathfinder-monster-core",
+    "id": "XEjkJ8fQqLc02hrU",
+    "via": "same-name",
+    "name": "Giant Eagle"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.tr75FAbdOkrfQviy": {
+    "pack": "pathfinder-monster-core",
+    "id": "gCmfPEfqS60BiuVP",
+    "via": "same-name",
+    "name": "Electric Eel"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.3VsQFEdIN5e1uWle": {
+    "pack": "pathfinder-monster-core",
+    "id": "WamGnH8v0QHz8NFr",
+    "via": "same-name",
+    "name": "Giant Moray Eel"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.8uXLbKKzxN5O0ZhM": {
+    "pack": "pathfinder-monster-core",
+    "id": "RJFpwZIGbuOuCtXr",
+    "via": "same-name",
+    "name": "Elananx"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.wjw8FQp4icafYash": {
+    "pack": "pathfinder-monster-core",
+    "id": "XgGeD4fz5m7nQQlN",
+    "via": "same-name",
+    "name": "Living Whirlwind"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.zRNHsSxi1g3IFYFu": {
+    "pack": "pathfinder-monster-core",
+    "id": "pVbggIyXxCo8pPue",
+    "via": "same-name",
+    "name": "Living Wildfire"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.BLFEu9jCKPAMko01": {
+    "pack": "pathfinder-monster-core",
+    "id": "1AZoRkLec47xrTqY",
+    "via": "same-name",
+    "name": "Living Waterfall"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.atrhmCtNKx1MR06I": {
+    "via": "no-equivalent",
+    "name": "Faerie Dragon"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.Ey19J4nTn1dQvLtE": {
+    "pack": "pathfinder-monster-core",
+    "id": "vRAdYovWcy2euwuL",
+    "via": "same-name",
+    "name": "Snapping Flytrap"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.aeCoh4u6c5kt1iCs": {
+    "pack": "pathfinder-monster-core",
+    "id": "cvfIkEF6xmWn2soN",
+    "via": "same-name",
+    "name": "Gargoyle"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.oSvWsqFnQLS5wlvg": {
+    "pack": "pathfinder-monster-core",
+    "id": "893mp411SdYren3H",
+    "via": "same-name",
+    "name": "Frost Giant"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.80TiZrVvIBW7E6L2": {
+    "pack": "pathfinder-monster-core",
+    "id": "rEDhI2oI4TqTICN2",
+    "via": "same-name",
+    "name": "Fire Giant"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.l17XDoK0UIjXUvOv": {
+    "pack": "pathfinder-monster-core",
+    "id": "Z5QezXy38ZHyt3O3",
+    "via": "same-name",
+    "name": "Cloud Giant"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.oMcHaTX5unOHC2Pm": {
+    "pack": "pathfinder-monster-core",
+    "id": "YRyTBciVtCnO7J0Z",
+    "via": "same-name",
+    "name": "Rune Giant"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.HyOf4CfAIhC3qWtz": {
+    "pack": "pathfinder-monster-core",
+    "id": "pH2yNe16EnoJ8R0i",
+    "via": "same-name",
+    "name": "Gimmerling"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.oMsOm06HhX1gG0Jz": {
+    "via": "no-equivalent",
+    "name": "Gnoll Sergeant"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.hXpqjD3eBRxlemNs": {
+    "via": "no-equivalent",
+    "name": "Gnoll Cultist"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.z0l0lHc79NbMxiqZ": {
+    "pack": "pathfinder-monster-core",
+    "id": "Ky5eNRvN71O0tY9l",
+    "via": "same-name",
+    "name": "Goblin Pyro"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.gfRXFd24U633OC9r": {
+    "pack": "pathfinder-monster-core",
+    "id": "lFDYJOIp2knQ0IRY",
+    "via": "same-name",
+    "name": "Jinkin"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.Oc5NXZmMkSDCRNlQ": {
+    "pack": "pathfinder-monster-core",
+    "id": "gWgMg7cARqOe82O6",
+    "via": "same-name",
+    "name": "Griffon"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.mGr4e6fH3w8ewcSX": {
+    "pack": "pathfinder-monster-core",
+    "id": "kKFfigxrJ2vbJazp",
+    "via": "same-name",
+    "name": "Grim Reaper"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.m3x8q5rZ6zh9x82s": {
+    "pack": "pathfinder-monster-core",
+    "id": "BPznJcLvfkpfeQ2q",
+    "via": "same-name",
+    "name": "Guthallath"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.AuCC04X2AO8oFN75": {
+    "pack": "pathfinder-monster-core",
+    "id": "uBNm3R9wbLTPrM9i",
+    "via": "same-name",
+    "name": "Harpy"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.jeAGl6OAVrrIPgu3": {
+    "pack": "pathfinder-monster-core",
+    "id": "RTviEfjYnsXa0wkT",
+    "via": "same-name",
+    "name": "Hell Hound"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.PiZkpRK23u89h82S": {
+    "pack": "pathfinder-monster-core",
+    "id": "NW68bxCLC6oDHxL9",
+    "via": "same-name",
+    "name": "Hobgoblin Soldier"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.5hQk5NJk4L10txyW": {
+    "pack": "pathfinder-monster-core",
+    "id": "xgKDQB6ZYmAutwAm",
+    "via": "same-name",
+    "name": "Hobgoblin General"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.2GRPw4VK6zfCS2Qw": {
+    "pack": "pathfinder-monster-core",
+    "id": "9wNjq9BirBoxyJVH",
+    "via": "same-name",
+    "name": "Homunculus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.In2nNwo3JL1RXQhj": {
+    "pack": "pathfinder-monster-core",
+    "id": "CLf9k9A9ApTAkZeL",
+    "via": "same-name",
+    "name": "Riding Horse"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.IQsTNM8aXcCUmFu0": {
+    "pack": "pathfinder-monster-core",
+    "id": "vqYrJ33XgoeQUUle",
+    "via": "same-name",
+    "name": "Lamia"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.NymSyXbXqfkGLFWF": {
+    "pack": "pathfinder-monster-core",
+    "id": "0qaGLx8ads9blcfS",
+    "via": "same-name",
+    "name": "Lamia Matriarch"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.BeptBpCJ4Ny4biOH": {
+    "pack": "pathfinder-monster-core",
+    "id": "v1UK3IwCB8wCbL3L",
+    "via": "same-name",
+    "name": "Leaf Leshy"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.tTmml7T2Knz2NrLd": {
+    "pack": "pathfinder-monster-core",
+    "id": "JRBUBgJymEeEE4hm",
+    "via": "same-name",
+    "name": "Crag Linnorm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.6eabIbxzYepfZAHX": {
+    "pack": "pathfinder-monster-core",
+    "id": "Np5Z7RMQzvSNnH0h",
+    "via": "same-name",
+    "name": "Ice Linnorm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.2IrbfdtWyXiGOLBA": {
+    "pack": "pathfinder-monster-core",
+    "id": "k0HUy6WdbZUNfG8X",
+    "via": "same-name",
+    "name": "Tarn Linnorm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.x6wfK4UCJ6wYok9t": {
+    "pack": "pathfinder-monster-core",
+    "id": "0H54u83vZ1w3xHcD",
+    "via": "same-name",
+    "name": "Tor Linnorm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.9hOuoOONmp6500GZ": {
+    "pack": "pathfinder-monster-core",
+    "id": "mathcxCcrQmn9Jj8",
+    "via": "same-name",
+    "name": "Giant Gecko"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.SuWpn5yZdsHDHpL2": {
+    "pack": "pathfinder-monster-core",
+    "id": "oyfheSs1ta4xvtEg",
+    "via": "same-name",
+    "name": "Giant Monitor Lizard"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.EhB5Q98OO25DDOOl": {
+    "pack": "pathfinder-monster-core",
+    "id": "WZRHV2WU0SkpbtJI",
+    "via": "same-name",
+    "name": "Lizardfolk Defender"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.1CzZINpYRcNBKDnO": {
+    "pack": "pathfinder-monster-core",
+    "id": "V8w4iOwUMPqYnqVE",
+    "via": "same-name",
+    "name": "Lizardfolk Scout"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.qpRJOzx3bJ7rolHp": {
+    "via": "no-equivalent",
+    "name": "Manticore"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.uCw15c4AnIrOy5AV": {
+    "pack": "pathfinder-monster-core",
+    "id": "IxezJU9rIKKyd3LY",
+    "via": "same-name",
+    "name": "Merfolk Wavecaller"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.E9rT02pPDLq7rARq": {
+    "via": "no-equivalent",
+    "name": "Minotaur"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.E5RDV3n7GnjAspQ5": {
+    "pack": "pathfinder-monster-core",
+    "id": "XZWUQklzWF6YFPmG",
+    "via": "same-name",
+    "name": "Mummy Guardian"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.kfeL172Ix3x1YRc9": {
+    "pack": "pathfinder-monster-core",
+    "id": "Ro49rEZwBLkkoEKE",
+    "via": "same-name",
+    "name": "Mummy Pharaoh"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.RXEnAk6cbSnk3w7O": {
+    "pack": "pathfinder-monster-core",
+    "id": "Cqi8jadYpUTajIC6",
+    "via": "same-name",
+    "name": "Naiad"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.iSwUKe7cEytclS7r": {
+    "pack": "pathfinder-monster-core",
+    "id": "4MoqBCDQA6FR1sPw",
+    "via": "same-name",
+    "name": "Dryad"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.vxKqnzwcxNAgLp7C": {
+    "pack": "pathfinder-monster-core",
+    "id": "k5p4mRDT26DrDXPA",
+    "via": "same-name",
+    "name": "Giant Octopus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.oJaC1WbXQuQX2d2J": {
+    "pack": "pathfinder-monster-core",
+    "id": "X7PaA6XgvrY5ByfM",
+    "via": "same-name",
+    "name": "Ogre Glutton"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.bIXfNKFWduf8MH0f": {
+    "pack": "pathfinder-monster-core",
+    "id": "oopxVowT2jnUQJiS",
+    "via": "same-name",
+    "name": "Ogre Boss"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.cDm6PzhO5nXlkGoi": {
+    "via": "no-equivalent",
+    "name": "Orc Brute"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.XLqbEDjmGpIc4XoY": {
+    "via": "no-equivalent",
+    "name": "Orc Warchief"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.PCh2kxeSYWRit9TE": {
+    "pack": "pathfinder-monster-core",
+    "id": "HMfH0CI1CQCXB9Xr",
+    "via": "same-name",
+    "name": "Pegasus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.VoLW6eUxMSsXvgVP": {
+    "pack": "pathfinder-monster-core",
+    "id": "3t1z62LREP4nnIDr",
+    "via": "same-name",
+    "name": "Duskwalker Ghost Hunter"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.r9WAwtCLxoJMjd8J": {
+    "pack": "pathfinder-monster-core",
+    "id": "WNUvjcKRAqdguWfN",
+    "via": "same-name",
+    "name": "Poracha"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.zBPGUUP788b0g1Ng": {
+    "pack": "pathfinder-monster-core",
+    "id": "z1TEwL0plpK4l2uf",
+    "via": "same-name",
+    "name": "Keketar"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.oGIWTW0WqQxYNJOD": {
+    "pack": "pathfinder-monster-core",
+    "id": "5KstOkXabrOlZaKR",
+    "via": "same-name",
+    "name": "Nosoi"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.DPEmRRXYevk3ADqW": {
+    "pack": "pathfinder-monster-core",
+    "id": "z9jEyLrsoBMmh9qg",
+    "via": "same-name",
+    "name": "Morrigna"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.CSefkWGVmA5yGxNR": {
+    "pack": "pathfinder-monster-core",
+    "id": "bGp2t0UteEYu3BGe",
+    "via": "same-name",
+    "name": "Pteranodon"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.URREWYZtc8QJ9ld6": {
+    "pack": "pathfinder-monster-core",
+    "id": "Rr1u6WvZEdPw1s6v",
+    "via": "same-name",
+    "name": "Reefclaw"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.2HvXtedQziTTfI0S": {
+    "pack": "pathfinder-monster-core",
+    "id": "S67oZ1mvVNz9FTUE",
+    "via": "same-name",
+    "name": "Roc"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.3kLXBdtKpUsU8ey5": {
+    "pack": "pathfinder-monster-core",
+    "id": "aj4ZJUULa7VoPYWy",
+    "via": "same-name",
+    "name": "Satyr"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.vUKCuAgLQdz5akgp": {
+    "pack": "pathfinder-monster-core",
+    "id": "9rXYGu7D3umIW1sv",
+    "via": "same-name",
+    "name": "Megalodon"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.QGTSPki2eoLuavif": {
+    "pack": "pathfinder-monster-core",
+    "id": "3nUt7cW8fqE5IpyE",
+    "via": "same-name",
+    "name": "Envyspawn"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.triuze3NMe4kWpdS": {
+    "pack": "pathfinder-monster-core",
+    "id": "eke1AhiUjNPpyRhG",
+    "via": "same-name",
+    "name": "Gluttonyspawn"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.w20FfmKH7ukghczT": {
+    "pack": "pathfinder-monster-core",
+    "id": "pkhNqTDUttoAzcKn",
+    "via": "same-name",
+    "name": "Greedspawn"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.x8ZWNcFOfpJYjXOw": {
+    "pack": "pathfinder-monster-core",
+    "id": "k4fqHhiax2GPrkbh",
+    "via": "same-name",
+    "name": "Lustspawn"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.cXSTuUJct5iepH75": {
+    "pack": "pathfinder-monster-core",
+    "id": "h4cMwW2K34KheWtD",
+    "via": "same-name",
+    "name": "Pridespawn"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.q3LrTrfnCvoUXuRz": {
+    "pack": "pathfinder-monster-core",
+    "id": "ccAeM0tNgf5aVokj",
+    "via": "same-name",
+    "name": "Slothspawn"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.pMoAlNjMJ7DArLPh": {
+    "pack": "pathfinder-monster-core",
+    "id": "yv7hdQ3MO3pLgCF5",
+    "via": "same-name",
+    "name": "Wrathspawn"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.mblGfyIXWhiaNpFw": {
+    "pack": "pathfinder-monster-core",
+    "id": "X2vz6CrMaHIso0ha",
+    "via": "same-name",
+    "name": "Skeletal Horse"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.myEeYWWAgnkLwtIb": {
+    "pack": "pathfinder-monster-core",
+    "id": "zkl6planCbeCuAdS",
+    "via": "same-name",
+    "name": "Skulltaker"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.sf42HB8VsWGlYixP": {
+    "via": "no-equivalent",
+    "name": "Ball Python"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.Qa7HaKfKiosEPr94": {
+    "pack": "pathfinder-monster-core",
+    "id": "rdgs2gxTWxkyanD6",
+    "via": "same-name",
+    "name": "Sphinx"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.wpmvdP5w936Kmq0e": {
+    "pack": "pathfinder-monster-core",
+    "id": "Ehtm5k9iBYTvSUcZ",
+    "via": "same-name",
+    "name": "Pixie"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.70JDH25JLTC4t5Ko": {
+    "pack": "pathfinder-monster-core",
+    "id": "ClAXGpqu4ZsYuNle",
+    "via": "same-name",
+    "name": "Tengu Sneak"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.8BloAdRqlLpt5bNg": {
+    "pack": "pathfinder-monster-core",
+    "id": "P8pNcpNeXQcj6lBB",
+    "via": "same-name",
+    "name": "Treerazer"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.c3iA9lkU1QY4YCY6": {
+    "pack": "pathfinder-monster-core",
+    "id": "lYoAwofYGbhWL75Q",
+    "via": "same-name",
+    "name": "Unicorn"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.H2ZxTHZOEigpH4LK": {
+    "via": "no-equivalent",
+    "name": "Vampire Spawn Rogue"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.yxCmLBpw6xqWFU3E": {
+    "pack": "pathfinder-monster-core",
+    "id": "TZt3H39oxVdZRKs9",
+    "via": "same-name",
+    "name": "Vampire Mastermind"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.v92cB3RBUMhysOpD": {
+    "via": "no-equivalent",
+    "name": "Winter Wolf"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.J0dSbywBRgD2kf19": {
+    "pack": "pathfinder-monster-core",
+    "id": "6aaBmiOgqZ5h2IhW",
+    "via": "same-name",
+    "name": "Giant Wasp"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.NTXm3ee7WZJ92Sww": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "jW55DX3sJU2uTNrM",
+    "via": "same-name",
+    "name": "Wemmuth"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.tXHUr947sanB5tdN": {
+    "pack": "pathfinder-monster-core",
+    "id": "2k0JX3RFTVRf0KS2",
+    "via": "same-name",
+    "name": "Wererat"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.bLMoqt9xqTZKnjxr": {
+    "pack": "pathfinder-monster-core",
+    "id": "Hg7nCvltRBQOiijQ",
+    "via": "same-name",
+    "name": "Werewolf"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.5U13zQ77DIcqpH9U": {
+    "pack": "pathfinder-monster-core",
+    "id": "h3JksV9Idr9eZLkE",
+    "via": "same-name",
+    "name": "Werebear"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.HbROgIcU9Z9m6XuD": {
+    "pack": "pathfinder-monster-core",
+    "id": "Gu0cJHGwPd547OtC",
+    "via": "same-name",
+    "name": "Wraith"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.RTzFvmdSCf5yhguy": {
+    "pack": "pathfinder-monster-core",
+    "id": "5vBG8a8dnJfmVd3Y",
+    "via": "same-name",
+    "name": "Xulgath Warrior"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.4zXn6xaaxo1DtIRk": {
+    "pack": "pathfinder-monster-core",
+    "id": "S1XgBHtXIOV3JjLy",
+    "via": "same-name",
+    "name": "Xulgath Skulker"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.7ZgQuis8r8YQyUnI": {
+    "pack": "pathfinder-monster-core",
+    "id": "alPZcKVrHTcMdtIU",
+    "via": "same-name",
+    "name": "Yeti"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.FJo8VkrM7kLkHa5D": {
+    "pack": "pathfinder-monster-core",
+    "id": "EDYKUdYmilw3rgJg",
+    "via": "same-name",
+    "name": "Zombie Hulk"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.OaKx1ZaU25i3cypS": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "JJOscf3TNaZQ6AW1",
+    "via": "same-name",
+    "name": "Theletos"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.qjAtPDIi7OyUGsNy": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "oLfyxHNz8IX06ZcU",
+    "via": "same-name",
+    "name": "Bythos"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.UgEN8JYAT6tLbryy": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "zstEJQKVAKoMskcM",
+    "via": "same-name",
+    "name": "Ahuizotl"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.Y9SDbANT1DWI1DKU": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "r3PNRpEir4BVjnCC",
+    "via": "same-name",
+    "name": "Animate Dream"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.URYQ5goPCmrQvJf5": {
+    "pack": "pathfinder-monster-core",
+    "id": "mEZUTqNIgu0ASApu",
+    "via": "same-name",
+    "name": "Giant Ant"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.WMiPblOVq5w2Fa1x": {
+    "pack": "pathfinder-monster-core",
+    "id": "KdW5UeZSqeTZZlo5",
+    "via": "same-name",
+    "name": "Aolaz"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.ePUTKSr45H7S5dQs": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "n2zUhVaFXuOJE8a1",
+    "via": "same-name",
+    "name": "Veranallia"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.T9vzmpvpRL5xjrhd": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Y3wRpLSDZsYcigjX",
+    "via": "same-name",
+    "name": "Giant Badger"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.tdCyjq57rgfPezjT": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "hXWykGzjb5RLkJvZ",
+    "via": "same-name",
+    "name": "Carbuncle"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.BJoM8LAVP8MA5o8v": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "RA2dkQJANNFjgdSt",
+    "via": "same-name",
+    "name": "Catoblepas"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.JCoILqEvwovT7tkj": {
+    "pack": "pathfinder-monster-core",
+    "id": "Hl1Nnnda8KSf0Obp",
+    "via": "same-name",
+    "name": "Chupacabra"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.8HJNH3aDTJyJi3pU": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "iICvyvPzfyJe4vzk",
+    "via": "same-name",
+    "name": "Cockroach Swarm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.12vyw160K7p3M3Mt": {
+    "via": "no-equivalent",
+    "name": "Quetz Couatl"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.l4UOJbphMT7jZ0xB": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Lb11NsmTJpd4YS1p",
+    "via": "same-name",
+    "name": "Giant Crab"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.iW6WKMVV3Ug8sa2q": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "YMiDUjk65e52z1mU",
+    "via": "same-name",
+    "name": "Thanadaemon"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.Va2LUALLnnfWX3wq": {
+    "pack": "pathfinder-monster-core",
+    "id": "iy5XBb2u4BOVxjtz",
+    "via": "same-name",
+    "name": "Vrolikai"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.tOVGYQueeJwLtn0v": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "RLpV0XLGZJWjtEYT",
+    "via": "same-name",
+    "name": "Denizen of Leng"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.340AwQpRXGblw1kF": {
+    "pack": "pathfinder-monster-core",
+    "id": "UMlGhyoHMvhVW6kv",
+    "via": "same-name",
+    "name": "Sarglagon"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.yIpB2uLyeBWQjfsn": {
+    "pack": "pathfinder-monster-core",
+    "id": "s492qJ4psEb4FXuy",
+    "via": "same-name",
+    "name": "Gylou"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.rZdaxjM7CFVAEq2e": {
+    "pack": "pathfinder-monster-core",
+    "id": "dUI8N2AXDGcf3qRD",
+    "via": "same-name",
+    "name": "Pachycephalosaurus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.GnKay44MFMZkqXRi": {
+    "pack": "pathfinder-monster-core",
+    "id": "3zqVFz4FfRYv5Sgy",
+    "via": "same-name",
+    "name": "Hadrosaurid"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.SsR4wiSWA7xhlkH9": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "8G5IWZdj7LG4WHPv",
+    "via": "same-name",
+    "name": "Iguanodon"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.s8EjxYqdN4gOvcBh": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "cbcNwxJAur5r7sr5",
+    "via": "same-name",
+    "name": "Spinosaurus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.RqcIiiNNEkF28ui2": {
+    "pack": "pathfinder-monster-core",
+    "id": "uco1YijAEotYjdnF",
+    "via": "same-name",
+    "name": "Orca"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.prNJZOU8tdRIZITT": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "LwpPOXWeDY2KkL9l",
+    "via": "same-name",
+    "name": "Doprillu"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.scSsdEmG0jkEnyLV": {
+    "pack": "lost-omens-bestiary",
+    "id": "RZfELtgsk80bDuLi",
+    "via": "same-name",
+    "name": "Brine Dragon (Young)"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.zA9tCwjyViY6ZPfS": {
+    "pack": "lost-omens-bestiary",
+    "id": "Z4cV7G4r3zgDoAlH",
+    "via": "same-name",
+    "name": "Cloud Dragon (Ancient)"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.UJHJVPPvV0VbQqlW": {
+    "pack": "lost-omens-bestiary",
+    "id": "wFcWMrjNtnfSKOYm",
+    "via": "same-name",
+    "name": "Crystal Dragon (Adult)"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.HzeOxVy3VXxaJmC5": {
+    "pack": "lost-omens-bestiary",
+    "id": "JB9SWlruqX9nKhIO",
+    "via": "same-name",
+    "name": "Umbral Dragon (Adult)"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.b5b6J3TqbcXnmKyy": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "8abNns0wcbPMYpRD",
+    "via": "same-name",
+    "name": "Giant Dragonfly"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.Z9rOUqCqAaMjvgBc": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "MAxlGSzjsTYi1w6c",
+    "via": "same-name",
+    "name": "Drainberry Bush"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.48agy7vl9fQW1LLA": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "lCDygpomjUnutb5b",
+    "via": "same-name",
+    "name": "Draugr"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.n6cv7eCzPSs4dbHn": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Of7WVNrWgvkwctfE",
+    "via": "same-name",
+    "name": "Dweomercat"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.aFRGgQWWCDIiBlUl": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "oykGJJYyxMHGXcRN",
+    "via": "same-name",
+    "name": "D'ziriak"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.VYEPG1G64OaCQmwf": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "czYNR3AktDDQYDUB",
+    "via": "same-name",
+    "name": "Elasmosaurus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.mZxVXRI1Zh3HUXxn": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "UIRu1RDIjv8ueYJr",
+    "via": "same-name",
+    "name": "Living Thunderclap"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.CrAsEzLl3F2vejd3": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "WrczIpL6U4KotDD0",
+    "via": "same-name",
+    "name": "Earthen Destrier"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.sGI1gh7EPVSRadhY": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "oo6wVzEKDYTb62Ai",
+    "via": "same-name",
+    "name": "Granite Glyptodont"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.6ic6oNCpWjkVAsIN": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "xNn7kUg4GxyqCupT",
+    "via": "same-name",
+    "name": "Ember Fox"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.veyyE0brfjIoQK1q": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "6sYj9SQRzKywNDOJ",
+    "via": "same-name",
+    "name": "Icicle Snake"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.N3XfcwDn1Nu7milG": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "zEystWZ5lvDsnTqF",
+    "via": "same-name",
+    "name": "Icewyrm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.aVf2IojxU9ZZ64M5": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "WQdWybW4owJWdEnQ",
+    "via": "same-name",
+    "name": "Fetchling Scout"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.HhSoTr6mpwV09Y4k": {
+    "pack": "pathfinder-monster-core",
+    "id": "DEZNEMDhWXvv7BrT",
+    "via": "same-name",
+    "name": "Irnakurse"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.EWoJAp5LJeL1Qfye": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "jiLbjz3kic9Uv5b6",
+    "via": "same-name",
+    "name": "Giant Frog"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.W2gd0emEVbD8EGmf": {
+    "pack": "pathfinder-monster-core",
+    "id": "tuuSayyL0A5R6hZh",
+    "via": "same-name",
+    "name": "Marsh Giant"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.MUVc2ZjwGtlpcuX1": {
+    "pack": "pathfinder-monster-core",
+    "id": "TwFcW5O5J1SdsYv3",
+    "via": "same-name",
+    "name": "Gosreg"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.N7Ej1AyPPolzboex": {
+    "pack": "pathfinder-monster-core",
+    "id": "sC4B1pjGrKFXhjOQ",
+    "via": "same-name",
+    "name": "Grindylow"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.OVRvL7fKERLsM4KP": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "peCOXs71JT57JLsn",
+    "via": "same-name",
+    "name": "Grodair"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.FERUCyMwvy4Nejou": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "U0pKGj1yJemGAXyc",
+    "via": "same-name",
+    "name": "Hellcat"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.z39LYFGYmOsoGVSh": {
+    "pack": "pathfinder-monster-core",
+    "id": "CHVMOXznjUDcb3XP",
+    "via": "same-name",
+    "name": "Hippocampus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.Xv74O1mFzzP06IXl": {
+    "pack": "pathfinder-monster-core",
+    "id": "eFGPKbhix65FSG9u",
+    "via": "same-name",
+    "name": "Hippogriff"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.5CixyyBkCLj2VI8q": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "k6Qen3uOfNSh4FH9",
+    "via": "same-name",
+    "name": "Hippopotamus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.VrkmTQKB3Ln7wVTr": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "c8kb958djPh4wXj5",
+    "via": "same-name",
+    "name": "Behemoth Hippopotamus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.1QWZDaBoefL5rWkz": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "gUF7bigH5jyJM8AG",
+    "via": "same-name",
+    "name": "Hodag"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.SKooDsYDMEloMG16": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "klE1DOebNsmqmmzh",
+    "via": "same-name",
+    "name": "Giant Jellyfish"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.Xb0uY2tg1Cd3kZd0": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "VeCpLJCnBiHAwfCg",
+    "via": "same-name",
+    "name": "Jyoti"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.FMU6L5vbiUxa1ZF7": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "QAa0xdLT9cBxw2zh",
+    "via": "same-name",
+    "name": "Kelpie"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.JJKxWVExhUEno9j0": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "jREewNN2JDyTawa7",
+    "via": "same-name",
+    "name": "Giant Leech"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.R0YrD0izubtQYbTU": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "RY9Xm1B6NwWuChFs",
+    "via": "same-name",
+    "name": "Leprechaun"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.VHXsmfnOBRBXB6TL": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "XmuMPoHv108sHJOu",
+    "via": "same-name",
+    "name": "Megalania"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.aMIb3Xm64NzRj8YP": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "V96EY8vLy7alnun9",
+    "via": "same-name",
+    "name": "Mandragora"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.jCF9HjF42SPXTptP": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "yaDZ0N6t8vOxbqLy",
+    "via": "same-name",
+    "name": "Marrmora"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.l3kFjH4n9Shet6bz": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "JXM2kmdb1PhuEJls",
+    "via": "same-name",
+    "name": "Fen Mosquito Swarm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.LZp7LLcFzDBlrwod": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "X4gmFWEuhtpjBj4P",
+    "via": "same-name",
+    "name": "Nixie"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.XCNRztCxn6EbJ0gr": {
+    "pack": "pathfinder-monster-core",
+    "id": "8w0LwQHkip8nzFo0",
+    "via": "same-name",
+    "name": "Norn"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.fRLrlY25qXkOMBNG": {
+    "pack": "pathfinder-monster-core",
+    "id": "dY1wqHKN6PV4oJ07",
+    "via": "same-name",
+    "name": "Nuckelavee"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.wBGUIPJMm9Van9GQ": {
+    "via": "no-equivalent",
+    "name": "Ice Yai"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.a8Ih1RIr4UUV4QCL": {
+    "via": "no-equivalent",
+    "name": "Fire Yai"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.R0dyG06kbNYiCqRW": {
+    "via": "no-equivalent",
+    "name": "Water Yai"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.VPDKzeTY8O1XrKLk": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "37VjWGXq40eLfrl6",
+    "via": "same-name",
+    "name": "Giant Amoeba"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.6tKVMKDdvbp0VhZD": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "PFB61dvUsakciV0N",
+    "via": "same-name",
+    "name": "Slime Mold"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.zXZrUTQSI0WxAsF5": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "GOQPbXk8HZDypZzd",
+    "via": "same-name",
+    "name": "Verdurous Ooze"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.NlMqwcN2ZaALOVSY": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "d8ePlvZTcfKCa6Fm",
+    "via": "same-name",
+    "name": "Carnivorous Blob"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.5l3surWoPHTgPoWY": {
+    "via": "no-equivalent",
+    "name": "Petitioner (Abaddon)"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.jhr6WpTeY8GXXwK1": {
+    "via": "no-equivalent",
+    "name": "Ifrit Pyrochemist"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.xrAx0xj0UsM4DG5T": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "gZL6zc7tQAmBKXpx",
+    "via": "same-name",
+    "name": "Oread Guard"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.Ho1Dx2dXlQZYLApP": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "XbQEXEBwPsBMzxqN",
+    "via": "same-name",
+    "name": "Sylph Sneak"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.Z4eI4EhXBWDs8bl8": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "yFFw1Gsd4teXA97L",
+    "via": "same-name",
+    "name": "Undine Hydromancer"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.27R4ntwgch7eIQM6": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "XyEQrWOQU59qCwRo",
+    "via": "same-name",
+    "name": "Akizendri"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.HBkk9MYLomjKDKr4": {
+    "pack": "pathfinder-monster-core",
+    "id": "cRBVKMNukkRgELMs",
+    "via": "same-name",
+    "name": "Azuretzi"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.hvKRgNiQtQJhHk9u": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "GiQhtWnKBE90D3Lr",
+    "via": "same-name",
+    "name": "Imentesh"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.yvmX4J21XE1wqDar": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "n1KQRInuKkFRM7ot",
+    "via": "same-name",
+    "name": "Esobok"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.t8XwrLnvMnz3Z1al": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "QgHtsAbVYswHzMC2",
+    "via": "same-name",
+    "name": "Catrina"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.uiTUtcXixZ6TdKYE": {
+    "pack": "pathfinder-monster-core",
+    "id": "74TxKGaW7RPzTdbm",
+    "via": "same-name",
+    "name": "Vanth"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.ABrzFoOqQohQqU6C": {
+    "pack": "pathfinder-monster-core",
+    "id": "00uNOPsU5VognIcB",
+    "via": "same-name",
+    "name": "Yamaraj"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.QR3AC4mkpfz6KPSh": {
+    "pack": "pathfinder-monster-core",
+    "id": "YhVYGhzNrOFQROui",
+    "via": "same-name",
+    "name": "Cythnigot"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.Y1lwEf06O1ijOnwt": {
+    "pack": "pathfinder-monster-core",
+    "id": "YKMvlKA1AZJlXtz9",
+    "via": "same-name",
+    "name": "Augnagar"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.NtezcliwnH4R1tJw": {
+    "pack": "pathfinder-monster-core",
+    "id": "mEjCLVRt7iDiNZL6",
+    "via": "same-name",
+    "name": "Thulgant"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.hFbfXmjMkGEzMkQ1": {
+    "via": "no-equivalent",
+    "name": "Raven"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.g41X4b3q2iDMLRt3": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "iOYLNPBikuBfVBDu",
+    "via": "same-name",
+    "name": "Ravener"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.3YcsuATyahEMygNy": {
+    "pack": "pathfinder-monster-core",
+    "id": "bsrQp0pLgvjJr6mC",
+    "via": "same-name",
+    "name": "Revenant"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.dBUiB3Hyh0hN8Exc": {
+    "pack": "pathfinder-monster-core",
+    "id": "loYbh3SealeYmxai",
+    "via": "same-name",
+    "name": "Woolly Rhinoceros"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.EOiOqs1vHCxZAj3T": {
+    "pack": "pathfinder-monster-core",
+    "id": "2p7MEk4SdXfLbzxO",
+    "via": "same-name",
+    "name": "Scarecrow"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.LcdQZ2NTG2eJswXA": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "NE7DrsBhrbZfRz1Z",
+    "via": "same-name",
+    "name": "Sceaduinar"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.s0wn50S5mGxagSAa": {
+    "pack": "pathfinder-monster-core",
+    "id": "0jSkyGbnMiN6kzwH",
+    "via": "same-name",
+    "name": "Zyss Serpentfolk"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.fv91xoQJlogVbruW": {
+    "pack": "pathfinder-monster-core",
+    "id": "X3QcYLr2rBcIsJrC",
+    "via": "same-name",
+    "name": "Aapoph Serpentfolk"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.PAGytLw1QnAiNYC2": {
+    "pack": "pathfinder-monster-core",
+    "id": "y2w2jjs2O3gP0H5v",
+    "via": "same-name",
+    "name": "Coil Spy"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.7SVhYtnBn967Hy8O": {
+    "pack": "pathfinder-monster-core",
+    "id": "SMLMW81mKN5VlcVV",
+    "via": "same-name",
+    "name": "Bone Prophet"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.LQL8HU6tISXZwlOw": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "C0ZmzdUNtEdXdGcL",
+    "via": "same-name",
+    "name": "Skaveling"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.iLZpGlyBWxS4Idbi": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "pzCgOvNPish9QlTC",
+    "via": "same-name",
+    "name": "Emperor Cobra"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.q6FDEqLZQVjZfJ3x": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "5Gw0j1Qbh1uXUhkj",
+    "via": "same-name",
+    "name": "Spiral Centurion"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.3VFHZyjSjNA1jbiO": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Yn4dygrd5I6fQv6Q",
+    "via": "same-name",
+    "name": "Sportlebore Swarm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.tZkiE8hnN5e9KIzi": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "7kiT6lveGXWzNo23",
+    "via": "same-name",
+    "name": "Stygira"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.UnWr8QSMq2VZUQhX": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "oUCl1KA2s2t18nlU",
+    "via": "same-name",
+    "name": "Tatzlwyrm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.TKlnOKpYJkg1dNwb": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Bg9QWIRHTPIsKKyy",
+    "via": "same-name",
+    "name": "Totenmaske"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.HmeEHIXL46rBQWAa": {
+    "via": "no-equivalent",
+    "name": "Frost Troll"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.8WAc7n2M4Ks00yvj": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "yHduMu4VBVUHnssz",
+    "via": "same-name",
+    "name": "Cavern Troll"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.lUYlClIPITmhzepe": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "1LBt5H8GekcuzDHw",
+    "via": "same-name",
+    "name": "Two-Headed Troll"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.kKH3uMHbVZQmEtxj": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "4Ay3tf49upoyaJrg",
+    "via": "same-name",
+    "name": "Jotund Troll"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.fwjDIGzmuEJN81Qq": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "gTkvu3RRiDHNONzf",
+    "via": "same-name",
+    "name": "Trollhound"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.H8KNSMb9uo2mJF3P": {
+    "pack": "pathfinder-monster-core",
+    "id": "9sGgANyNFCKnu06t",
+    "via": "same-name",
+    "name": "Twigjack"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.gVNKimslRe1k2hdV": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "PLHzkMMyajrodRUU",
+    "via": "same-name",
+    "name": "Vaspercham"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.89isDKkB1UCbsSvU": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "coq1W1ZQul6DtH0b",
+    "via": "same-name",
+    "name": "Ostiarius"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.7oiIDnLBDpC2r2AA": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Tf1eWEQJmFEtcCps",
+    "via": "same-name",
+    "name": "Sacristan"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.duaHanGHvRGhUtB5": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "rEjKVZqLfEC5jdVV",
+    "via": "same-name",
+    "name": "Viper Vine"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.64sdDzjLWu2W2R2e": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "ZdQfNuQQjytFzuyd",
+    "via": "same-name",
+    "name": "Water Orm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.8usfZlFqdD9cchPJ": {
+    "pack": "pathfinder-monster-core",
+    "id": "YZ4G7eRQ49dTVtjb",
+    "via": "same-name",
+    "name": "Bottlenose Dolphin"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.o2IbtStBj11QCRvS": {
+    "pack": "pathfinder-monster-core",
+    "id": "LiURMjxzav8SBKSq",
+    "via": "same-name",
+    "name": "Rhinoceros"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.kapPWNOxXOLcd4VF": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "bKSs8SuSI4wrKPRj",
+    "via": "same-name",
+    "name": "Amoeba Swarm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.v7nu3NMYTS0YyxH4": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Zaixy2G1NHnaYhEo",
+    "via": "same-name",
+    "name": "Adlet"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.sCzgD99DO10Koovq": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "UhnElzzdp553WUyM",
+    "via": "same-name",
+    "name": "Silvanshee"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.8HdbN5NwEolamidg": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "NnIEe9PZHqUOmAY9",
+    "via": "same-name",
+    "name": "Vulpinal"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.Vi2p9VroteSHsSy9": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "kOwaB2H8v9c2BXGf",
+    "via": "same-name",
+    "name": "Procyal"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.mRsiT9EtpbOQ7AeX": {
+    "via": "no-equivalent",
+    "name": "Draconal (Red)"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.H796hayJm3J7MYJg": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "TbgHiHtPCK59KStC",
+    "via": "same-name",
+    "name": "Amphisbaena"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.wnrgiB2PkaBC5gOQ": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "3isJhl2RNoYeYSSV",
+    "via": "same-name",
+    "name": "Animated Silverware Swarm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.fcFQ2GDUZ9YAhiDC": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "jaKVhw83CPKpW9UJ",
+    "via": "same-name",
+    "name": "Animated Trebuchet"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.dniiLeUhXaq5CElX": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "9Gex7SavD3YJDPBs",
+    "via": "same-name",
+    "name": "Arboreal Reaper"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.vJAPvmWCjVGKr06E": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "zs7dPbTetShR8T3D",
+    "via": "same-name",
+    "name": "Arboreal Archive"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.UxiwQ2Nmvfk9Q9tC": {
+    "via": "no-equivalent",
+    "name": "Shaukeen"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.6yc1exIcngUEvBQH": {
+    "via": "no-equivalent",
+    "name": "Adhukait"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.Su21mCjUxFJnoWGg": {
+    "via": "no-equivalent",
+    "name": "Azer"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.Wq0Euk0RK6rhRDsN": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "B1ZWz3rJ6VBYVH1U",
+    "via": "same-name",
+    "name": "Severed Head"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.v0nvME08U3mZJWB3": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "440q9qZ4A7fDNQJQ",
+    "via": "same-name",
+    "name": "Betobeto-San"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.XyEvsURVDnJwb76F": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "z2qSD3VrlRsXGHT5",
+    "via": "same-name",
+    "name": "Bison"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.krbmyD1SuPQb4QfF": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "vLgNUa2zB9FPwfhB",
+    "via": "same-name",
+    "name": "Blood Painter"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.iD32uhsjUGLvC2q6": {
+    "pack": "lost-omens-bestiary",
+    "id": "iD32uhsjUGLvC2q6",
+    "via": "moved-pack"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.rFpExrqWywVDPYdP": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "6WgGNVcmuwNlGDJP",
+    "via": "same-name",
+    "name": "Brainchild"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.79pfivF3swvfsJE4": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "bgeCbx3Gr54YaKEJ",
+    "via": "same-name",
+    "name": "Caligni Vanguard"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.zdJgaVe6VRSfEE1n": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "wTX5G19zieFnaHYD",
+    "via": "same-name",
+    "name": "Caligni Caller"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.Yq9TcUof5D117yns": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "ZAXM01KREZECWRvz",
+    "via": "same-name",
+    "name": "Camel"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.CXCdPqMRX58sBQ9G": {
+    "pack": "pathfinder-npc-core",
+    "id": "02AGznZTv5jjcnOg",
+    "via": "same-name",
+    "name": "Hellknight Cavalry Brigade"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.SQKdvPIhWkrHlkbn": {
+    "pack": "pathfinder-npc-core",
+    "id": "jAdRgBHut1h1et10",
+    "via": "same-name",
+    "name": "City Guard Squadron"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.cKZtOsBlN3Qu8Kyq": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "9Uc7T3x3cxNo7lvY",
+    "via": "same-name",
+    "name": "Clockwork Spy"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.9HkUdRKoprwo27VN": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "7xZDgCCOkbDAv4Sm",
+    "via": "same-name",
+    "name": "Clockwork Soldier"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.0A2XLkvOzDMOjC6Q": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "wHtddmyDuL1l2E6I",
+    "via": "same-name",
+    "name": "Clockwork Mage"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.XwtH5kP5gkY42yWp": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "44cDgnq0KY88X70E",
+    "via": "same-name",
+    "name": "Clockwork Dragon"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.Vt28ucE0FUJYl1fD": {
+    "pack": "lost-omens-bestiary",
+    "id": "Vt28ucE0FUJYl1fD",
+    "via": "moved-pack"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.dVJkFPCqJcPjImdG": {
+    "via": "no-equivalent",
+    "name": "Mix Couatl"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.MD6eXpxoSPO02fZY": {
+    "via": "no-equivalent",
+    "name": "Xiuh Couatl"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.ooyJuLQ3AivRwLpa": {
+    "pack": "rusthenge-bestiary",
+    "id": "yscVNbJvyotk9NLG",
+    "via": "same-name",
+    "name": "Dretch"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.6bkqOecc1n0PulCu": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "zfy0YOxEAMaeHAWI",
+    "via": "same-name",
+    "name": "Abrikandilu"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.rVtBZrHnWM3lvSs7": {
+    "pack": "pathfinder-monster-core",
+    "id": "6UrgCT8MwC8CeGbu",
+    "via": "same-name",
+    "name": "Brimorak"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.phOYPM1OVAKPg68l": {
+    "pack": "pathfinder-monster-core",
+    "id": "hvVFocY8r72XEaqQ",
+    "via": "same-name",
+    "name": "Omox"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.MolnKBns2ePDFbAB": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "R2Vgjb3Mpyq6HyjM",
+    "via": "same-name",
+    "name": "Hellbound Attorney"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.e6r8AGxfp8PDXaZk": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "g2UXJD84mrssh4tc",
+    "via": "same-name",
+    "name": "Levaloch"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.mbu0D45HPRNAwgEU": {
+    "pack": "lost-omens-bestiary",
+    "id": "mbu0D45HPRNAwgEU",
+    "via": "moved-pack"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.8Ds7BAEjgSSB32wS": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "rxeSI37OvsSoXvYf",
+    "via": "same-name",
+    "name": "Deimavigga"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.QJRi6WzEm0LbXjAc": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "cneF8jYlvluvLkZM",
+    "via": "same-name",
+    "name": "Doru"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.KGAuzJaKfPAdn0It": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "2Uz8i4Q3xaECmemr",
+    "via": "same-name",
+    "name": "Aghash"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.XgCQnswAedPcwLck": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "D4apkwiUo5Rb6TFr",
+    "via": "same-name",
+    "name": "Pairaka"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.UTqProdd8LA0X1BQ": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "XlFn2e6yj0mxHeq8",
+    "via": "same-name",
+    "name": "Sepid"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.ACTvXKXcw1RZQxrP": {
+    "pack": "lost-omens-bestiary",
+    "id": "S1ZWBUItiQKCsoSr",
+    "via": "same-name",
+    "name": "Forest Dragon (Adult)"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.JZMK7j7WGWlB3Jhw": {
+    "pack": "lost-omens-bestiary",
+    "id": "uizTKvo2VEZX62ZQ",
+    "via": "same-name",
+    "name": "Sea Dragon (Young)"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.OrO28a9h8kakTTj7": {
+    "pack": "lost-omens-bestiary",
+    "id": "yKxTaTrjBWCk7lPq",
+    "via": "same-name",
+    "name": "Sovereign Dragon (Young)"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.ytYKPtPotjvsWoSl": {
+    "pack": "lost-omens-bestiary",
+    "id": "Hu89cqmPhPuuMf82",
+    "via": "same-name",
+    "name": "Sovereign Dragon (Ancient)"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.nX3LIuvHqiKNrth9": {
+    "pack": "lost-omens-bestiary",
+    "id": "jqcAeid4jcx9Lrjc",
+    "via": "same-name",
+    "name": "Underworld Dragon (Ancient)"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.VF81W91YRFgtBLli": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "jgTjzUA2nJKYY2Tu",
+    "via": "same-name",
+    "name": "Einherji"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.0HTju4vf8ADAAh2g": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Q6oMLXjmGqF6dxzp",
+    "via": "same-name",
+    "name": "Air Wisp"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.9KZRWATLOGP7QGyM": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "micllXbcz1eBcAoz",
+    "via": "same-name",
+    "name": "Fire Wisp"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.8LBJ0jKca3vLaUhx": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "NQlPvg8SaIb9jzDl",
+    "via": "same-name",
+    "name": "Festrog"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.aqvMwn6885CJEmCO": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "ej7H1ft2CNCIsTMg",
+    "via": "same-name",
+    "name": "Garuda"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.DIJQ1UvfDDnDP545": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "zjt9MtcggYu1cG9i",
+    "via": "same-name",
+    "name": "Cave Giant"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.o740a5FFLG834FkV": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "D1P14zfFcD1Y0vXe",
+    "via": "same-name",
+    "name": "Desert Giant"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.vwzfmjR0Me6xPdTP": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "XbaIHmvgqjLChTKq",
+    "via": "same-name",
+    "name": "Tomb Giant"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.4glVe36VTR8HTjcE": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Eqyg78faM4mqIoh5",
+    "via": "same-name",
+    "name": "Girtablilu Sentry"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.i3Ui3hHIBZnHl0Le": {
+    "pack": "pathfinder-monster-core",
+    "id": "H9CHNiW18cRFocNO",
+    "via": "same-name",
+    "name": "Globster"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.kXc11R18rF28AgIf": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "vpXcLtLPWNRGSQWA",
+    "via": "same-name",
+    "name": "Green Man"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.zGco5QmokZpFgLes": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "IErCbIpdYOBQHNmN",
+    "via": "same-name",
+    "name": "Grimple"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.hiDSC6gqneQTB106": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "M6c9Trk8tzwZ2wVf",
+    "via": "same-name",
+    "name": "Fuath"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.5dZaPSltPYYIupeq": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "NeKtvaz1jB7D6oti",
+    "via": "same-name",
+    "name": "Grioth Scout"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.HiazGJoPkJ3gQVAO": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "2ooIWWoCK1NCJKwT",
+    "via": "same-name",
+    "name": "Grioth Cultist"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.NSD8H0xzbSWOgt7x": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "ROHOyxPW1njsDOG3",
+    "via": "same-name",
+    "name": "Stone Lion Cub"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.Q02Io3eFQpBad3vD": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "ZLqdudajQtI8dkTT",
+    "via": "same-name",
+    "name": "Stone Lion"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.OTEJFZ03NDqtrhcj": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "OKoayj8C936nmmd0",
+    "via": "same-name",
+    "name": "Hadrinnex"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.wVMMl1jfxWyqU4yq": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "AjEh9Mk44RleMwSR",
+    "via": "same-name",
+    "name": "Storm Hag"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.KTzSpyphiJ78EnBd": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "MrDjKHDkUS9UMjEL",
+    "via": "same-name",
+    "name": "Winter Hag"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.ew52XP0hjUACnidH": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Jbc4BC6wv9GLtoY7",
+    "via": "same-name",
+    "name": "Blood Hag"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.qm0YqO9ik2U2Gjdx": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "5oHZRcwDl7jhLOT5",
+    "via": "same-name",
+    "name": "Moon Hag"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.iLoVkzve6Nu3gErr": {
+    "pack": "pathfinder-monster-core",
+    "id": "oNR29GreK0AxLucN",
+    "via": "same-name",
+    "name": "Herexen"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.ldzHiLhLAHhwpVJe": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Zh8awPHA7DZxTboc",
+    "via": "same-name",
+    "name": "House Drake"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.NhHGDx6ChbrhAmbO": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "AzYYP23uGecb0Jmw",
+    "via": "same-name",
+    "name": "Domovoi"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.fuCPoL2OVcQf5uT9": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "8uUkBJlMvKlJWtKx",
+    "via": "same-name",
+    "name": "Ovinnik"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.OPeTxIUwkkAjC6T5": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "y8bxt4vLmHHy1Xys",
+    "via": "same-name",
+    "name": "Hyakume"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.4vwMHy39IQyb7I7p": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "TExLkHMs37EL7uzZ",
+    "via": "same-name",
+    "name": "Incutilis"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.JKF2cMQEWkA5avCO": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "MovMBbHEln0TUlYh",
+    "via": "same-name",
+    "name": "Shikigami"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.Fj3CXqR0Y6kgvcBE": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "X6Avn6djuSmMPGrG",
+    "via": "same-name",
+    "name": "Kodama"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.wLG0f6J8cgyCA0w4": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "mPFQENrVt5xhML1T",
+    "via": "same-name",
+    "name": "Zuishin"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.QrD96KPUHGjjkLbL": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "hoqQ2x6x1tffC6wX",
+    "via": "same-name",
+    "name": "Kappa"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.3SYFPEaAl4g5G3GK": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "uvzy6nHGS430DEfC",
+    "via": "same-name",
+    "name": "Kitsune Trickster"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.mgQSYE94vb2ICVjL": {
+    "via": "no-equivalent",
+    "name": "Locathah Hunter"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.RyFqNQ86931Y5tqO": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "H2awmVR3ENs0VeYg",
+    "via": "same-name",
+    "name": "Lovelorn"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.U3rMc5sN05MempVX": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Xn65difyR7Jp4K3q",
+    "via": "same-name",
+    "name": "Maftet Guardian"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.yi9g7D49uGvAdGDP": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "WmLoggAiAGBUZDSZ",
+    "via": "same-name",
+    "name": "Mi-Go"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.n9xSjQA1YSlYc9p3": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "TmvTgG1M8nzC5Q0K",
+    "via": "same-name",
+    "name": "Millindemalion"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.ZwtcCnW9CEs78WRC": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "TQtISRsI3FI2ddBR",
+    "via": "same-name",
+    "name": "Mobogo"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.XXsOK8ZUoqQATarG": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "1wVVI0Jj7MdZ3uHg",
+    "via": "same-name",
+    "name": "Moose"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.PX8tlo804y4I1C8S": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "s6A2tdZ3r3uOLca1",
+    "via": "same-name",
+    "name": "Tylosaurus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.6A317pomsGPzW17M": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "iUa0h6JPrGosE7qi",
+    "via": "same-name",
+    "name": "Munavri Spellblade"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.Z5RBfl8x39uFpDUn": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "jWsHDhzrIOqOp29p",
+    "via": "same-name",
+    "name": "Myceloid"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.NikAalo85JWVE6d2": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "OLGvwUyA441SwgQn",
+    "via": "same-name",
+    "name": "Nagaji Soldier"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.eYKWJCYNqqp1rp2i": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "g6sgRVXnvpjkl2KV",
+    "via": "same-name",
+    "name": "Nightgaunt"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.AxfH7V8A38VVugYo": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "j62ZpsgfHVfiRzAP",
+    "via": "same-name",
+    "name": "Lampad"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.v0bKmqnUHxPTFQu4": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "cEHRuzsGF73PVT3P",
+    "via": "same-name",
+    "name": "Hesperid"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.lat5aZFMlWUR2Wbs": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "15EHktvYa21dENni",
+    "via": "same-name",
+    "name": "Lampad Queen"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.uDebX6flGwrviGZK": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "dA6UaeIi9wFgBAQO",
+    "via": "same-name",
+    "name": "Hesperid Queen"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.8S088wbZjUhx6IB7": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "H9P2QB311Qi5IwUo",
+    "via": "same-name",
+    "name": "Khravgodon"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.Nq0MR5YsuglgPi0m": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "A53wPFx58XRx0UZ7",
+    "via": "same-name",
+    "name": "Ostovite"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.TzltHdjikojp7Um7": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Bz8Sexx3bGFhE1Lq",
+    "via": "same-name",
+    "name": "Penanggalan"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.ZDGYrJ68aTzZ2EtT": {
+    "pack": "pathfinder-monster-core",
+    "id": "9VMoTqyVaKc4ZR4H",
+    "via": "same-name",
+    "name": "Phantom Knight"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.KSKettq5j3A7UsIh": {
+    "pack": "pathfinder-monster-core",
+    "id": "YAGc6gQ5VrvWyR37",
+    "via": "same-name",
+    "name": "Phantom Beast"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.YLLyd6Jb4Zqmz0lo": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Yei6zuiycFTzNMvN",
+    "via": "same-name",
+    "name": "Aphorite Sharpshooter"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.0sQg5UM8dQY7fBhQ": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "ko19XnS66DM8Pjr9",
+    "via": "same-name",
+    "name": "Ganzi Martial Artist"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.cMBXcfS0DuZ7O2vm": {
+    "pack": "pathfinder-monster-core",
+    "id": "1ZRHjuGOluR4IUrs",
+    "via": "same-name",
+    "name": "Pukwudgie"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.8M91u7Q3javRQVEY": {
+    "pack": "pathfinder-monster-core",
+    "id": "nFhAJSpbJz1w71EU",
+    "via": "same-name",
+    "name": "Raktavarna"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.vOTFqODTDDC2BDLx": {
+    "pack": "pathfinder-npc-core",
+    "id": "uFQsIRC0zz3sNNIW",
+    "via": "same-name",
+    "name": "Rancorous Priesthood"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.XmOYhscNHFw7M2G0": {
+    "pack": "pathfinder-monster-core",
+    "id": "yj2nhIS8ZsAJh2l5",
+    "via": "same-name",
+    "name": "Rhu-Chalik"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.qlYzd5vmhsFTNdbX": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Ipbn4WsIT4DxAWEH",
+    "via": "same-name",
+    "name": "Esipil"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.vzBsZqtGuj2FVLGj": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "ANptV6ltBi9C3P1l",
+    "via": "same-name",
+    "name": "Nucol"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.KGiEFgiqiexNBfS3": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "hj7in3ZZlTu8n4vi",
+    "via": "same-name",
+    "name": "Wihsaak"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.nzF46X8zcUG0CvpV": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "vDYawEVRlCxiIp5k",
+    "via": "same-name",
+    "name": "Pakalchi"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.q2ja0fkdr4PeZOTE": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "FlrIq6SquIYb9REJ",
+    "via": "same-name",
+    "name": "Ximtal"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.7M7mwhETGEJjYoiY": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "dl5JB5ZgKPcbKEMw",
+    "via": "same-name",
+    "name": "Kimenhul"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.Gf3g6wQquSjJhFMC": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "NBdVKrLxKhurBETJ",
+    "via": "same-name",
+    "name": "Samsaran Anchorite"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.2vvPHlLhgDGr8fOF": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "vhfeBnFTj2xm3jfH",
+    "via": "same-name",
+    "name": "Shae"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.FjZ737XIvSOSaYcA": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "SpvzECYhPp7rKLA1",
+    "via": "same-name",
+    "name": "Tyrannosaurus Skeleton"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.rOBXOcxMcnFR2P9y": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "69ymtDVWT6e8gFbW",
+    "via": "same-name",
+    "name": "Skull Peeler"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.2DrerJYEJon5U6Fx": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "AEIZnjIGnqkYIeQo",
+    "via": "same-name",
+    "name": "Slithering Pit"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.60bknqrpHs2lL4pt": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "VRhTPMegGeeCtAzx",
+    "via": "same-name",
+    "name": "Rat Snake Swarm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.VMZOQGY1x1of0XLm": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Olett4ib6Xik7qYt",
+    "via": "same-name",
+    "name": "Cunning Fox"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.rr48cUJxGpII7jWz": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "1BIrNW4L32e9fTFF",
+    "via": "same-name",
+    "name": "Feathered Bear"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.PJCeh8sj9Sm5Eqz8": {
+    "pack": "pathfinder-monster-core",
+    "id": "UuQHd4v6gG8ONdCt",
+    "via": "same-name",
+    "name": "Draxie"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.XrSz2IIKbeYFGILW": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "JyEB2owA0s3mI3DQ",
+    "via": "same-name",
+    "name": "Strix Kinmate"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.NQzkW5D28zIGESBt": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "DHzm2QFsaGTGgReI",
+    "via": "same-name",
+    "name": "Sumbreiva"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.Y8lQqtOgXYXDCPFg": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "L10I8M22nLRERxY8",
+    "via": "same-name",
+    "name": "Swordkeeper"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.7lSwznbhNb7THfZo": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "kU4QpEUIx4R1sF5K",
+    "via": "same-name",
+    "name": "Terror Shrike"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.HObVT8aJnsx5nnqu": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "zGdsQWq6uHjE7TSx",
+    "via": "same-name",
+    "name": "Tikbalang"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.0yisb2wbIvfNqciD": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "synED0IrMbFHimtc",
+    "via": "same-name",
+    "name": "Elysian Titan"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.5qtnZRnS3WF5oTUq": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Ww4WnWmMJcfqZlCX",
+    "via": "same-name",
+    "name": "Thanatotic Titan"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.xwTZZAEs1sf5RWCq": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "l3ULL4wKnaoOZ51P",
+    "via": "same-name",
+    "name": "Danava Titan"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.esw400AugH9XWq5p": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "TWr3kyBo1FhAX2oH",
+    "via": "same-name",
+    "name": "Hekatonkheires Titan"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.HPVVewX9vqKH94xf": {
+    "pack": "pathfinder-monster-core",
+    "id": "q95mjOkL678a1Wnt",
+    "via": "same-name",
+    "name": "Tooth Fairy"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.kCaEwjZyHXy7cJre": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "YKHMhYikhIUovuEE",
+    "via": "same-name",
+    "name": "Trilobite Swarm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.AlLBsYO3ax9OQzAK": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "FxGtlYqs1bRrpAuZ",
+    "via": "same-name",
+    "name": "Tupilaq"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.tr9bmyZ6CYl2FPnr": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "PC6i1eCbQgWBvi7U",
+    "via": "same-name",
+    "name": "Valkyrie"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.tQIYWBefvpemUVeJ": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "nzlBAi0k8n5Mzbzk",
+    "via": "same-name",
+    "name": "Nosferatu Thrall"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.BEzfxlrA0CNfh4Fr": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "rchfzUI2MVOVp56K",
+    "via": "same-name",
+    "name": "Nosferatu Malefactor"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.aAU3gHWd1a9DyQPH": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "pMNBNo8VMAJdlhN3",
+    "via": "same-name",
+    "name": "Nosferatu Overlord"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.RZ1SLG0gxrOYSKRs": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "za4NM8NwZKumv3NM",
+    "via": "same-name",
+    "name": "Vanara Disciple"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.7bTj2DC91yEdJiLq": {
+    "pack": "pathfinder-monster-core",
+    "id": "NxLQHUMs57TktiZa",
+    "via": "same-name",
+    "name": "Vilderavn"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.tjtTHdIBP5QIAyS7": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "GMhMNMf5HpTojgLv",
+    "via": "same-name",
+    "name": "Vishkanya Infiltrator"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.rW6vTwkAEAH8AMGw": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "wGnhBByFbXVFt9WX",
+    "via": "same-name",
+    "name": "Wayang Whisperblade"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.3OrdGXuPXSlrLlbf": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "eEnyd5lwBY9wtgSS",
+    "via": "same-name",
+    "name": "Wyrwood Sneak"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.H7PDLOIbDG9zt4H1": {
+    "pack": "lost-omens-bestiary",
+    "id": "H7PDLOIbDG9zt4H1",
+    "via": "moved-pack"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.A7TFAr1rBtKJyprn": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "ekC1VHJtexh3AgVv",
+    "via": "same-name",
+    "name": "Sulfur Zombie"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.GGuT6YsRH4aXhpl3": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "fCsCDQAH23UOtECx",
+    "via": "same-name",
+    "name": "Zombie Dragon"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.XZZdG5RosoYsF237": {
+    "pack": "pathfinder-monster-core",
+    "id": "uzH85ifDz5GU525p",
+    "via": "same-name",
+    "name": "Compsognathus"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.sKSfQmJMEsj8QN12": {
+    "pack": "pathfinder-npc-core",
+    "id": "PBb2WprHhEIQE9jN",
+    "via": "same-name",
+    "name": "Adept"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.7eJJIIVEDB3EFFcZ": {
+    "pack": "pathfinder-npc-core",
+    "id": "3jkmJgV4zwygUqLy",
+    "via": "same-name",
+    "name": "Bodyguard"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.lFlXmieuHTBIonhj": {
+    "pack": "pathfinder-monster-core",
+    "id": "1uVwkGlqYzyWaDMy",
+    "via": "same-name",
+    "name": "Viper"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.FvywQFbFzwLV8mvW": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "UfiWHXnDg13Gqyyu",
+    "via": "same-name",
+    "name": "Flaming Skull"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.Hkq9ZS2J2iKnT7vT": {
+    "pack": "pathfinder-monster-core",
+    "id": "9InGpxq5xbbHaL9f",
+    "via": "same-name",
+    "name": "Sewer Ooze"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.Ix1PziAEk9IIMYBz": {
+    "pack": "pathfinder-monster-core",
+    "id": "WioQ6rOeMRuTOliY",
+    "via": "same-name",
+    "name": "Zombie Brute"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.I4o2Gqpr2ioiUXA9": {
+    "pack": "pathfinder-monster-core",
+    "id": "7w1w7VTnIWMBdFux",
+    "via": "same-name",
+    "name": "Xulgath Leader"
+  },
+  "Compendium.pf2e.extinction-curse-bestiary.Actor.YAKZUBOth75W2mWT": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "i2fRfiIWOJeZedcx",
+    "via": "same-name",
+    "name": "Vermlek"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.2IrWQjtFvsen8ioo": {
+    "pack": "pathfinder-monster-core",
+    "id": "wNkS1ArFjS6ZsrPS",
+    "via": "same-name",
+    "name": "Deinonychus"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.jnmUcTs4hn1c5bz9": {
+    "pack": "pathfinder-monster-core",
+    "id": "aeOzCBpwnUVcpqxI",
+    "via": "same-name",
+    "name": "Pugwampi"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.mqz4MfBwFxlBQeHs": {
+    "via": "no-equivalent",
+    "name": "Invisible Stalker"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.cBHpMcVaLRPZu9po": {
+    "pack": "pathfinder-monster-core",
+    "id": "sAfjpjAS56jtrUbi",
+    "via": "same-name",
+    "name": "Zephyr Hawk"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.qHqhUWeNUZRET9xV": {
+    "pack": "pathfinder-monster-core",
+    "id": "AFWmiIBJ7ypgydQD",
+    "via": "same-name",
+    "name": "Dire Wolf"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.ZPAM4OavHmdgmGnw": {
+    "pack": "pathfinder-monster-core",
+    "id": "sldauWtSyK4JEiRl",
+    "via": "same-name",
+    "name": "Centipede Swarm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.05wwpHHsBlxBbdkN": {
+    "pack": "pathfinder-monster-core",
+    "id": "XDNJSVxOOryeuN44",
+    "via": "same-name",
+    "name": "Giant Anaconda"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.yIXRooXdsKtbcw2D": {
+    "pack": "pathfinder-monster-core",
+    "id": "jkp7THTZMc0ivN8Y",
+    "via": "same-name",
+    "name": "Mammoth"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.NeYU7wwCv0RUesZ1": {
+    "pack": "pathfinder-monster-core",
+    "id": "ToteDLIM7jCyHwDH",
+    "via": "same-name",
+    "name": "Stone Mauler"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.9X7hOvCKy1bqw0g6": {
+    "pack": "pathfinder-monster-core",
+    "id": "4ISm82EYQeOndynw",
+    "via": "same-name",
+    "name": "Giant Tarantula"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.QQQhNnCit9XLMMoN": {
+    "pack": "pathfinder-monster-core",
+    "id": "WG4Tk2k9Lm21CEQv",
+    "via": "same-name",
+    "name": "Greater Nightmare"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.Hle05FibgOeZr7wF": {
+    "pack": "pathfinder-npc-core",
+    "id": "XqIKuHK4R6yFOKbs",
+    "via": "same-name",
+    "name": "Hunter"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.gOjrie9YndQPomU8": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "wpu3AsCPAKMSvDqN",
+    "via": "same-name",
+    "name": "Sand Sentry"
+  },
+  "Compendium.pf2e.fists-of-the-ruby-phoenix-bestiary.Actor.Twt8z6nTPgYQ0mTv": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "CNbPWUHtLgNIeft5",
+    "via": "same-name",
+    "name": "Berberoka"
+  },
+  "Compendium.pf2e.fists-of-the-ruby-phoenix-bestiary.Actor.v85RucvwE8lGq7oY": {
+    "pack": "lost-omens-bestiary",
+    "id": "GP61YtH3RvicMTkf",
+    "via": "same-name",
+    "name": "Manananggal"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.HeoH8hi5iieKPuJ2": {
+    "pack": "pathfinder-monster-core",
+    "id": "zQraVA7SUjd6qGNh",
+    "via": "same-name",
+    "name": "Deadly Mantis"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.Jy2va0NTTbaUH1zP": {
+    "pack": "pathfinder-monster-core",
+    "id": "ExVmw8bSvUd2wYkI",
+    "via": "same-name",
+    "name": "War Horse"
+  },
+  "Compendium.pf2e.fists-of-the-ruby-phoenix-bestiary.Actor.PiO3DnxtaT3W4728": {
+    "pack": "lost-omens-bestiary",
+    "id": "0yF82Lo495lKarLS",
+    "via": "same-name",
+    "name": "Peng"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.cAOWcPIjtZYXYZ3i": {
+    "pack": "pathfinder-npc-core",
+    "id": "qCKNT6U8O0su578A",
+    "via": "same-name",
+    "name": "Merchant"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.KxN9aGFGPxl6oLGF": {
+    "pack": "pathfinder-monster-core",
+    "id": "aWiTcxAySoYjUP6T",
+    "via": "same-name",
+    "name": "Plague Zombie"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.yzyaD2yGDrxmYh7P": {
+    "pack": "pathfinder-monster-core",
+    "id": "gGdIV6uUHzX23vz6",
+    "via": "same-name",
+    "name": "Lizardfolk Stargazer"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.zAxCU99Jwky6QoBy": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "Z6yCW77f44bEUgLH",
+    "via": "same-name",
+    "name": "Living Boulder"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.jGzVwekcRX5aQpbT": {
+    "pack": "pathfinder-monster-core",
+    "id": "sA2dFdRUwiapo69Z",
+    "via": "same-name",
+    "name": "Goblin Commando"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.r5i3MkSNgNBYa5Cm": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "vdXh2dETJ21UlgUg",
+    "via": "same-name",
+    "name": "Filth Fire"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.PLOfWPKwB7pE4arv": {
+    "pack": "pathfinder-npc-core",
+    "id": "BYpxg06tP5hI6CzQ",
+    "via": "same-name",
+    "name": "Innkeeper"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.gzirsGA07yG6CaG8": {
+    "pack": "pathfinder-npc-core",
+    "id": "4okKASZDvBWTSu1U",
+    "via": "same-name",
+    "name": "Jailer"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.DD2JNeRxO79WFlOL": {
+    "pack": "pathfinder-npc-core",
+    "id": "fpwpA2JmpbwREa5a",
+    "via": "same-name",
+    "name": "Archer Sentry"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.IQJT1Bg9FhvHHEap": {
+    "pack": "pathfinder-npc-core",
+    "id": "xjJV1G5FBeLV4KPQ",
+    "via": "same-name",
+    "name": "Torchbearer"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-3.Actor.cbduxhlI7JbONLXF": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "WQYzPF4cN4msA8lw",
+    "via": "same-name",
+    "name": "Shambler Troop"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.wqPYzMNgYvrO6oEP": {
+    "pack": "pathfinder-monster-core",
+    "id": "kB7FNn3vosp6cqQg",
+    "via": "same-name",
+    "name": "Leopard"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.QZmckb7O3PNgY7D6": {
+    "pack": "pathfinder-npc-core",
+    "id": "Wv4jaiD6X8negvH2",
+    "via": "same-name",
+    "name": "Dockhand"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.wrzlJufGEfMg5kVE": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "k5lxeobI0Q3l6rqV",
+    "via": "same-name",
+    "name": "Raven Swarm"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.nkWnoEHWUsBLgNje": {
+    "via": "no-equivalent",
+    "name": "Chimera (White)"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.PoIuzIWFnlAQ8pdH": {
+    "pack": "pathfinder-npc-core",
+    "id": "eF87AWFclYpu1cgD",
+    "via": "same-name",
+    "name": "Beast Tamer"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.EslFhpdvQf7KN8W3": {
+    "pack": "pathfinder-npc-core",
+    "id": "qtD7Xa8Mgl0Y63os",
+    "via": "same-name",
+    "name": "Chronicler"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.1sWw5OgmpazLVqRQ": {
+    "pack": "pathfinder-npc-core",
+    "id": "x7Mnb3F4r6JvXD9C",
+    "via": "same-name",
+    "name": "Mage For Hire"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.TCzxsJQjUpy02CsJ": {
+    "pack": "pathfinder-npc-core",
+    "id": "CFBDZzfWCANLJcpF",
+    "via": "same-name",
+    "name": "Tracker"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.Za701s0CV37YPOyo": {
+    "pack": "pathfinder-npc-core",
+    "id": "pHaQew7IEmk198Wz",
+    "via": "same-name",
+    "name": "Executioner"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.VcUdFYNaxauNr5Hn": {
+    "pack": "pathfinder-monster-core",
+    "id": "1Qqu3b4J4aJYEQOX",
+    "via": "same-name",
+    "name": "Hyaenodon"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.kmHYc2fvhd4QsUEV": {
+    "pack": "pathfinder-npc-core",
+    "id": "BcSzGmSxCn0uWkxU",
+    "via": "same-name",
+    "name": "Necromancer"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.X1cSs1jhTtx1zTI4": {
+    "pack": "pathfinder-npc-core",
+    "id": "6CRUvM2p9csP735v",
+    "via": "same-name",
+    "name": "Poacher"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.B13dyXTo1xWVyj2R": {
+    "pack": "pathfinder-npc-core",
+    "id": "94fOoBeUT8PgTywH",
+    "via": "same-name",
+    "name": "Palace Guard"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.SwjcZsbkcq6PhiXc": {
+    "pack": "pathfinder-npc-core",
+    "id": "PXukrrvpLA40chXN",
+    "via": "same-name",
+    "name": "Spy"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.7GGHuOlSzcaF2AdL": {
+    "pack": "pathfinder-npc-core",
+    "id": "BcJ36KvuUysWW3BD",
+    "via": "same-name",
+    "name": "Charlatan"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.JsTI2SEZdg2j03gf": {
+    "pack": "pathfinder-npc-core",
+    "id": "d47PtIdozWwSOtur",
+    "via": "same-name",
+    "name": "Beggar"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.G2ftdkyJ5WDonL0C": {
+    "pack": "pathfinder-npc-core",
+    "id": "a36bfgbqp1lt2bik",
+    "via": "same-name",
+    "name": "Urchin"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.X7LmMMEOFUUicQ2O": {
+    "pack": "pathfinder-npc-core",
+    "id": "ndCqM6yNTg2QPZwK",
+    "via": "same-name",
+    "name": "Guide"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.7RF95b3WHkvHWLrv": {
+    "pack": "pathfinder-npc-core",
+    "id": "GXmIABEvzmySOHRH",
+    "via": "same-name",
+    "name": "Physician"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.wfsT2QDtQhsFXQfE": {
+    "pack": "pathfinder-npc-core",
+    "id": "oaqt9bociCp9e3Yr",
+    "via": "same-name",
+    "name": "Surgeon"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.1iz7O6DLDJqStojd": {
+    "pack": "pathfinder-npc-core",
+    "id": "mgEMfxh0VUbBepc2",
+    "via": "same-name",
+    "name": "Servant"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.hK8Tpg3baKWzmPEv": {
+    "pack": "pathfinder-npc-core",
+    "id": "Xxnho8AZopSuhgHP",
+    "via": "same-name",
+    "name": "Tax Collector"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.saUg5rtaO9kI9Vir": {
+    "pack": "pathfinder-npc-core",
+    "id": "vGcspyaP2VOwurMk",
+    "via": "same-name",
+    "name": "Harbormaster"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.Ap87yR4WOs0wKHx7": {
+    "pack": "pathfinder-npc-core",
+    "id": "GbPDSJeXjHc1VRN2",
+    "via": "same-name",
+    "name": "Cultist"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.pMKrTXmrzDOc9avN": {
+    "pack": "pathfinder-npc-core",
+    "id": "MKwLXGzr48qU0hZR",
+    "via": "same-name",
+    "name": "Cult Leader"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.0Ex7rBuiJVu2NwCz": {
+    "pack": "pathfinder-npc-core",
+    "id": "hR9n5d0tfyOkeZFb",
+    "via": "same-name",
+    "name": "Demonologist"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.ImdKLPgazv4MSI0F": {
+    "pack": "pathfinder-npc-core",
+    "id": "HbYwSi428oXESdNh",
+    "via": "same-name",
+    "name": "Barrister"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.t7QwdZ2m7AbuRWqd": {
+    "pack": "pathfinder-npc-core",
+    "id": "vEdg4AXGWfet1Cgy",
+    "via": "same-name",
+    "name": "Captain Of The Guard"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.Tj03FbN4SSr0o953": {
+    "pack": "pathfinder-npc-core",
+    "id": "5KojtpJA0T5xoum4",
+    "via": "same-name",
+    "name": "Acrobat"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.lemVxzg2Pnx9Nu3d": {
+    "pack": "pathfinder-npc-core",
+    "id": "55t4OPNXDx6fAeZd",
+    "via": "same-name",
+    "name": "Troubadour"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.IaSxoVNZFYatdfjI": {
+    "pack": "pathfinder-npc-core",
+    "id": "xxH95k9qf6lLit4W",
+    "via": "same-name",
+    "name": "Drunkard"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.Jg9OEmo68KC91PgC": {
+    "pack": "pathfinder-npc-core",
+    "id": "EuDz8wgZY3nxyBTr",
+    "via": "same-name",
+    "name": "Teacher"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.51E3fdESgGjQxcMv": {
+    "pack": "pathfinder-npc-core",
+    "id": "Y0MSOv0l5ePhP3Co",
+    "via": "same-name",
+    "name": "Astronomer"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.8coHofIpLa5ZnjAF": {
+    "pack": "pathfinder-npc-core",
+    "id": "nnrvoNBUzKyKQLu4",
+    "via": "same-name",
+    "name": "Navigator"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.1NZ1ZAgcUlWKmQSs": {
+    "pack": "pathfinder-npc-core",
+    "id": "XrXTfNGxEWLE9Qqb",
+    "via": "same-name",
+    "name": "Bosun"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.aJR3f8YcAkmfx7im": {
+    "pack": "pathfinder-npc-core",
+    "id": "STds4rxF5ESFLLML",
+    "via": "same-name",
+    "name": "Apprentice"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.pZOgcQRwXrX9g0s8": {
+    "pack": "pathfinder-npc-core",
+    "id": "fadWrz7SnifBx4yz",
+    "via": "same-name",
+    "name": "Guildmaster"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.Cnm5zWmuTEYy6mPx": {
+    "pack": "pathfinder-npc-core",
+    "id": "fBd8Cfe7fRtF8HoJ",
+    "via": "same-name",
+    "name": "Mastermind"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.mblLgQ9NMR2mMI99": {
+    "pack": "pathfinder-npc-core",
+    "id": "zqesJ7AlPM39Qqcw",
+    "via": "same-name",
+    "name": "Reckless Scientist"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.r9w1n85mp9Ip4QiS": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "BIZfjoz8DZt75EDn",
+    "via": "same-name",
+    "name": "Kobold Warrior (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.cZDiyluplFqRxmGy": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "CFlx1tkRxKC9qAC7",
+    "via": "same-name",
+    "name": "Animated Armor (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.rPHxXClTnoPYHYuZ": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "mX47c0W9rizbmMBM",
+    "via": "same-name",
+    "name": "Basilisk (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.4MwjCsa5O9aAjxSm": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "IyhbcdTVmkV4pSju",
+    "via": "same-name",
+    "name": "Boar (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.UjREHs2JQoO85Glt": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "9cBuzDV8seJqhNKJ",
+    "via": "same-name",
+    "name": "Bugbear Prowler (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.wqPYzMNgYvrO6oEP": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "kB7FNn3vosp6cqQg",
+    "via": "same-name",
+    "name": "Leopard (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.BKPRkJgq7ehsW7uX": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "NRBgcu0LkXXp8mtp",
+    "via": "same-name",
+    "name": "Giant Centipede (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.9sa2KE4Fbh3OPH7M": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "H7z7VHzlHlEFev1r",
+    "via": "same-name",
+    "name": "Brine Shark (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.hiGwRWdxAsoCII4f": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "xN5J9S485LxFZMkL",
+    "via": "same-name",
+    "name": "Cinder Rat (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.NVWaLagWOu5tCCZu": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "VQPzDz3xnCQGFOGL",
+    "via": "same-name",
+    "name": "Sod Hound (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.cBHpMcVaLRPZu9po": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "sAfjpjAS56jtrUbi",
+    "via": "same-name",
+    "name": "Zephyr Hawk (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.aeCoh4u6c5kt1iCs": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "cvfIkEF6xmWn2soN",
+    "via": "same-name",
+    "name": "Gargoyle (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.2H2AEwQnfKJC0nrd": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "N98ug9jQHqeFoK1N",
+    "via": "same-name",
+    "name": "Ghost Commoner (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.LHHgGSs0ELCR4CYK": {
+    "pack": "pathfinder-bestiary",
+    "id": "LHHgGSs0ELCR4CYK",
+    "via": "moved-pack"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.jGzVwekcRX5aQpbT": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "sA2dFdRUwiapo69Z",
+    "via": "same-name",
+    "name": "Goblin Commando (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.shT19KaQjWRVrHLI": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "Ky5eNRvN71O0tY9l",
+    "via": "same-name",
+    "name": "Goblin Igniter (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.jVZRROs0GzDjVrgi": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "fLLKuOXwPq1Iq0U4",
+    "via": "same-name",
+    "name": "Goblin Warrior (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.jnmUcTs4hn1c5bz9": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "aeOzCBpwnUVcpqxI",
+    "via": "same-name",
+    "name": "Pugwampi (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.AuCC04X2AO8oFN75": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "uBNm3R9wbLTPrM9i",
+    "via": "same-name",
+    "name": "Harpy (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.jeAGl6OAVrrIPgu3": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "RTviEfjYnsXa0wkT",
+    "via": "same-name",
+    "name": "Hell Hound (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.M8oJOKJ4AgrLZcJQ": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "NW68bxCLC6oDHxL9",
+    "via": "same-name",
+    "name": "Hobgoblin Soldier (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.rPaHIh0ICnTLnRO6": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "PcHQDmPTztw32PhL",
+    "via": "same-name",
+    "name": "Kobold Scout (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.gdXok08bITkhowDJ": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "Twvzy1yRo6m6dM8D",
+    "via": "same-name",
+    "name": "Ogre Warrior (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.Hkq9ZS2J2iKnT7vT": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "9InGpxq5xbbHaL9f",
+    "via": "same-name",
+    "name": "Sewer Ooze (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.5xjmJoJvBhASkEKS": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "PLZk6zY5iwccPTPS",
+    "via": "same-name",
+    "name": "Orc Commander (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.0oWKApY5FR8IO7GG": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "YReM6QbqwUz3UTP7",
+    "via": "same-name",
+    "name": "Orc Scrapper (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.AYwdybUfm4meGUTJ": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "iIJPJcDT8wlJ8z5M",
+    "via": "same-name",
+    "name": "Giant Rat (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.XrmHgbKgcHDi4OnK": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "VotlWUsFKdOrHWF6",
+    "via": "same-name",
+    "name": "Shadow (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.5H8ZX7y5IkUBhvhF": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "trchDxbDR2TiPMxT",
+    "via": "same-name",
+    "name": "Skeleton Guard (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.5MVBU86ZRw2ANMQn": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "sEgjgitJmwYYa4mV",
+    "via": "same-name",
+    "name": "Skeletal Giant (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.KsWAIXTTh3mfNWOY": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "AJ5LuNMVPLCydryP",
+    "via": "same-name",
+    "name": "Giant Viper (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.lFlXmieuHTBIonhj": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "1uVwkGlqYzyWaDMy",
+    "via": "same-name",
+    "name": "Viper (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.6NdqvKIlxo4cGhf8": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "A4VgQIHsqJKssQOM",
+    "via": "same-name",
+    "name": "Giant Spider (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.gvCCATlH9mPGWbsp": {
+    "pack": "pathfinder-bestiary",
+    "id": "gvCCATlH9mPGWbsp",
+    "via": "moved-pack"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.ZPjQkKVMi3xoPcU0": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "DBTbqI9QQRtlJwWh",
+    "via": "same-name",
+    "name": "Wight (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.Oilfs8Atv2LjAsUS": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "BN5Lb6IsQ9Wyu3rL",
+    "via": "same-name",
+    "name": "Wolf (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.YdBCG0vzOA5BgoIi": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "7w1w7VTnIWMBdFux",
+    "via": "same-name",
+    "name": "Xulgath Leader (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.RTzFvmdSCf5yhguy": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "5vBG8a8dnJfmVd3Y",
+    "via": "same-name",
+    "name": "Xulgath Warrior (BB)"
+  },
+  "Compendium.pf2e.menace-under-otari-bestiary.Actor.0plBflWwrCWQO2RO": {
+    "pack": "menace-under-otari-bestiary",
+    "id": "Xo4IGzw28hivgMmM",
+    "via": "same-name",
+    "name": "Zombie Shambler (BB)"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.tbiThWX0gAVZAMor": {
+    "pack": "pathfinder-npc-core",
+    "id": "vfFB2za4zaQnXYIa",
+    "via": "same-name",
+    "name": "Judge"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.9sa2KE4Fbh3OPH7M": {
+    "pack": "pathfinder-monster-core",
+    "id": "H7z7VHzlHlEFev1r",
+    "via": "same-name",
+    "name": "Brine Shark"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.QRRX82FIjBKd8pzs": {
+    "pack": "pathfinder-monster-core",
+    "id": "KHTYbQgR5hnFZdGL",
+    "via": "same-name",
+    "name": "Guard Dog"
+  },
+  "Compendium.pf2e.the-slithering-bestiary.Actor.idj4GBmsLUNUbk9r": {
+    "via": "no-equivalent",
+    "name": "Alchemical Golem (Slithering)"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.gdXok08bITkhowDJ": {
+    "pack": "pathfinder-monster-core",
+    "id": "Twvzy1yRo6m6dM8D",
+    "via": "same-name",
+    "name": "Ogre Warrior"
+  },
+  "Compendium.pf2e.pathfinder-bestiary.Actor.ypLkUfuHHfNDsVUQ": {
+    "pack": "pathfinder-monster-core",
+    "id": "JGwKk83oX4gTGlqe",
+    "via": "same-name",
+    "name": "Tiger"
+  },
+  "Compendium.pf2e.pathfinder-bestiary-2.Actor.RUdP7qWg6pnKrPnh": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "qdelXqVZKfk1MlAB",
+    "via": "same-name",
+    "name": "Striding Fire"
+  },
+  "Compendium.pf2e.npc-gallery.Actor.B0pZAGooj735FGfw": {
+    "pack": "pathfinder-npc-core",
+    "id": "Yl6pxCXAoFECt89L",
+    "via": "same-name",
+    "name": "Tomb Raider"
+  },
+  "Compendium.pf2e.lost-omens-mwangi-expanse-bestiary.Actor.hbvxQn0T0m4WoAmZ": {
+    "pack": "lost-omens-bestiary",
+    "id": "hbvxQn0T0m4WoAmZ",
+    "via": "moved-pack"
+  },
+  "Compendium.pf2e.strength-of-thousands-bestiary.Actor.tyEZGXm1pbb5b77K": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "AfubOmkdmPRctnLX",
+    "via": "same-name",
+    "name": "Graveknight Captain"
+  },
+  "Compendium.pf2e.strength-of-thousands-bestiary.Actor.7GcDjU3EhVn54AKX": {
+    "pack": "pathfinder-monster-core-2",
+    "id": "qStWCL0wtOuQlqVy",
+    "via": "same-name",
+    "name": "Graveknight Champion"
+  },
+  "Compendium.pf2e.lost-omens-mwangi-expanse-bestiary.Actor.NvyAvzxxfb8XEQr2": {
+    "pack": "lost-omens-bestiary",
+    "id": "NvyAvzxxfb8XEQr2",
+    "via": "moved-pack"
+  }
+}

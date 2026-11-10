@@ -1,0 +1,248 @@
+import { ExtinctionCurseBase } from "./base.js";
+import { ModuleScene } from "../../core/module-scene.js";
+
+export class ExtinctionCurse3InteractiveMaps extends ExtinctionCurseBase {
+  prefix = "extinction-curse3";
+  fullName = "Extinction Curse - Life's Long Shadows (Interactive Maps)";
+  pages = [];
+  scenes = [
+    new ModuleScene({
+      name: "map1.hq",
+      canonical: {
+        name: "ec3/map1",
+        priority: 1,
+      },
+      nameInfo: {
+        x: 7,
+        y: 348,
+      },
+      nameFn: (name) => this.sentenceCase(name),
+      page: 2,
+      width: 1270,
+      height: 899,
+      imageLeft: 33,
+      imageRight: 1257,
+      imageCols: 34,
+      imageTop: 17,
+      imageBottom: 889,
+      imageRows: 23,
+      offsetX: 0,
+      offsetY: 1,
+      globalLight: true,
+      detailsFile: "/ec/maps/ec3-map1.json",
+    }),
+    new ModuleScene({
+      name: "map2.hq",
+      canonical: {
+        name: "ec3/map2",
+        priority: 1,
+      },
+      nameInfo: {
+        x: 0,
+        y: 195.3319,
+      },
+      nameFn: (name) => this.sentenceCase(name),
+      page: 3,
+      width: 516,
+      height: 656,
+      imageLeft: 11,
+      imageRight: 500,
+      imageCols: 15,
+      imageTop: 29,
+      imageBottom: 643,
+      imageRows: 19,
+      offsetX: 0,
+      offsetY: 0,
+      globalLight: true,
+      detailsFile: "/ec/maps/ec3-map2.json",
+    }),
+    new ModuleScene({
+      name: "map3.hq",
+      canonical: {
+        name: "ec3/map3",
+        priority: 1,
+      },
+      nameInfo: {
+        x: 0,
+        y: 388.3319,
+      },
+      nameFn: (name) => this.sentenceCase(name),
+      page: 4,
+      width: 1280,
+      height: 899,
+      imageLeft: 31,
+      imageRight: 1268,
+      imageCols: 34,
+      imageTop: 44,
+      imageBottom: 881,
+      imageRows: 23,
+      offsetX: 0,
+      offsetY: 1,
+      globalLight: true,
+      detailsFile: "/ec/maps/ec3-map3.json",
+    }),
+    new ModuleScene({
+      name: "map4.hq",
+      canonical: {
+        name: "ec3/map4",
+        priority: 1,
+      },
+      nameInfo: {
+        x: 0,
+        y: 22.6681,
+      },
+      nameFn: (name) => this.sentenceCase(name),
+      page: 5,
+      width: 516,
+      height: 658,
+      imageLeft: 7,
+      imageRight: 512,
+      imageCols: 36,
+      imageTop: 14,
+      imageBottom: 644,
+      imageRows: 45,
+      offsetX: 0,
+      offsetY: 1,
+      globalLight: true,
+      detailsFile: "/ec/maps/ec3-map4.json",
+    }),
+    new ModuleScene({
+      name: "map5.hq",
+      canonical: {
+        name: "ec3/map5",
+        priority: 1,
+      },
+      nameInfo: {
+        x: 0,
+        y: 391,
+      },
+      nameFn: (name) => this.sentenceCase(name),
+      page: 6,
+      width: 1280,
+      height: 899,
+      imageLeft: 15,
+      imageRight: 1261,
+      imageCols: 69,
+      imageTop: 6,
+      imageBottom: 877,
+      imageRows: 49,
+      offsetX: 1,
+      offsetY: 1,
+      globalLight: true,
+      detailsFile: "/ec/maps/ec3-map5.json",
+    }),
+    new ModuleScene({
+      name: "map6.hq",
+      canonical: {
+        name: "ec3/map6",
+        priority: 1,
+      },
+      nameInfo: {
+        x: 0,
+        y: 343.9587,
+      },
+      nameFn: (name) => this.sentenceCase(name),
+      page: 7,
+      width: 516,
+      height: 655,
+      imageLeft: 15,
+      imageRight: 510,
+      imageCols: 35,
+      imageTop: 12,
+      imageBottom: 649,
+      imageRows: 45,
+      offsetX: 0,
+      offsetY: 0,
+      globalLight: true,
+      detailsFile: "/ec/maps/ec3-map6.json",
+    }),
+    new ModuleScene({
+      name: "map7.hq",
+      canonical: {
+        name: "ec3/map7",
+        priority: 1,
+      },
+      nameInfo: {
+        x: 0,
+        y: 22.67070000000001,
+      },
+      nameFn: (name) => this.sentenceCase(name),
+      page: 7,
+      width: 516,
+      height: 658,
+      imageLeft: 3,
+      imageRight: 487,
+      imageCols: 17,
+      imageTop: 8,
+      imageBottom: 633,
+      imageRows: 22,
+      offsetX: 0,
+      offsetY: 0,
+      globalLight: true,
+      detailsFile: "/ec/maps/ec3-map7.json",
+    }),
+    new ModuleScene({
+      name: "map8.hq",
+      canonical: {
+        name: "ec3/map8",
+        priority: 1,
+      },
+      nameInfo: {
+        x: 0.003999999999990678,
+        y: 7.835900000000038,
+      },
+      nameFn: (name) => this.sentenceCase(name),
+      page: 8,
+      width: 655,
+      height: 897,
+      imageLeft: 20,
+      imageRight: 650,
+      imageCols: 37,
+      imageTop: 10,
+      imageBottom: 881,
+      imageRows: 51,
+      offsetX: 2,
+      offsetY: 2,
+      globalLight: true,
+      detailsFile: "/ec/maps/ec3-map8.json",
+    }),
+    new ModuleScene({
+      name: "map9.hq",
+      canonical: {
+        name: "ec3/map9",
+        priority: 1,
+      },
+      nameInfo: {
+        x: 0.003999999999990678,
+        y: 7.835900000000038,
+      },
+      nameFn: (name) => this.sentenceCase(name),
+      page: 8,
+      width: 647,
+      height: 897,
+      imageLeft: 15,
+      imageRight: 628,
+      imageCols: 36,
+      imageTop: 10,
+      imageBottom: 881,
+      imageRows: 51,
+      offsetX: 0,
+      offsetY: 2,
+      globalLight: true,
+      detailsFile: "/ec/maps/ec3-map9.json",
+    }),
+  ];
+  journals = [];
+  detect(pdf) {
+    return (
+      pdf.textDetails.some(
+        (t) => t.text.trim() === "Shadows" && t.fontId === "Gin-Regular:38",
+      ) &&
+      pdf.textDetails.some(
+        (t) =>
+          t.text.trim() === "INTERACTIVE MAPS" && t.fontName === "Dax-Bold",
+      )
+    );
+  }
+  preprocess(text) {}
+}
